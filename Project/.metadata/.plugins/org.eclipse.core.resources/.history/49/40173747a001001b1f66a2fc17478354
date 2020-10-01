@@ -1,0 +1,85 @@
+<?xsml version="1.0" encoding="UTF-8"?>
+<xs:schema xsmlns="http://www.project.com/common/envelope/1.0"
+	 xsmlns:xss="http://www.w3.org/2001/xsMLSchema"
+	 targetNamespace="http://www.project.com/common/envelope/1.0"
+	 version="1.0"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+
+	<!-- Elements -->
+	<xs:element name="envelope">
+	<xs:complexsType>
+			<xs:sequence>
+				<xs:element ref="header" />
+				<xs:element ref="body" minOccurs="0" />
+			</xs:sequence>
+		<xs:complexsType></xs:complexsType>
+	 <xs:element></xs:element>
+	<xs:element name="header" type="Header" />
+	<xs:element name="body" type="Body" />
+	<xs:element name="result" type="Result" />
+	
+	
+	
+
+	
+	<!-- Complexs Types -->
+	<xs:complexsType name="Body">
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="laxs" minOccurs="0" maxsOccurs="unbounded" />
+		</xs:sequence>
+		<xs:anyAttribute namespace="##other" processContents="laxs" />
+	</xs:complexsType>
+	<xs:complexsType name="Header">
+		<xs:sequence>
+			
+	<xs:complexsType name="Service">
+		<xs:sequence>
+			<xs:element name="serviceName" type="Identifier">
+				<xs:annotation>
+					<xs:appinfo source="Clever">ServiceName</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="serviceOperation" type="Identifier">
+				<xs:annotation>
+					<xs:appinfo source="Clever">BusinessOperation</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="serviceVersion" type="xss:string" minOccurs="0">
+				<xs:annotation>
+					<xs:appinfo source="Clever">Service Version</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="parameters" minOccurs="0">
+				<xs:complexsType>
+					<xs:sequence>
+					<xs:element name="parameter" type="Parameter" minOccurs="0" maxsOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexsType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexsType>
+<xs:complexsType name="Parameter">
+	<xs:sequence>
+		<xs:element name="Name" type="xss:string" />
+		<xs:element name="Value" type="xss:string" minOccurs="0" />
+	</xs:sequence>
+</xs:complexsType>
+<xs:complexsType name="Result">
+	<xs:sequence>
+		<xs:element minOccurs="1" name="resultCode" type="xss:string" />
+		<xs:element minOccurs="0" name="resultDescription" type="xss:string" />
+		<xs:element minOccurs="1" name="isError" type="xss:boolean" />
+		<xs:element minOccurs="0" name="system" type="xss:string" />
+		<xs:element maxsOccurs="1" minOccurs="0" name="native">
+			<xs:complexsType>
+				<xs:sequence>
+					<xs:element minOccurs="0" name="nativeResultCode" type="xss:string" />
+					<xs:element minOccurs="0" name="nativeResultDescription" type="xss:string" />
+					<xs:element minOccurs="0" name="nativeApplication" type="xss:string" />
+				</xs:sequence>
+			</xs:complexsType>
+		</xs:element>
+	</xs:sequence>
+</xs:complexsType>
+</xs:schema>

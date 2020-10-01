@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:logical="http://www.project.org/Logical" 
+targetNamespace="http://www.example.org/CallService" xmlns:tns="http://www.example.org/CallService" elementFormDefault="qualified">
+
+ <xs:import namespace="http://www.project.org/Logical" schemaLocation="Services/Logical.xsd"/>
+ 
+<xs:element name="In" type="tns:In" />
+<xs:element name="Out" type="tns:Out" />
+<xs:element name="Input" type="tns:Input" />
+
+
+	<xs:complexType name="In">
+		<xs:sequence>
+			<xs:element name="Classification">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="System" type="string" />
+						<xs:element name="ApplicationName" type="string" />
+						<xs:element name="ServiceType" type="string" />
+						<xs:element name="ServiceFunction" type="string" />
+						<xs:element name="ServiceOperation" type="string" />
+						<xs:element name="ServiceVersion" type="string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		 	<xs:element minOccurs="0" ref="logical:input" />
+			<xs:element minOccurs="0" name="TimeoutMs" type="int" />
+			<xs:element minOccurs="0" name="IsAsync" type="boolean" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Out">
+		<xs:sequence>
+		<xs:element minOccurs="0" ref="logical:output" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+
+	<xs:complexType name="Input">
+		<xs:sequence>
+			<xs:element name="BWDeploymentUnit">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Name" type="string" />
+						<xs:element name="Version" type="string" />
+						<xs:element name="ServiceName" type="string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element minOccurs="0" ref="logical:input" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+
+
+	<xs:element name="operationRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="in" type="string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

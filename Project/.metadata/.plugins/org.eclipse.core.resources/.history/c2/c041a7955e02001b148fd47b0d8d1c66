@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:extns="http://www.callService.com/namespaces/tns/serviceStarter" xmlns:tns="http://www.ServiceCall.org/wsdl/starter" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="starter" targetNamespace="http://www.ServiceCall.org/wsdl/starter">
+  <wsdl:import namespace="http://www.callService.com/namespaces/tns/serviceStarter"/>
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://www.ServiceCall.org/wsdl/starter">
+	<xsd:element name="operationFault">
+		<xsd:complexType>
+			<xsd:sequence>
+
+				<xsd:element name="operationFault" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="operationRequest">
+    <wsdl:part element="extns:operationRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="operationResponse">
+        <wsdl:part name="parameters" type="xsd:string"/>
+        <wsdl:part name="parameters1" type="xsd:string"/>
+        <wsdl:part name="parameters2" type="xsd:string"/>
+    </wsdl:message>
+  <wsdl:message name="operationFault">
+  	<wsdl:part element="tns:operationFault" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="starter">
+    <wsdl:operation name="operation">
+      <wsdl:input message="tns:operationRequest" name="operationinput"/>
+      <wsdl:output message="tns:operationResponse" name="operationoutput"/>
+            <wsdl:fault message="tns:operationFault" name="fault"/>
+        </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

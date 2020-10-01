@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:tns="http://www.callService.com/namespaces/tns/serviceStarter" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.callService.com/namespaces/tns/serviceStarter">
+    <xsd:element name="operationRequest" type="anyType"/>
+    <xsd:element name="operationResponse" type="anyType"/>
+    <xsd:element name="operationFault" type="anyType"/>
+</xsd:schema>

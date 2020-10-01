@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://www.example.org/CallService" xmlns:tns="http://www.project.org/wsdl/SharedResources.CallService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsd1="http://www.example.org/CallService" name="SharedResources.CallService" targetNamespace="http://www.project.org/wsdl/CallService">  
+   <wsdl:types>
+  
+    <xsd:schema>
+    	<xsd:import namespace="http://www.example.org/CallService" schemaLocation="../Schemas/CallService.xsd">
+    	</xsd:import>
+    </xsd:schema>
+  </wsdl:types>
+<wsdl:message name="OperationRequest">
+    <wsdl:part element="xsd1:In" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="OperationResponse">
+    <wsdl:part element="xsd1:Out" name="parameters"/>
+  </wsdl:message>
+    <wsdl:message name="operationRequest">
+    <wsdl:part element="xsd1:operationRequest3" name="parameters"/>
+  </wsdl:message>
+    <wsdl:portType name="SharedResources.CallService">
+    <wsdl:operation name="Operation">
+      <wsdl:input message="tns:OperationRequest"/>
+      <wsdl:output message="tns:OperationResponse"/>
+    </wsdl:operation>
+        
+    </wsdl:portType>
+</wsdl:definitions>

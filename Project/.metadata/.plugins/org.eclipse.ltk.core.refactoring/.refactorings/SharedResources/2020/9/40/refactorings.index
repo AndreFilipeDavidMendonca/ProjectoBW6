@@ -1,0 +1,6 @@
+1601311286910	Move 'Logical.xsd' to 'Services'
+1601383485097	Rename Operation from 'NewOperation' to 'Operation'
+1601386091666	Rename Operation from 'NewOperation' to 'Operation'
+1601386312243	Create Operation in PortType 'DummyStarter'
+1601386328567	Delete Operation 'operation1'
+1601391124905	Delete Operation 'operation'

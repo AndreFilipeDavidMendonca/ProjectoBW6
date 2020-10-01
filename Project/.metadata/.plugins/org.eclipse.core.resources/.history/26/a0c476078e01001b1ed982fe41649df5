@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/CallServiceSchema/" targetNamespace="http://www.example.org/CallServiceSchema/">
+
+
+
+
+    <element name="in" type="string"></element>
+
+    <element name="out" type="string"></element>
+
+    <complexType name="in">
+    	<sequence>
+    		<element name="Classification" type="string"></element>
+    		<element name="IsAsync" type="boolean"></element>
+            <element ref="tns:in"></element>
+        </sequence>
+    </complexType>
+    
+    <complexType name="out"></complexType>
+
+
+    <element name="Input" type="string"></element>
+
+    <complexType name="Input"></complexType>
+</schema>
