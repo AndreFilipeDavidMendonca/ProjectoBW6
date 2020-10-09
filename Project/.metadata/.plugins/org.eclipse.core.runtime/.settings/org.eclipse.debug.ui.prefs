@@ -1,8 +1,8 @@
-com.tibco.bw.core.design.debug.ui.launch.existingApplications=DynamicProcessCall.application/
-com.tibco.bw.core.design.debug.ui.launch.processesArg=DynamicProcessCall.application\=dynamicprocesscall.Process,dynamicprocesscall.Sub-Process1,dynamicprocesscall.Sub-Process2/
-com.tibco.bw.core.design.debug.ui.launch.selectedApplications=DynamicProcessCall.application/
-com.tibco.bw.core.design.debug.ui.launch.selectedModules=DynamicProcessCall/
-com.tibco.bw.core.design.debug.ui.launch.selectedProcesses=DynamicProcessCall\=dynamicprocesscall.Process,dynamicprocesscall.Sub-Process1,dynamicprocesscall.Sub-Process2/
+com.tibco.bw.core.design.debug.ui.launch.existingApplications=FWK.SharedResources/
+com.tibco.bw.core.design.debug.ui.launch.processesArg=FWK.SharedResources\=EAI.ServicesHandlers.SetErrorHandlerSharedVariable,EAI.ServicesHandlers.SetServices,EAI.SharedResources.OnStartup.logical,EAI.SharedResources.OnStartup.starter,Internal.CallJMSService,Internal.CallService,Internal.PublishJMSService,Internal.logical,Internal.starter,fwk.sharedresources.module.ModuleActivator/
+com.tibco.bw.core.design.debug.ui.launch.selectedApplications=FWK.SharedResources/
+com.tibco.bw.core.design.debug.ui.launch.selectedModules=FWK.SharedResources.module/module.SharedResources/
+com.tibco.bw.core.design.debug.ui.launch.selectedProcesses=FWK.SharedResources.module\=EAI.ServicesHandlers.SetErrorHandlerSharedVariable,EAI.ServicesHandlers.SetServices,EAI.SharedResources.OnStartup.logical,EAI.SharedResources.OnStartup.starter,Internal.CallJMSService,Internal.CallService,Internal.PublishJMSService,Internal.logical,Internal.starter,fwk.sharedresources.module.ModuleActivator/
 eclipse.preferences.version=1
 org.eclipse.debug.ui.DebugView+com.tibco.bw.core.design.debug.ui.actions.BWShowStackByTempleteAction=true
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
