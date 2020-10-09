@@ -1,3 +1,15 @@
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp.displayer.openstate=1
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp.favorite.expansionstate=1
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp.library.expansionstate=0
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp.recent.expansionstate=1
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp.displayer.openstate=1
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp.favorite.expansionstate=1
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp.library.expansionstate=0
+//FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp.recent.expansionstate=1
+//FWK.SharedResources.module/Processes/Internal/starter.bwp.displayer.openstate=1
+//FWK.SharedResources.module/Processes/Internal/starter.bwp.favorite.expansionstate=1
+//FWK.SharedResources.module/Processes/Internal/starter.bwp.library.expansionstate=0
+//FWK.SharedResources.module/Processes/Internal/starter.bwp.recent.expansionstate=1
 //Project/Processes/project/Process.bwp.displayer.openstate=1
 //Project/Processes/project/Process.bwp.favorite.expansionstate=1
 //Project/Processes/project/Process.bwp.library.expansionstate=0

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_DNL0IAPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_DNL0IQPzEeuh74o8R-nzbg" bindingContexts="_DNNqyQPzEeuh74o8R-nzbg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;module.bwm&quot; tooltip=&quot;FWK.SharedResources.module/META-INF/module.bwm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/META-INF/module.bwm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Process.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/fwk/sharedresources/module/Process.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Processes/fwk/sharedresources/module/Process.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor&quot; name=&quot;CallService.xsd&quot; tooltip=&quot;FWK.SharedResources.module/Schemas/CallService.xsd&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Schemas/CallService.xsd&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;CallService.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/CallService.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Processes/Internal/CallService.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;FWK.SharedResources.module/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Process.bwp&quot; tooltip=&quot;DynamicProcessCall/Processes/dynamicprocesscall/Process.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/DynamicProcessCall/Processes/dynamicprocesscall/Process.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Sub-Process1.bwp&quot; tooltip=&quot;DynamicProcessCall/Processes/dynamicprocesscall/Sub-Process1.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/DynamicProcessCall/Processes/dynamicprocesscall/Sub-Process1.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Sub-Process2.bwp&quot; tooltip=&quot;DynamicProcessCall/Processes/dynamicprocesscall/Sub-Process2.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/DynamicProcessCall/Processes/dynamicprocesscall/Sub-Process2.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;CallService.bwp&quot; tooltip=&quot;SharedResources/Processes/Internal/CallService.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SharedResources/Processes/Internal/CallService.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;logical.bwp&quot; tooltip=&quot;SharedResources/Processes/Internal/logical.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SharedResources/Processes/Internal/logical.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;DummyStarter.wsdl&quot; tooltip=&quot;SharedResources/Service Descriptors/DummyStarter.wsdl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SharedResources/Service Descriptors/DummyStarter.wsdl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;starter.bwp&quot; tooltip=&quot;SharedResources/Processes/Internal/starter.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SharedResources/Processes/Internal/starter.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;SharedResources.CallService.wsdl&quot; tooltip=&quot;SharedResources/Service Descriptors/SharedResources.CallService.wsdl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SharedResources/Service Descriptors/SharedResources.CallService.wsdl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor&quot; name=&quot;CallService.xsd&quot; tooltip=&quot;SharedResources/Schemas/CallService.xsd&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SharedResources/Schemas/CallService.xsd&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor&quot; name=&quot;starterSchema.xsd&quot; tooltip=&quot;SharedResources/Schemas/starterSchema.xsd&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SharedResources/Schemas/starterSchema.xsd&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;FWK.SharedResources.module/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;starter.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;EAI.SharedResources.Onstartup.1.0.wsdl&quot; tooltip=&quot;FWK.SharedResources.module/Service Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Service Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;logical.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;SharedResource.OnStartup.wsdl&quot; tooltip=&quot;FWK.SharedResources.module/Service Descriptors/SharedResource.OnStartup.wsdl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Service Descriptors/SharedResource.OnStartup.wsdl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;starter.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/starter.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Processes/Internal/starter.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;SharedRecources.CallService.wsdl&quot; tooltip=&quot;FWK.SharedResources.module/Service Descriptors/SharedRecources.CallService.wsdl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Service Descriptors/SharedRecources.CallService.wsdl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor&quot; name=&quot;CallService.xsd&quot; tooltip=&quot;FWK.SharedResources.module/Schemas/CallService.xsd&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Schemas/CallService.xsd&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor&quot; name=&quot;Starter.xsd&quot; tooltip=&quot;FWK.SharedResources.module/Schemas/Starter.xsd&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Schemas/Starter.xsd&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;SharedResources.CallService.wsdl&quot; tooltip=&quot;FWK.SharedResources.module/Service Descriptors/SharedResources.CallService.wsdl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Service Descriptors/SharedResources.CallService.wsdl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;starter.wsdl&quot; tooltip=&quot;FWK.SharedResources.module/Service Descriptors/starter.wsdl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Service Descriptors/starter.wsdl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;module.bwm&quot; tooltip=&quot;FWK.SharedResources.module/META-INF/module.bwm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/META-INF/module.bwm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Process.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/fwk/sharedresources/module/Process.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Processes/fwk/sharedresources/module/Process.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;CallService.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/CallService.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/FWK.SharedResources.module/Processes/Internal/CallService.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_DNL0IQPzEeuh74o8R-nzbg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_DNL0IgPzEeuh74o8R-nzbg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -67,13 +67,17 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_DNL0MQPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_DNMb1wPzEeuh74o8R-nzbg">
                 <tags>MinimizedByZoom</tags>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_DNL0MgPzEeuh74o8R-nzbg" elementId="bottom" containerData="4000" selectedElement="_DNL0NAPzEeuh74o8R-nzbg">
-                <tags>newtablook</tags>
-                <tags>Maximized</tags>
-                <children xsi:type="advanced:Placeholder" xmi:id="_DNL0MwPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.PropertySheet" ref="_DNMdEwPzEeuh74o8R-nzbg"/>
-                <children xsi:type="advanced:Placeholder" xmi:id="_DNL0NAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.ProblemView" ref="_DNMdIwPzEeuh74o8R-nzbg"/>
-                <children xsi:type="advanced:Placeholder" xmi:id="_DNL0NQPzEeuh74o8R-nzbg" elementId="com.tibco.zion.common.zionhelpview" ref="_DNNCQgPzEeuh74o8R-nzbg"/>
-                <children xsi:type="advanced:Placeholder" xmi:id="_DNL0NgPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.console.ConsoleView" ref="_DNNCQwPzEeuh74o8R-nzbg"/>
+              <children xsi:type="basic:PartSashContainer" xmi:id="_sqdZUAotEeucPq1WHEGXEQ" containerData="4000" selectedElement="_sqdZUQotEeucPq1WHEGXEQ" horizontal="true">
+                <children xsi:type="basic:PartStack" xmi:id="_sqdZUQotEeucPq1WHEGXEQ" elementId="PartStack@1e1a38aa" containerData="5000" selectedElement="_DNL0MwPzEeuh74o8R-nzbg">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_DNL0MwPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.PropertySheet" ref="_DNMdEwPzEeuh74o8R-nzbg"/>
+                </children>
+                <children xsi:type="basic:PartStack" xmi:id="_DNL0MgPzEeuh74o8R-nzbg" elementId="bottom" containerData="5000" selectedElement="_DNL0NAPzEeuh74o8R-nzbg">
+                  <tags>newtablook</tags>
+                  <tags>Maximized</tags>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_DNL0NAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.ProblemView" ref="_DNMdIwPzEeuh74o8R-nzbg"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_DNL0NQPzEeuh74o8R-nzbg" elementId="com.tibco.zion.common.zionhelpview" ref="_DNNCQgPzEeuh74o8R-nzbg"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_DNL0NgPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.console.ConsoleView" ref="_DNNCQwPzEeuh74o8R-nzbg"/>
+                </children>
               </children>
             </children>
           </children>
@@ -193,14 +197,13 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_DNMb1wPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.editorss" selectedElement="_DNMb2APzEeuh74o8R-nzbg">
-      <children xsi:type="basic:PartStack" xmi:id="_DNMb2APzEeuh74o8R-nzbg" elementId="PartStack@394a6d2b" selectedElement="_DNMcogPzEeuh74o8R-nzbg">
+      <children xsi:type="basic:PartStack" xmi:id="_DNMb2APzEeuh74o8R-nzbg" elementId="PartStack@394a6d2b" selectedElement="_W8Lr0AopEeucPq1WHEGXEQ">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_DNMb2QPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SharedResources" iconURI="platform:/plugin/com.tibco.bw.core.design.project/icons/obj16/plugin_mf_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; partName=&quot;SharedResources&quot; title=&quot;SharedResources&quot; tooltip=&quot;SharedResources/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SharedResources/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_DNMb2QPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BW Manifest Editor" iconURI="platform:/plugin/com.tibco.bw.core.design.project/icons/obj16/plugin_mf_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; partName=&quot;BW Manifest Editor&quot; title=&quot;BW Manifest Editor&quot; tooltip=&quot;SharedResources/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SharedResources/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.tibco.bw.ui.manifestEditor</tags>
           <tags>removeOnHide</tags>
@@ -299,44 +302,6 @@
           <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb6wPzEeuh74o8R-nzbg" elementId="#OverviewRulerContext">
             <tags>menuContribution:popup</tags>
             <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DNMb7APzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="starter.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;starter.bwp&quot; partName=&quot;starter.bwp&quot; title=&quot;starter.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/starter.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/Internal/starter.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb7QPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb7gPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb7wPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb8APzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb8QPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb8gPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb8wPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMb9APzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_DNMb9QPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="starter.wsdl" iconURI="platform:/plugin/org.eclipse.wst.xsd.ui/icons/XSDFile.gif" closeable="true">
@@ -439,150 +404,6 @@
             <tags>popup:org.eclipse.wst.xml.core.xmlsource.source.RulerContext</tags>
             <tags>popup:org.eclipse.core.runtime.xml.source.source.RulerContext</tags>
             <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DNMcCAPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="logical.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;logical.bwp&quot; partName=&quot;logical.bwp&quot; title=&quot;logical.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/logical.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/Internal/logical.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcCQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcCgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcCwPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcDAPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcDQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcDgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcDwPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcEAPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DNMcEQPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CallJMSService.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;CallJMSService.bwp&quot; partName=&quot;CallJMSService.bwp&quot; title=&quot;CallJMSService.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/CallJMSService.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/Internal/CallJMSService.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcEgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcEwPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcFAPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcFQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcFgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcFwPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DNMcGAPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CallService.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;CallService.bwp&quot; partName=&quot;CallService.bwp&quot; title=&quot;CallService.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/CallService.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/Internal/CallService.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcGQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcGgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcGwPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcHAPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcHQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcHgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcHwPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcIAPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcIQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcIgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DNMcIwPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PublishJMSService.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;PublishJMSService.bwp&quot; partName=&quot;PublishJMSService.bwp&quot; title=&quot;PublishJMSService.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/PublishJMSService.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/Internal/PublishJMSService.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcJAPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcJQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcJgPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcJwPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcKAPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcKQPzEeuh74o8R-nzbg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_DNMcKgPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="module.SharedResourcesLib" iconURI="platform:/plugin/com.tibco.bw.core.design.project/icons/obj16/plugin_mf_obj.gif" closeable="true">
@@ -1127,146 +948,43 @@
             <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
           </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_DNMcjwPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SharedResources.CallService.wsdl" iconURI="platform:/plugin/org.eclipse.wst.wsdl.ui/icons/wsdl_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;SharedResources.CallService.wsdl&quot; partName=&quot;SharedResources.CallService.wsdl&quot; title=&quot;SharedResources.CallService.wsdl&quot; tooltip=&quot;FWK.SharedResources.module/Service Descriptors/SharedResources.CallService.wsdl&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Service Descriptors/SharedResources.CallService.wsdl&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_T0kpYAojEeujWvyLiuZGfQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="starter.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;starter.bwp&quot; partName=&quot;starter.bwp&quot; title=&quot;starter.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/Internal/starter.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/Internal/starter.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
-          <tags>org.eclipse.wst.wsdl.ui.internal.WSDLEditor</tags>
+          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMckAPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.ui.popup.graph">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.ui.popup.graph</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMckQPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMckgPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMckwPzEeuh74o8R-nzbg" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMclAPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMclQPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMclgPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.ui.popup.graph">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.ui.popup.graph</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMclwPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcmAPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcmQPzEeuh74o8R-nzbg" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcmgPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcmwPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcnAPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.ui.popup.graph">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.ui.popup.graph</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcnQPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcngPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcnwPzEeuh74o8R-nzbg" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcoAPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcoQPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.wsdlsource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.wsdl.wsdlsource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_DNMcogPzEeuh74o8R-nzbg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="FWK.SharedResources.module" iconURI="platform:/plugin/com.tibco.bw.core.design.project/icons/obj16/plugin_mf_obj.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_L1_h4AomEeujWvyLiuZGfQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Inline Schema of SharedRecources.CallService.wsdl" iconURI="platform:/plugin/org.eclipse.wst.xsd.ui/icons/XSDFile.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor&quot; name=&quot;Inline Schema of SharedRecources.CallService.wsdl&quot; partName=&quot;Inline Schema of SharedRecources.CallService.wsdl&quot; title=&quot;Inline Schema of SharedRecources.CallService.wsdl&quot; tooltip=&quot;Target Namespace: http://www.project.org/wsdl/CallService&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Service Descriptors/SharedRecources.CallService.wsdl&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_W8Lr0AopEeucPq1WHEGXEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="FWK.SharedResources.module" iconURI="platform:/plugin/com.tibco.bw.core.design.project/icons/obj16/plugin_mf_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; partName=&quot;FWK.SharedResources.module&quot; title=&quot;FWK.SharedResources.module&quot; tooltip=&quot;FWK.SharedResources.module/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.tibco.bw.ui.manifestEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcowPzEeuh74o8R-nzbg" elementId="#TextEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#TextEditorContext</tags>
-            <tags>popup:.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcpAPzEeuh74o8R-nzbg" elementId="#TextRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#TextRulerContext</tags>
-            <tags>popup:.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcpQPzEeuh74o8R-nzbg" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcpgPzEeuh74o8R-nzbg" elementId="#TextEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#TextEditorContext</tags>
-            <tags>popup:.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcpwPzEeuh74o8R-nzbg" elementId="#TextRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#TextRulerContext</tags>
-            <tags>popup:.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_DNMcqAPzEeuh74o8R-nzbg" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
+          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_o24E4AorEeucPq1WHEGXEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="logical.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;logical.bwp&quot; partName=&quot;logical.bwp&quot; title=&quot;logical.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/logical.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_z-f5kAorEeucPq1WHEGXEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="starter.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;starter.bwp&quot; partName=&quot;starter.bwp&quot; title=&quot;starter.bwp&quot; tooltip=&quot;FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_voV8MAosEeucPq1WHEGXEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EAI.SharedResources.Onstartup.1.0.wsdl" iconURI="platform:/plugin/org.eclipse.wst.wsdl.ui/icons/wsdl_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.wsdl.ui.internal.WSDLEditor&quot; name=&quot;EAI.SharedResources.Onstartup.1.0.wsdl&quot; partName=&quot;EAI.SharedResources.Onstartup.1.0.wsdl&quot; title=&quot;EAI.SharedResources.Onstartup.1.0.wsdl&quot; tooltip=&quot;FWK.SharedResources.module/Service Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/FWK.SharedResources.module/Service Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.wsdl.ui.internal.WSDLEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -1342,10 +1060,10 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_DNMdHAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.PropertySheet" visible="false"/>
+      <toolbar xmi:id="_DNMdHAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.PropertySheet"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_DNMdIwPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.resourceField&quot; categoryGroup=&quot;org.eclipse.ui.ide.type&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;EMF Validation Problems&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;XML Schema Problem&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Process property configuration error&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;120&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;1894&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.resourceField&quot; categoryGroup=&quot;org.eclipse.ui.ide.type&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Process import errors&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;EMF Validation Problems&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Process property configuration error&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;300&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;1894&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_DNMdJAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.views.ProblemView">
@@ -1631,43 +1349,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNC3wPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC4APzEeuh74o8R-nzbg" elementId="new.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC4QPzEeuh74o8R-nzbg" elementId="newWizardDropDown">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC4gPzEeuh74o8R-nzbg" elementId="new.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC4wPzEeuh74o8R-nzbg" elementId="save.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC5APzEeuh74o8R-nzbg" elementId="save">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC5QPzEeuh74o8R-nzbg" elementId="saveAll">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC5gPzEeuh74o8R-nzbg" elementId="save.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DNNC5wPzEeuh74o8R-nzbg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_DNO6XAPzEeuh74o8R-nzbg"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC6APzEeuh74o8R-nzbg" elementId="print.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC6QPzEeuh74o8R-nzbg" elementId="build.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC6gPzEeuh74o8R-nzbg" elementId="build.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC6wPzEeuh74o8R-nzbg" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNC7APzEeuh74o8R-nzbg" elementId="build">
-          <tags>Opaque</tags>
-        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_2bwGgAooEeucPq1WHEGXEQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_DNO6XAPzEeuh74o8R-nzbg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNC7QPzEeuh74o8R-nzbg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1675,207 +1357,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNDGgPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newprocessactionset">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDGwPzEeuh74o8R-nzbg" elementId="bwNewModuleWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDHAPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewApplicationModule">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDHQPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewSharedModule.bwe">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDHgPzEeuh74o8R-nzbg" elementId="com.tibco.zion.dc.action.NewApplication">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDHwPzEeuh74o8R-nzbg" elementId="bwNewProcessWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDIAPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newprocessaction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDIQPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newsubprocessaction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDIgPzEeuh74o8R-nzbg" elementId="bwNewModuleWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDIwPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewApplicationModule">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDJAPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewSharedModule.bwe">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDJQPzEeuh74o8R-nzbg" elementId="com.tibco.zion.dc.action.NewApplication">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDJgPzEeuh74o8R-nzbg" elementId="bwNewProcessWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDJwPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newprocessaction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDKAPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newsubprocessaction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDKQPzEeuh74o8R-nzbg" elementId="bwNewModuleWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDKgPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewApplicationModule">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDKwPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewSharedModule.bwe">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDLAPzEeuh74o8R-nzbg" elementId="com.tibco.zion.dc.action.NewApplication">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDLQPzEeuh74o8R-nzbg" elementId="bwNewProcessWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDLgPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newprocessaction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDLwPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newsubprocessaction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDMAPzEeuh74o8R-nzbg" elementId="bwNewModuleWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDMQPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewApplicationModule">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDMgPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.NewSharedModule.bwe">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDMwPzEeuh74o8R-nzbg" elementId="com.tibco.zion.dc.action.NewApplication">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDNAPzEeuh74o8R-nzbg" elementId="bwNewProcessWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDNQPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newprocessaction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDNgPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.newsubprocessaction">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNDNwPzEeuh74o8R-nzbg" elementId="com.tibco.xpd.resources.ui.actionSet.enableFeature1">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDOAPzEeuh74o8R-nzbg" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDOQPzEeuh74o8R-nzbg" elementId="com.tibco.xpd.resources.ui.action.anableFeature1">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDOgPzEeuh74o8R-nzbg" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDOwPzEeuh74o8R-nzbg" elementId="com.tibco.xpd.resources.ui.action.anableFeature1">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDPAPzEeuh74o8R-nzbg" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDPQPzEeuh74o8R-nzbg" elementId="com.tibco.xpd.resources.ui.action.anableFeature1">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDPgPzEeuh74o8R-nzbg" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDPwPzEeuh74o8R-nzbg" elementId="com.tibco.xpd.resources.ui.action.anableFeature1">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNDQAPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDQQPzEeuh74o8R-nzbg" elementId="debug">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDQgPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDQwPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDRAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDRQPzEeuh74o8R-nzbg" elementId="debug">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDRgPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDRwPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDSAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDSQPzEeuh74o8R-nzbg" elementId="debug">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDSgPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDSwPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDTAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDTQPzEeuh74o8R-nzbg" elementId="debug">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDTgPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDTwPzEeuh74o8R-nzbg" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDUAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNDUQPzEeuh74o8R-nzbg" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDUgPzEeuh74o8R-nzbg" elementId="Search">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDUwPzEeuh74o8R-nzbg" elementId="openType">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDVAPzEeuh74o8R-nzbg" elementId="org.eclipse.search.OpenSearchDialogPage">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDVQPzEeuh74o8R-nzbg" elementId="Search">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDVgPzEeuh74o8R-nzbg" elementId="openType">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDVwPzEeuh74o8R-nzbg" elementId="org.eclipse.search.OpenSearchDialogPage">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDWAPzEeuh74o8R-nzbg" elementId="Search">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDWQPzEeuh74o8R-nzbg" elementId="openType">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDWgPzEeuh74o8R-nzbg" elementId="org.eclipse.search.OpenSearchDialogPage">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDWwPzEeuh74o8R-nzbg" elementId="Search">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDXAPzEeuh74o8R-nzbg" elementId="openType">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDXQPzEeuh74o8R-nzbg" elementId="org.eclipse.search.OpenSearchDialogPage">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNDXgPzEeuh74o8R-nzbg" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1883,379 +1373,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNDYAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDYQPzEeuh74o8R-nzbg" elementId="history.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDYgPzEeuh74o8R-nzbg" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDYwPzEeuh74o8R-nzbg" elementId="backardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDZAPzEeuh74o8R-nzbg" elementId="forwardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDZQPzEeuh74o8R-nzbg" elementId="pin.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_DNNDZgPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_DNO52QPzEeuh74o8R-nzbg"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDZwPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDaAPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDaQPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_DNNDagPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID" visible="false">
-        <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDawPzEeuh74o8R-nzbg" elementId="toolbarFontGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDbAPzEeuh74o8R-nzbg" elementId="fontNameContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDbQPzEeuh74o8R-nzbg" elementId="fontSizeContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDbgPzEeuh74o8R-nzbg" elementId="fontBoldAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDbwPzEeuh74o8R-nzbg" elementId="fontItalicAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDcAPzEeuh74o8R-nzbg" elementId="toolbarColorLineGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDcQPzEeuh74o8R-nzbg" elementId="fontColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDcgPzEeuh74o8R-nzbg" elementId="fillColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDcwPzEeuh74o8R-nzbg" elementId="lineColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDdAPzEeuh74o8R-nzbg" elementId="toolbarCopyAppearanceGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDdQPzEeuh74o8R-nzbg" elementId="copyAppearancePropertiesAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDdgPzEeuh74o8R-nzbg" elementId="toolBarViewGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDdwPzEeuh74o8R-nzbg" elementId="toolbarEditGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDeAPzEeuh74o8R-nzbg" elementId="toolbarFormatGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDeQPzEeuh74o8R-nzbg" elementId="autoSizeAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDegPzEeuh74o8R-nzbg" elementId="toolbarFilterGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDewPzEeuh74o8R-nzbg" elementId="showConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDfAPzEeuh74o8R-nzbg" elementId="hideConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDfQPzEeuh74o8R-nzbg" elementId="toolbarNavigateGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDfgPzEeuh74o8R-nzbg" elementId="zoomContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDfwPzEeuh74o8R-nzbg" elementId="toolbarRestGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDgAPzEeuh74o8R-nzbg" elementId="toolbarAdditions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDgQPzEeuh74o8R-nzbg" elementId="toolbarFontGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDggPzEeuh74o8R-nzbg" elementId="fontNameContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDgwPzEeuh74o8R-nzbg" elementId="fontSizeContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDhAPzEeuh74o8R-nzbg" elementId="fontBoldAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDhQPzEeuh74o8R-nzbg" elementId="fontItalicAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDhgPzEeuh74o8R-nzbg" elementId="toolbarColorLineGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDhwPzEeuh74o8R-nzbg" elementId="fontColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDiAPzEeuh74o8R-nzbg" elementId="fillColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDiQPzEeuh74o8R-nzbg" elementId="lineColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDigPzEeuh74o8R-nzbg" elementId="toolbarCopyAppearanceGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDiwPzEeuh74o8R-nzbg" elementId="copyAppearancePropertiesAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDjAPzEeuh74o8R-nzbg" elementId="toolBarViewGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDjQPzEeuh74o8R-nzbg" elementId="toolbarEditGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDjgPzEeuh74o8R-nzbg" elementId="toolbarFormatGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDjwPzEeuh74o8R-nzbg" elementId="autoSizeAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDkAPzEeuh74o8R-nzbg" elementId="toolbarFilterGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDkQPzEeuh74o8R-nzbg" elementId="showConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDkgPzEeuh74o8R-nzbg" elementId="hideConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDkwPzEeuh74o8R-nzbg" elementId="toolbarNavigateGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDlAPzEeuh74o8R-nzbg" elementId="zoomContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDlQPzEeuh74o8R-nzbg" elementId="toolbarRestGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDlgPzEeuh74o8R-nzbg" elementId="toolbarAdditions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDlwPzEeuh74o8R-nzbg" elementId="toolbarFontGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDmAPzEeuh74o8R-nzbg" elementId="fontNameContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDmQPzEeuh74o8R-nzbg" elementId="fontSizeContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDmgPzEeuh74o8R-nzbg" elementId="fontBoldAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDmwPzEeuh74o8R-nzbg" elementId="fontItalicAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDnAPzEeuh74o8R-nzbg" elementId="toolbarColorLineGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDnQPzEeuh74o8R-nzbg" elementId="fontColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDngPzEeuh74o8R-nzbg" elementId="fillColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDnwPzEeuh74o8R-nzbg" elementId="lineColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDoAPzEeuh74o8R-nzbg" elementId="toolbarCopyAppearanceGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDoQPzEeuh74o8R-nzbg" elementId="copyAppearancePropertiesAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDogPzEeuh74o8R-nzbg" elementId="toolBarViewGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDowPzEeuh74o8R-nzbg" elementId="toolbarEditGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDpAPzEeuh74o8R-nzbg" elementId="toolbarFormatGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDpQPzEeuh74o8R-nzbg" elementId="autoSizeAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDpgPzEeuh74o8R-nzbg" elementId="toolbarFilterGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDpwPzEeuh74o8R-nzbg" elementId="showConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDqAPzEeuh74o8R-nzbg" elementId="hideConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDqQPzEeuh74o8R-nzbg" elementId="toolbarNavigateGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDqgPzEeuh74o8R-nzbg" elementId="zoomContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDqwPzEeuh74o8R-nzbg" elementId="toolbarRestGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDrAPzEeuh74o8R-nzbg" elementId="toolbarAdditions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDrQPzEeuh74o8R-nzbg" elementId="toolbarFontGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDrgPzEeuh74o8R-nzbg" elementId="fontNameContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDrwPzEeuh74o8R-nzbg" elementId="fontSizeContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDsAPzEeuh74o8R-nzbg" elementId="fontBoldAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDsQPzEeuh74o8R-nzbg" elementId="fontItalicAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDsgPzEeuh74o8R-nzbg" elementId="toolbarColorLineGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDswPzEeuh74o8R-nzbg" elementId="fontColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDtAPzEeuh74o8R-nzbg" elementId="fillColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDtQPzEeuh74o8R-nzbg" elementId="lineColorContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDtgPzEeuh74o8R-nzbg" elementId="toolbarCopyAppearanceGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDtwPzEeuh74o8R-nzbg" elementId="copyAppearancePropertiesAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDuAPzEeuh74o8R-nzbg" elementId="toolBarViewGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDuQPzEeuh74o8R-nzbg" elementId="toolbarEditGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDugPzEeuh74o8R-nzbg" elementId="toolbarFormatGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDuwPzEeuh74o8R-nzbg" elementId="autoSizeAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDvAPzEeuh74o8R-nzbg" elementId="toolbarFilterGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDvQPzEeuh74o8R-nzbg" elementId="showConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDvgPzEeuh74o8R-nzbg" elementId="hideConnectorLabels">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDvwPzEeuh74o8R-nzbg" elementId="toolbarNavigateGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDwAPzEeuh74o8R-nzbg" elementId="zoomContributionItem">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDwQPzEeuh74o8R-nzbg" elementId="toolbarRestGroup">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDwgPzEeuh74o8R-nzbg" elementId="toolbarAdditions">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_DNNDwwPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.wsdl.ui.internal.WSDLEditor" visible="false">
-        <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDxAPzEeuh74o8R-nzbg" elementId="WSDLEditor" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDxQPzEeuh74o8R-nzbg" elementId="org.eclipse.gef.zoom_widget">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDxgPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDxwPzEeuh74o8R-nzbg" elementId="WSDLEditor" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDyAPzEeuh74o8R-nzbg" elementId="org.eclipse.gef.zoom_widget">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDyQPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDygPzEeuh74o8R-nzbg" elementId="WSDLEditor" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDywPzEeuh74o8R-nzbg" elementId="org.eclipse.gef.zoom_widget">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDzAPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_DNNDzQPzEeuh74o8R-nzbg" elementId="com.tibco.bw.ui.manifestEditor">
-        <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDzgPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNDzwPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND0APzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_DNND0QPzEeuh74o8R-nzbg" elementId="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" visible="false">
-        <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND0gPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND0wPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND1APzEeuh74o8R-nzbg" elementId="org.eclipse.gef.zoom_widget">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND1QPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND1gPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND1wPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND2APzEeuh74o8R-nzbg" elementId="org.eclipse.gef.zoom_widget">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND2QPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND2gPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND2wPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND3APzEeuh74o8R-nzbg" elementId="org.eclipse.gef.zoom_widget">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNND3QPzEeuh74o8R-nzbg">
-          <tags>Opaque</tags>
-        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_2cAlMAooEeucPq1WHEGXEQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_DNO52QPzEeuh74o8R-nzbg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNND3gPzEeuh74o8R-nzbg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2267,12 +1385,6 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DNNpUQPzEeuh74o8R-nzbg" elementId="org.eclipse.ui.workbench.help">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNpUgPzEeuh74o8R-nzbg" elementId="group.help">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_DNNpUwPzEeuh74o8R-nzbg" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_DNNpVAPzEeuh74o8R-nzbg" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
@@ -3135,6 +2247,23 @@
     <tags>View</tags>
     <tags>categoryTag:SVN</tags>
   </descriptors>
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:PerspectiveSpacer</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+      <tags>move_after:Spacer Glue</tags>
+      <tags>HIDEABLE</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:SearchField</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+  </trimContributions>
   <commands xmi:id="_DNO4awPzEeuh74o8R-nzbg" elementId="com.tibco.bw.core.design.project.generateApplication" commandName="Generate Application Command" category="_DNPfiwPzEeuh74o8R-nzbg"/>
   <commands xmi:id="_DNO4bAPzEeuh74o8R-nzbg" elementId="org.eclipse.jdt.ui.correction.inlineLocal.assist" commandName="Quick Assist - Inline local variable" description="Invokes quick assist and selects 'Inline local variable'" category="_DNPfiAPzEeuh74o8R-nzbg"/>
   <commands xmi:id="_DNO4bQPzEeuh74o8R-nzbg" elementId="org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.cutcolumn" commandName="Cut" category="_DNPfdwPzEeuh74o8R-nzbg"/>
