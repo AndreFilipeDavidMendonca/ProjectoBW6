@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.project.org/Logical"
+	elementFormDefault="qualified" attributeFormDefault="unqualified"
+	xmlns:env="http://www.project.com/common/envelope/1.0"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.project.org/Logical">
+
+	<xs:import namespace="http://www.project.com/common/envelope/1.0"
+		schemaLocation="../envelope.xsd" />
+
+	<xs:element name="input">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" ref="header" />
+				<xs:element minOccurs="0" ref="body" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="output">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" ref="header" />
+				<xs:element minOccurs="0" ref="body" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="body">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:any maxOccurs="unbounded" minOccurs="0"
+					namespace="##any" processContents="skip" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="header" type="env:Header" />
+	<xs:element name="result" type="env:Result" />
+
+
+
+
+
+</xs:schema>

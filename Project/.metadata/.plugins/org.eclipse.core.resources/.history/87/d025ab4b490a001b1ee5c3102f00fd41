@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:CallService="http://www.project.org/wsdl/CallService" xmlns:CallService_1="http://www.example.org/CallService" xmlns:OnStartup_1_0="http://EAI/SharedResources/OnStartup/1/0" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:axis2="http://xsd.tns.tibco.com/bw/models/binding/soap/axis2" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_oeI0EAPxEeuh74o8R-nzbg" targetNamespace="http://tns.tibco.com/bw/composite/FWK.SharedResources.module" name="FWK.SharedResources.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_wrN-YApAEeu7m_DAUPTvfQ" name="SharedRecources.CallService" promote="Componentstarter/SharedRecources.CallService">
+    <sca:interface.wsdl xmi:id="_wrZkkApAEeu7m_DAUPTvfQ" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
+    <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_yIZuEApAEeu7m_DAUPTvfQ" name="SOAPServiceBinding" targetNamespace="http://www.tibco.com/84148917ee904a3ab57e713665e4498c/SOAPServiceBinding" portTypeQName="CallService:SharedResources.CallService" transportBindingType="HTTP" attachmentStyle="SwA" modelVersion="1.2.0" portTypeWSDLLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/SharedResources.CallService.wsdl">
+      <bindingType xmi:id="_yIf0sApAEeu7m_DAUPTvfQ"/>
+      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_0WbE0ApAEeu7m_DAUPTvfQ" endpointURI="/SOAPServiceBinding/sharedRecources.CallService/" httpConnector="fwk.sharedresources.module.CallServiceHTTPConnector"/>
+      <operationConfiguration xmi:id="_yIgbwApAEeu7m_DAUPTvfQ" operationName="Operation" action="Operation" actionNeeded="true">
+        <bindingType xmi:id="_yIgbwQpAEeu7m_DAUPTvfQ"/>
+        <messageConfiguration xmi:id="_yIgbwgpAEeu7m_DAUPTvfQ" messageQName="CallService:OperationRequest" wsdlLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/SharedResources.CallService.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_yIgbwwpAEeu7m_DAUPTvfQ" partName="parameters" partElementName="CallService_1:In"/>
+        </messageConfiguration>
+        <messageConfiguration xmi:id="_yIgbxApAEeu7m_DAUPTvfQ" messageQName="CallService:OperationResponse" messageDirection="OUTPUT" wsdlLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/SharedResources.CallService.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_yIgbxQpAEeu7m_DAUPTvfQ" partName="parameters" partElementName="CallService_1:Out"/>
+        </messageConfiguration>
+        <context xmi:id="_yIgbxgpAEeu7m_DAUPTvfQ">
+          <inputMapping xmi:id="_yIgbxwpAEeu7m_DAUPTvfQ"/>
+          <outputMapping xmi:id="_yIgbyApAEeu7m_DAUPTvfQ" direction="OUTPUT"/>
+        </context>
+      </operationConfiguration>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_yIgbyQpAEeu7m_DAUPTvfQ" bindingName="SOAPServiceBinding"/>
+  </sca:service>
+  <sca:property xmi:id="_o2KSgAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2RnQAPxEeuh74o8R-nzbg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2VRoAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2Y8AAPxEeuh74o8R-nzbg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2d0gAPxEeuh74o8R-nzbg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2itAAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2nlgAPxEeuh74o8R-nzbg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2r28APxEeuh74o8R-nzbg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2wvcAPxEeuh74o8R-nzbg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="__VT5oAfiEeuC29AiMck5EQ" name="ComponentModuleActivator" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="__VVHwAfiEeuC29AiMck5EQ" processName="fwk.sharedresources.module.ModuleActivator"/>
+  </sca:component>
+  <sca:component xmi:id="_wrGpoApAEeu7m_DAUPTvfQ" name="Componentstarter" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_wrGpoQpAEeu7m_DAUPTvfQ" processName="Internal.starter"/>
+    <sca:service xmi:id="_wrK7EApAEeu7m_DAUPTvfQ" name="SharedRecources.CallService">
+      <sca:interface.wsdl xmi:id="_wrLiIApAEeu7m_DAUPTvfQ" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>
