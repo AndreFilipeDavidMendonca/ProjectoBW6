@@ -4202,3 +4202,30 @@ Binding(CTRL+O,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.466
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.472
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.495
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.502
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.514
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.520
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.534
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2020-10-12 13:55:55.541
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.emf.validation 2 70 2020-10-12 13:58:26.514
+!MESSAGE Constraint "com.tibco.amf.design.sr.core.internal.validation.constraints.SharedResourceNotInWorkspace" could not find target EMF type "Property."
