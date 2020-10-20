@@ -188,7 +188,6 @@
                 <plnk:role name="use" portType="ptyp1:OnStartup"/>
             </plnk:partnerLinkType>
             <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
-            <wsdl:import namespace="http://www.example.org/wsdl/SharedResource.OnStartup"/>
             <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
             <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
             <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
