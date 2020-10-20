@@ -181,11 +181,17 @@
             xmlns:tns="http://xmlns.example.com/20201009143445PLT"
             xmlns:vprop="http://docs.oasis-open.org/wsbpel/2.0/varprop"
             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <plnk:partnerLinkType name="partnerLinkType">
+                <plnk:role name="use" portType="ptyp1:OnStartup"/>
+            </plnk:partnerLinkType>
             <plnk:partnerLinkType name="partnerLinkType1">
-                <plnk:role name="use" portType="ptyp:SharedResource.OnStartup"/>
+                <plnk:role name="use" portType="ptyp1:OnStartup"/>
             </plnk:partnerLinkType>
             <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
             <wsdl:import namespace="http://www.example.org/wsdl/SharedResource.OnStartup"/>
+            <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
+            <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
+            <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
             <wsdl:import namespace="http://EAI/SharedResources/OnStartup/1/0"/>
         </wsdl:definitions>
     </tibex:Types>
@@ -400,6 +406,11 @@
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
         location="../../../../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl" namespace="http://EAI/SharedResources/OnStartup/1/0"/>
+    <bpws:partnerLinks>
+        <bpws:partnerLink myRole="use" name="OnStartup"
+            partnerLinkType="ns0:partnerLinkType1"
+            sca-bpel:ignore="false" sca-bpel:service="OnStartup"/>
+    </bpws:partnerLinks>
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
@@ -424,8 +435,8 @@
                 <bpws:link name="logicalToOperationOut" tibex:linkType="SUCCESS"/>
             </bpws:links>
             <bpws:receive createInstance="yes" name="OperationIn"
-                operation="Operation"
-                portType="ns1:EAI.SharedResources.OnStartup.1.0"
+                operation="Operation" partnerLink="OnStartup"
+                portType="ns1:OnStartup"
                 tibex:xpdlId="09dadff7-8b8f-47fa-8e92-579db9c9f424" variable="OperationIn">
                 <bpws:sources>
                     <bpws:source linkName="OperationInTological"/>
@@ -453,7 +464,7 @@
                 </tibex:extActivity>
             </bpws:extensionActivity>
             <bpws:reply name="OperationOut" operation="Operation"
-                portType="ns1:EAI.SharedResources.OnStartup.1.0"
+                partnerLink="OnStartup" portType="ns1:OnStartup"
                 tibex:xpdlId="e620f2fd-0739-445b-b953-75e2248fa182" variable="OperationOut-input">
                 <tibex:inputBinding expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://EAI/SharedResources/OnStartup/1/0" version="2.0"&gt;&lt;xsl:template name="OperationOut-input" match="/"&gt;&lt;tns:OperationResponse&gt;&lt;parameters&gt;&lt;tns:OperationResponse&gt;&lt;out&gt;&lt;xsl:value-of select="''"/&gt;&lt;/out&gt;&lt;/tns:OperationResponse&gt;&lt;/parameters&gt;&lt;/tns:OperationResponse&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</tibex:inputBinding>

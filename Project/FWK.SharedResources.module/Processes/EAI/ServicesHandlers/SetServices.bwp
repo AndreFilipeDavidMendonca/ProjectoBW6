@@ -6,6 +6,7 @@
     xmlns:info="http://www.tibco.com/bw/process/info"
     xmlns:ns="http://www.tibco.com/pe/EngineTypes"
     xmlns:ns0="http://www.polarising.com/Shared/Resources/Services"
+    xmlns:ns1="http://www.polarising.com/Shared/Resources/ErrorHandler"
     xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
@@ -395,6 +396,7 @@
             namespace="http://www.polarising.com/Shared/Resources/Services" prefix="ns"/>
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.polarising.com/Shared/Resources/Services"/>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.polarising.com/Shared/Resources/ErrorHandler"/>
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>

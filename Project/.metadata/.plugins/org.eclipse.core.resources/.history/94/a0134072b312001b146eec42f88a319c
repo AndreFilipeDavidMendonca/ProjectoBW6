@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:extns="http://www.example.org/schema/1603184312394" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://EAI/SharedResources/OnStartup/1/0" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EAI.SharedResources.OnStartup" targetNamespace="http://EAI/SharedResources/OnStartup/1/0">
+    <wsdl:import namespace="http://www.example.org/schema/1603184312394"/>
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://EAI/SharedResources/OnStartup/1/0">
+      <xsd:element name="Operation">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ApplicationName" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="OperationResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="out" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>       
+           
+        </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="OperationRequest">
+    <wsdl:part element="tns:Operation" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="OperationResponse">
+    <wsdl:part element="tns:OperationResponse" name="parameters"/>
+  </wsdl:message>
+   
+    <wsdl:portType name="OnStartup">
+    <wsdl:operation name="Operation">
+      <wsdl:input message="tns:OperationRequest"/>
+      <wsdl:output message="tns:OperationResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+    
+
+ 
+</wsdl:definitions>
