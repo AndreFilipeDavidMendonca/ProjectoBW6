@@ -14,6 +14,14 @@
 //FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp.favorite.expansionstate=1
 //FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp.library.expansionstate=0
 //FWK.SharedResources.module/Processes/EAI/SharedResources/OnStartup/starter.bwp.recent.expansionstate=1
+//FWK.SharedResources.module/Processes/Internal/CallJMSService.bwp.displayer.openstate=1
+//FWK.SharedResources.module/Processes/Internal/CallJMSService.bwp.favorite.expansionstate=1
+//FWK.SharedResources.module/Processes/Internal/CallJMSService.bwp.library.expansionstate=0
+//FWK.SharedResources.module/Processes/Internal/CallJMSService.bwp.recent.expansionstate=1
+//FWK.SharedResources.module/Processes/Internal/CallService.bwp.displayer.openstate=1
+//FWK.SharedResources.module/Processes/Internal/CallService.bwp.favorite.expansionstate=1
+//FWK.SharedResources.module/Processes/Internal/CallService.bwp.library.expansionstate=0
+//FWK.SharedResources.module/Processes/Internal/CallService.bwp.recent.expansionstate=1
 //FWK.SharedResources.module/Processes/Internal/logical.bwp.displayer.openstate=0
 //FWK.SharedResources.module/Processes/Internal/logical.bwp.displayer.targetpalette=com.tibco.bw.core.palette.bpel.design
 //FWK.SharedResources.module/Processes/Internal/logical.bwp.favorite.expansionstate=1
@@ -40,6 +48,10 @@
 //FWK.SharedResources.module/Processes/SharedResources/Initialize/logical.bwp.favorite.expansionstate=1
 //FWK.SharedResources.module/Processes/SharedResources/Initialize/logical.bwp.library.expansionstate=0
 //FWK.SharedResources.module/Processes/SharedResources/Initialize/logical.bwp.recent.expansionstate=1
+//FWK.SharedResources.module/Processes/fwk/sharedresources/module/DummyLogical.bwp.displayer.openstate=1
+//FWK.SharedResources.module/Processes/fwk/sharedresources/module/DummyLogical.bwp.favorite.expansionstate=1
+//FWK.SharedResources.module/Processes/fwk/sharedresources/module/DummyLogical.bwp.library.expansionstate=0
+//FWK.SharedResources.module/Processes/fwk/sharedresources/module/DummyLogical.bwp.recent.expansionstate=1
 //FWK.SharedResources.module/Processes/fwk/sharedresources/module/ModuleActivator.bwp.displayer.openstate=1
 //FWK.SharedResources.module/Processes/fwk/sharedresources/module/ModuleActivator.bwp.favorite.expansionstate=1
 //FWK.SharedResources.module/Processes/fwk/sharedresources/module/ModuleActivator.bwp.library.expansionstate=0
