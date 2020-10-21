@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:extns="http://www.example.org/schema/SharedResources.Main" 
+	xmlns:tns="http://www.example.org/wsdl/1603197776748" 
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	name="SharedResources.Main" 
+	targetNamespace="http://www.example.org/wsdl/1603197776748">
+	
+  <wsdl:import namespace="http://www.example.org/schema/SharedResources.Main"
+  	schemaLocation="../Schemas/SharedRecources.Main.xsd"/>
+  	
+  <import namespace="http://www.polarising.com/common/logical/1.0"></import>
+    
+    <element name="In" type="tns:In"></element>
+    <element name="Out" type="tns:Out"></element>
+    
+    <complexType name="In">
+    	<sequence>
+    		<element ref="logical:input"></element>
+    		<element ref="dynamic:DynamicProperties" minOccurs="0"></element>
+    		<element name="Classification" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="ApplicationName" type="string"/>
+						<element name="ApplicationVersion" type="string" minOccurs="0"/>	    					   
+					</sequence>
+				</complexType>
+			</element>  		
+    	</sequence>
+    </complexType>
+     <complexType name="Out">
+    	<sequence>
+    		<element ref="logical:output"></element>
+    		<element ref="dynamic:DynamicProperties" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+</wsdl:definitions>

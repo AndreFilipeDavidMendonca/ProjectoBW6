@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"  
+xmlns:tns="http://www.example.org/wsdl/1603197776748" 
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+name="SharedResources.Main" 
+targetNamespace="http://www.example.org/wsdl/1603197776748"
+xmlns:xsd1="http://www.example.org/schema/SharedResources.Main" >
+ 
+ <wsdl:types>	
+ <xsd:schema>	
+  <xsd:import namespace="http://www.example.org/schema/SharedResources.Main" 
+  schemaLocation="../Schemas/SharedRecources.Main.xsd">
+  	</xsd:import></xsd:schema></wsdl:types>
+ <wsdl:types>
+ 
+ 		
+ <wsdl:message name="operationRequest">
+    <wsdl:part element="xsd1:In" name="parameters"/>
+    </wsdl:message>
+  <wsdl:message name="operationResponse">
+    <wsdl:part element="xsd1:operationResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="SharedResources.Main">
+    <wsdl:operation name="operation">
+      <wsdl:input message="tns:operationRequest"/>
+      <wsdl:output message="tns:operationResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
