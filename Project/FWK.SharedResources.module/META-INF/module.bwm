@@ -42,9 +42,6 @@
     </scaext:binding>
     <scact:bindingAdjunct xmi:id="_yNMGyxKsEeurkOEwCRcusA" bindingName="SOAPServiceBinding1"/>
   </sca:service>
-  <sca:service xmi:id="_YVnLMBRhEeuIGvkdzW4mDQ" name="EAI.SharedResources.Logging" promote="Component2starter/EAI.SharedResources.Logging">
-    <sca:interface.wsdl xmi:id="_YV5fEBRhEeuIGvkdzW4mDQ" interface="http://www.example.org/wsdl/EAI.SharedResources.Logging#wsdl.interface(EAI.SharedResources.Logging)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Logging.wsdl"/>
-  </sca:service>
   <sca:property xmi:id="_o2KSgAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_o2RnQAPxEeuh74o8R-nzbg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_o2VRoAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
@@ -55,33 +52,18 @@
   <sca:property xmi:id="_o2r28APxEeuh74o8R-nzbg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_o2wvcAPxEeuh74o8R-nzbg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:component xmi:id="_i7qdcBKsEeurkOEwCRcusA" name="ComponentModuleActivator" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_i7qdcRKsEeurkOEwCRcusA" processName="fwk.sharedresources.module.ModuleActivator"/>
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_i7qdcRKsEeurkOEwCRcusA" processName="fwk.sharedresources.module.ModuleActivator" autoStart="false"/>
   </sca:component>
   <sca:component xmi:id="_j8qAYBKsEeurkOEwCRcusA" name="Componentstarter" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_j8qAYRKsEeurkOEwCRcusA" processName="EAI.SharedResources.OnStartup.starter"/>
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_j8qAYRKsEeurkOEwCRcusA" processName="EAI.SharedResources.OnStartup.starter" autoStart="false"/>
     <sca:service xmi:id="_j8xVIBKsEeurkOEwCRcusA" name="OnStartup">
       <sca:interface.wsdl xmi:id="_j8zKUBKsEeurkOEwCRcusA" interface="http://EAI/SharedResources/OnStartup/1/0#wsdl.interface(OnStartup)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl"/>
     </sca:service>
   </sca:component>
   <sca:component xmi:id="_lIYzsBKsEeurkOEwCRcusA" name="Component1starter" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_lIYzsRKsEeurkOEwCRcusA" processName="Internal.starter"/>
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_lIYzsRKsEeurkOEwCRcusA" processName="Internal.starter" autoStart="false"/>
     <sca:service xmi:id="_lIYzshKsEeurkOEwCRcusA" name="SharedResources.CallService">
       <sca:interface.wsdl xmi:id="_lIZawBKsEeurkOEwCRcusA" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
     </sca:service>
-  </sca:component>
-  <sca:component xmi:id="_fVvbgBRgEeuIGvkdzW4mDQ" name="Component2starter" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_fVvbgRRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.starter"/>
-    <sca:service xmi:id="_YVZIwBRhEeuIGvkdzW4mDQ" name="EAI.SharedResources.Logging">
-      <sca:interface.wsdl xmi:id="_YVa98BRhEeuIGvkdzW4mDQ" interface="http://www.example.org/wsdl/EAI.SharedResources.Logging#wsdl.interface(EAI.SharedResources.Logging)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Logging.wsdl"/>
-    </sca:service>
-  </sca:component>
-  <sca:component xmi:id="_g8-fEBRgEeuIGvkdzW4mDQ" name="Componentlogical" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_g8-fERRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.logical"/>
-  </sca:component>
-  <sca:component xmi:id="_jNtyoBRgEeuIGvkdzW4mDQ" name="Componenterror" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_jNtyoRRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.error"/>
-  </sca:component>
-  <sca:component xmi:id="_ljYCcBRgEeuIGvkdzW4mDQ" name="ComponentWriteLog" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_ljYCcRRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.WriteLog"/>
   </sca:component>
 </sca:composite>
