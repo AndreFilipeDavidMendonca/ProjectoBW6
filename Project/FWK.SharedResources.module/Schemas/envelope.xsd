@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns="http://www.project.com/common/envelope/1.0"
-	 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	 targetNamespace="http://www.project.com/common/envelope/1.0"
-	 version="1.0"
-	 elementFormDefault="qualified"
-	 attributeFormDefault="unqualified">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="http://www.project.com/common/envelope/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.project.com/common/envelope/1.0" version="1.0">
 
 	
 
@@ -14,7 +9,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="header"/>
-				<xs:element ref="body" minOccurs="0"/>
+				<xs:element minOccurs="0" ref="body"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -28,33 +23,37 @@
 	<!-- Complex Types -->
 	<xs:complexType name="Body">
 		<xs:sequence>
-			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:any maxOccurs="unbounded" minOccurs="0" namespace="##any" processContents="lax"/>
 		</xs:sequence>
 		<xs:anyAttribute namespace="##other" processContents="lax"/>
 	</xs:complexType>
 	<xs:complexType name="Header">
 		<xs:sequence>
-			<xs:element name="service" type="Service" minOccurs="0"/>
+			<xs:element minOccurs="0" name="service" type="Service"/>
 		</xs:sequence>	
 	</xs:complexType>
 	<xs:complexType name="Service">
 		<xs:sequence>
-			<xs:element name="serviceName" type="xs:string" />
-			<xs:element name="serviceOperation" type="xs:string"/>
-			<xs:element name="serviceVersion" type="xs:string" minOccurs="0"/>
-			<xs:element name="parameters" minOccurs="0">
+            <xs:element minOccurs="0" name="iTrackingID" type="xs:string"/>
+            <xs:element minOccurs="0" name="eTrackingID" type="xs:string"/>
+            <xs:element minOccurs="0" name="serviceName" type="xs:string"/>
+			<xs:element minOccurs="0" name="serviceOperation" type="xs:string"/>
+			<xs:element minOccurs="0" name="serviceVersion" type="xs:string"/>
+			<xs:element minOccurs="0" name="parameters">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="parameter" type="Parameter" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="parameter" type="Parameter"/>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
+
+
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Parameter">
 		<xs:sequence>
 			<xs:element name="Name" type="xs:string"/>
-			<xs:element name="Value" type="xs:string" minOccurs="0"/>
+			<xs:element minOccurs="0" name="Value" type="xs:string"/>
 		</xs:sequence>
 	</xs:complexType>
 		
@@ -65,6 +64,15 @@
 			<xs:element minOccurs="0" name="resultDescription" type="xs:string"/>
 			<xs:element minOccurs="1" name="isError" type="xs:boolean"/>
 			<xs:element minOccurs="0" name="system" type="xs:string"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="native">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="nativeResultCode" type="xs:string"/>
+						<xs:element minOccurs="0" name="nativeResultDescription" type="xs:string"/>
+						<xs:element minOccurs="0" name="nativeApplication" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	</xs:schema>
