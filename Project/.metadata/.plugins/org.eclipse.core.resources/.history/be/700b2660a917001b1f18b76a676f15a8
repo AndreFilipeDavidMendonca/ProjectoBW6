@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:CallService="http://www.project.org/wsdl/CallService" xmlns:CallService_1="http://www.example.org/CallService" xmlns:OnStartup_1_0="http://EAI/SharedResources/OnStartup/1/0" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:axis2="http://xsd.tns.tibco.com/bw/models/binding/soap/axis2" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_oeI0EAPxEeuh74o8R-nzbg" targetNamespace="http://tns.tibco.com/bw/composite/FWK.SharedResources.module" name="FWK.SharedResources.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_j81mkBKsEeurkOEwCRcusA" name="OnStartup" promote="Componentstarter/OnStartup">
+    <sca:interface.wsdl xmi:id="_j9DpABKsEeurkOEwCRcusA" interface="http://EAI/SharedResources/OnStartup/1/0#wsdl.interface(OnStartup)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl"/>
+    <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_tw13QBKsEeurkOEwCRcusA" name="SOAPServiceBinding" targetNamespace="http://www.tibco.com/3a3a089ebfdf40a2848fbd04bf7ac22e/SOAPServiceBinding" portTypeQName="OnStartup_1_0:OnStartup" transportBindingType="HTTP" attachmentStyle="SwA" modelVersion="1.2.0" portTypeWSDLLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl">
+      <bindingType xmi:id="_txA2YBKsEeurkOEwCRcusA"/>
+      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_vVqgABKsEeurkOEwCRcusA" endpointURI="/SOAPServiceBinding/onStartup/" httpConnector="fwk.sharedresources.module.CallServiceHTTPConnector"/>
+      <operationConfiguration xmi:id="_txEgwBKsEeurkOEwCRcusA" operationName="Operation" action="Operation" actionNeeded="true">
+        <bindingType xmi:id="_txEgwRKsEeurkOEwCRcusA"/>
+        <messageConfiguration xmi:id="_txEgwhKsEeurkOEwCRcusA" messageQName="OnStartup_1_0:OperationRequest" wsdlLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_txEgwxKsEeurkOEwCRcusA" partName="parameters" partElementName="OnStartup_1_0:Operation"/>
+        </messageConfiguration>
+        <messageConfiguration xmi:id="_txEgxBKsEeurkOEwCRcusA" messageQName="OnStartup_1_0:OperationResponse" messageDirection="OUTPUT" wsdlLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_txEgxRKsEeurkOEwCRcusA" partName="parameters" partElementName="OnStartup_1_0:OperationResponse"/>
+        </messageConfiguration>
+        <context xmi:id="_txFH0BKsEeurkOEwCRcusA">
+          <inputMapping xmi:id="_txFu4BKsEeurkOEwCRcusA"/>
+          <outputMapping xmi:id="_txFu4RKsEeurkOEwCRcusA" direction="OUTPUT"/>
+        </context>
+      </operationConfiguration>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_txGV8BKsEeurkOEwCRcusA" bindingName="SOAPServiceBinding"/>
+  </sca:service>
+  <sca:service xmi:id="_lIZawRKsEeurkOEwCRcusA" name="SharedResources.CallService" promote="Component1starter/SharedResources.CallService">
+    <sca:interface.wsdl xmi:id="_lIZaxRKsEeurkOEwCRcusA" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
+    <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_yNMGwBKsEeurkOEwCRcusA" name="SOAPServiceBinding1" targetNamespace="http://www.tibco.com/83911bef055c44a1a1c2b523998f102b/SOAPServiceBinding1" portTypeQName="CallService:SharedResources.CallService" transportBindingType="HTTP" attachmentStyle="SwA" modelVersion="1.2.0" portTypeWSDLLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/SharedResources.CallService.wsdl">
+      <bindingType xmi:id="_yNMGwRKsEeurkOEwCRcusA"/>
+      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_z6lcsBKsEeurkOEwCRcusA" endpointURI="/SOAPServiceBinding1/sharedResources.CallService/" httpConnector="fwk.sharedresources.module.CallServiceHTTPConnector"/>
+      <operationConfiguration xmi:id="_yNMGwhKsEeurkOEwCRcusA" operationName="Operation" action="Operation" actionNeeded="true">
+        <bindingType xmi:id="_yNMGwxKsEeurkOEwCRcusA"/>
+        <messageConfiguration xmi:id="_yNMGxBKsEeurkOEwCRcusA" messageQName="CallService:OperationRequest" wsdlLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/SharedResources.CallService.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_yNMGxRKsEeurkOEwCRcusA" partName="parameters" partElementName="CallService_1:In"/>
+        </messageConfiguration>
+        <messageConfiguration xmi:id="_yNMGxhKsEeurkOEwCRcusA" messageQName="CallService:OperationResponse" messageDirection="OUTPUT" wsdlLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/SharedResources.CallService.wsdl">
+          <messagePartConfigurations xsi:type="axis2:BodyPartConfiguration" xmi:id="_yNMGxxKsEeurkOEwCRcusA" partName="parameters" partElementName="CallService_1:Out"/>
+        </messageConfiguration>
+        <context xmi:id="_yNMGyBKsEeurkOEwCRcusA">
+          <inputMapping xmi:id="_yNMGyRKsEeurkOEwCRcusA"/>
+          <outputMapping xmi:id="_yNMGyhKsEeurkOEwCRcusA" direction="OUTPUT"/>
+        </context>
+      </operationConfiguration>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_yNMGyxKsEeurkOEwCRcusA" bindingName="SOAPServiceBinding1"/>
+  </sca:service>
+  <sca:service xmi:id="_YVnLMBRhEeuIGvkdzW4mDQ" name="EAI.SharedResources.Logging" promote="Component2starter/EAI.SharedResources.Logging">
+    <sca:interface.wsdl xmi:id="_YV5fEBRhEeuIGvkdzW4mDQ" interface="http://www.example.org/wsdl/EAI.SharedResources.Logging#wsdl.interface(EAI.SharedResources.Logging)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Logging.wsdl"/>
+  </sca:service>
+  <sca:property xmi:id="_o2KSgAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2RnQAPxEeuh74o8R-nzbg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2VRoAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2Y8AAPxEeuh74o8R-nzbg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2d0gAPxEeuh74o8R-nzbg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2itAAPxEeuh74o8R-nzbg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2nlgAPxEeuh74o8R-nzbg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2r28APxEeuh74o8R-nzbg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_o2wvcAPxEeuh74o8R-nzbg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_i7qdcBKsEeurkOEwCRcusA" name="ComponentModuleActivator" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_i7qdcRKsEeurkOEwCRcusA" processName="fwk.sharedresources.module.ModuleActivator"/>
+  </sca:component>
+  <sca:component xmi:id="_j8qAYBKsEeurkOEwCRcusA" name="Componentstarter" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_j8qAYRKsEeurkOEwCRcusA" processName="EAI.SharedResources.OnStartup.starter"/>
+    <sca:service xmi:id="_j8xVIBKsEeurkOEwCRcusA" name="OnStartup">
+      <sca:interface.wsdl xmi:id="_j8zKUBKsEeurkOEwCRcusA" interface="http://EAI/SharedResources/OnStartup/1/0#wsdl.interface(OnStartup)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_lIYzsBKsEeurkOEwCRcusA" name="Component1starter" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_lIYzsRKsEeurkOEwCRcusA" processName="Internal.starter"/>
+    <sca:service xmi:id="_lIYzshKsEeurkOEwCRcusA" name="SharedResources.CallService">
+      <sca:interface.wsdl xmi:id="_lIZawBKsEeurkOEwCRcusA" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_fVvbgBRgEeuIGvkdzW4mDQ" name="Component2starter" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_fVvbgRRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.starter"/>
+    <sca:service xmi:id="_YVZIwBRhEeuIGvkdzW4mDQ" name="EAI.SharedResources.Logging">
+      <sca:interface.wsdl xmi:id="_YVa98BRhEeuIGvkdzW4mDQ" interface="http://www.example.org/wsdl/EAI.SharedResources.Logging#wsdl.interface(EAI.SharedResources.Logging)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Logging.wsdl"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_g8-fEBRgEeuIGvkdzW4mDQ" name="Componentlogical" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_g8-fERRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.logical"/>
+  </sca:component>
+  <sca:component xmi:id="_jNtyoBRgEeuIGvkdzW4mDQ" name="Componenterror" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_jNtyoRRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.error"/>
+  </sca:component>
+  <sca:component xmi:id="_ljYCcBRgEeuIGvkdzW4mDQ" name="ComponentWriteLog" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_ljYCcRRgEeuIGvkdzW4mDQ" processName="EAI.SharedResources.Logging.WriteLog"/>
+  </sca:component>
+</sca:composite>

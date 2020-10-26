@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/Logging" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	
+<xsd:import schemaLocation="Finalize.xsd" namespace="http://www.example.org/Finalize"/>
+	
+	<xsd:element name="Data">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element minOccurs="0" name="In" type="finalize:In">
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="FaultDetails">
+		<xsd:sequence>
+			<xsd:element name="ActivityName" type="tns:string"></xsd:element>
+			<xsd:element name="Msg" type="tns:string"></xsd:element>
+			<xsd:element name="MsgCode" type="tns:string"></xsd:element>		
+			<xsd:element name="FullClass" type="tns:string"></xsd:element>
+			<xsd:element name="Class" type="tns:string"></xsd:element>
+			<xsd:element name="ProcessStack" type="tns:string"></xsd:element>
+			<xsd:element name="StackTrace" type="tns:string"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
