@@ -8,7 +8,6 @@
     xmlns:ns0="http://xmlns.example.com/20201022141701PLT"
     xmlns:ns1="http://www.example.org/wsdl/EAI.SharedResources.Logging"
     xmlns:ns2="http://www.example.org/Finalize"
-    xmlns:ns3="http://www.example.org/DummyService"
     xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
@@ -402,7 +401,6 @@
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
         location="../../../../Service%20Descriptors/EAI.SharedResources.Logging.wsdl" namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/Finalize"/>
-    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/DummyService"/>
     <bpws:partnerLinks>
         <bpws:partnerLink myRole="use"
             name="EAI.SharedResources.Logging"
@@ -418,7 +416,6 @@
             name="OperationOut-input" sca-bpel:internal="true"/>
         <bpws:variable name="Success" type="xsd:string"/>
         <bpws:variable element="ns2:In" name="logical-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns3:operationFault" name="logical" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -458,11 +455,8 @@
                 </bpws:targets>
             </bpws:reply>
             <bpws:extensionActivity>
-                <tibex:extActivity
-                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; xmlns:tns=&quot;http://www.example.org/Finalize&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;OperationIn&quot;/>&lt;xsl:template name=&quot;logical-input&quot; match=&quot;/&quot;>&lt;tns:In>&lt;xsl:copy-of select=&quot;$OperationIn/parameters/ns:input&quot;/>&lt;/tns:In>&lt;/xsl:template>&lt;/xsl:stylesheet>"
-                    expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
-                    inputVariable="logical-input" name="logical"
-                    outputVariable="logical"
+                <tibex:extActivity inputVariable="logical-input"
+                    name="logical"
                     tibex:xpdlId="5cded6f5-bccf-425b-88b5-18b65edc7e03"
                     type="bw.generalactivities.callprocess" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
@@ -471,10 +465,6 @@
                     <bpws:sources>
                         <bpws:source linkName="logicalToOperationOut"/>
                     </bpws:sources>
-                    <tibex:inputBindings>
-                        <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; xmlns:tns=&quot;http://www.example.org/Finalize&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;OperationIn.parameters&quot;/>&#xa;    &lt;xsl:template name=&quot;logical-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:In>&#xa;            &lt;xsl:copy-of select=&quot;$OperationIn.parameters&quot;/>&#xa;        &lt;/tns:In>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
-                    </tibex:inputBindings>
                     <tibex:CallProcess
                         subProcessName="EAI.SharedResources.Logging.logical" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>

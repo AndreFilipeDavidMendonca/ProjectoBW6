@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpws:process exitOnStandardFault="no"
-    name="EAI.SharedResources.Logging.starter" suppressJoinFailure="yes"
-    targetNamespace="http://xmlns.example.com/20201022141701"
+    name="EAI.SharedResources.Logging.logical" suppressJoinFailure="yes"
+    targetNamespace="http://xmlns.example.com/20201026170821"
     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
     xmlns:info="http://www.tibco.com/bw/process/info"
     xmlns:ns="http://www.tibco.com/pe/EngineTypes"
-    xmlns:ns0="http://xmlns.example.com/20201022141701PLT"
-    xmlns:ns1="http://www.example.org/wsdl/EAI.SharedResources.Logging"
-    xmlns:ns2="http://www.example.org/Finalize"
-    xmlns:ns3="http://www.example.org/DummyService"
+    xmlns:ns0="http://www.example.org/Finalize"
+    xmlns:ns1="http://www.example.org/DummyService"
     xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
@@ -174,36 +172,20 @@
             </complexType>
             <element name="DuplicateKeyException" type="tns:DuplicateKeyExceptionType"/>
         </schema>
-        <wsdl:definitions
-            targetNamespace="http://xmlns.example.com/20201022141701PLT"
-            xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
-            xmlns:ptyp="http://www.example.org/wsdl/EAI.SharedResources.Logging"
-            xmlns:tns="http://xmlns.example.com/20201022141701PLT"
-            xmlns:vprop="http://docs.oasis-open.org/wsbpel/2.0/varprop"
-            xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-            <plnk:partnerLinkType name="partnerLinkType">
-                <plnk:role name="use" portType="ptyp:EAI.SharedResources.Logging"/>
-            </plnk:partnerLinkType>
-            <wsdl:import namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging"/>
-        </wsdl:definitions>
     </tibex:Types>
-    <tibex:ProcessInfo callable="false" createdBy="andre.mendonca"
-        createdOn="Thu Oct 22 14:17:01 BST 2020" description=""
+    <tibex:ProcessInfo callable="true" createdBy="andre.mendonca"
+        createdOn="Mon Oct 26 17:08:21 GMT 2020" description=""
         extraErrorVars="true" modifiers="public"
         productVersion="6.6.0 V41 2019-11-07" scalable="true"
         singleton="true" stateless="false" type="IT"/>
-    <tibex:ProcessInterface context="" input="" output=""/>
+    <tibex:ProcessInterface context=""
+        input="{http://www.example.org/Finalize}In" output="{http://www.example.org/DummyService}operationFault"/>
     <tibex:ProcessTemplateConfigurations/>
     <notation:Diagram measurementUnit="Pixel" type="BWProcess"
         xmlns:bwnotation="http://tns.tibco.com/bw/runtime/BWNotation"
         xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <children type="2001">
             <children type="5001"/>
-            <children type="3001">
-                <styles xsi:type="notation:SortingStyle"/>
-                <styles xsi:type="notation:FilteringStyle"/>
-                <element href="//0/@process"/>
-            </children>
             <children type="3002">
                 <styles xsi:type="notation:SortingStyle"/>
                 <styles xsi:type="notation:FilteringStyle"/>
@@ -251,8 +233,8 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.0"/>
-                                    <layoutConstraint x="33"
-                                    xsi:type="notation:Bounds" y="78"/>
+                                    <layoutConstraint x="2"
+                                    xsi:type="notation:Bounds" y="2"/>
                                     </children>
                                     <children type="4002">
                                     <children type="4017">
@@ -286,43 +268,8 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.1"/>
-                                    <layoutConstraint x="270"
-                                    xsi:type="notation:Bounds" y="78"/>
-                                    </children>
-                                    <children type="4002">
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <styles fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <styles
-                                    backgroundColor="16777215"
-                                    gradientEndColor="50431"
-                                    gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
-                                    <layoutConstraint x="157"
-                                    xsi:type="notation:Bounds" y="78"/>
+                                    <layoutConstraint x="135"
+                                    xsi:type="notation:Bounds" y="2"/>
                                     </children>
                                     <styles xsi:type="notation:DrawerStyle"/>
                                     <styles xsi:type="notation:SortingStyle"/>
@@ -371,54 +318,26 @@
         <styles xsi:type="notation:DiagramStyle"/>
         <element href="//0"/>
         <edges
-            source="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
-            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.0"/>
-            <bendpoints points="[25, 0, -99, 0]$[100, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
-        </edges>
-        <edges
-            source="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
-            target="//@children.0/@children.4/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
-            <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
-            </children>
-            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
-            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.1"/>
-            <bendpoints points="[25, 0, -88, 0]$[89, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints points="[0, 0, 0, 0]$[0, 0, 0, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
     </notation:Diagram>
-    <tibex:NamespaceRegistry enabled="true">
-        <tibex:namespaceItem
-            namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging" prefix="tns"/>
-        <tibex:namespaceItem
-            namespace="http://www.project.com/common/envelope/1.0" prefix="ns"/>
-    </tibex:NamespaceRegistry>
-    <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
-        location="../../../../Service%20Descriptors/EAI.SharedResources.Logging.wsdl" namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/Finalize"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/DummyService"/>
-    <bpws:partnerLinks>
-        <bpws:partnerLink myRole="use"
-            name="EAI.SharedResources.Logging"
-            partnerLinkType="ns0:partnerLinkType"
-            sca-bpel:ignore="false" sca-bpel:service="EAI.SharedResources.Logging"/>
-    </bpws:partnerLinks>
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
-        <bpws:variable messageType="ns1:operationRequest"
-            name="OperationIn" sca-bpel:internal="true"/>
-        <bpws:variable messageType="ns1:operationResponse"
-            name="OperationOut-input" sca-bpel:internal="true"/>
-        <bpws:variable name="Success" type="xsd:string"/>
-        <bpws:variable element="ns2:In" name="logical-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns3:operationFault" name="logical" sca-bpel:internal="true"/>
+        <bpws:variable element="ns0:In" name="Start"
+            sca-bpel:internal="true" tibex:parameter="in"/>
+        <bpws:variable element="ns1:operationFault" name="End-input"
+            sca-bpel:internal="true" tibex:parameter="out"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -431,53 +350,47 @@
     <bpws:scope name="scope">
         <bpws:flow name="flow">
             <bpws:links>
-                <bpws:link name="OperationInTological" tibex:linkType="SUCCESS"/>
-                <bpws:link name="logicalToOperationOut" tibex:linkType="SUCCESS"/>
+                <bpws:link name="StartToEnd" tibex:linkType="SUCCESS"/>
             </bpws:links>
-            <bpws:receive createInstance="yes" name="OperationIn"
-                operation="operation"
-                partnerLink="EAI.SharedResources.Logging"
-                portType="ns1:EAI.SharedResources.Logging"
-                tibex:xpdlId="ed3c1927-25da-4a68-953c-d5d3dadc9abd" variable="OperationIn">
-                <bpws:sources>
-                    <bpws:source linkName="OperationInTological"/>
-                </bpws:sources>
-            </bpws:receive>
-            <bpws:reply name="OperationOut" operation="operation"
-                partnerLink="EAI.SharedResources.Logging"
-                portType="ns1:EAI.SharedResources.Logging"
-                tibex:xpdlId="e002a04d-3a68-4e30-873b-2cb3c1034b86" variable="OperationOut-input">
-                <tibex:inputBinding expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/wsdl/EAI.SharedResources.Logging" xmlns:ns="http://www.project.com/common/envelope/1.0" version="2.0"&gt;&lt;xsl:param name="Success"/&gt;&lt;xsl:template name="OperationOut-input" match="/"&gt;&lt;tns:operationResponse&gt;&lt;parameters&gt;&lt;ns:result&gt;&lt;ns:resultCode&gt;&lt;xsl:value-of select="$Success"/&gt;&lt;/ns:resultCode&gt;&lt;ns:resultDescription&gt;&lt;xsl:value-of select="'Success'"/&gt;&lt;/ns:resultDescription&gt;&lt;ns:isError&gt;&lt;xsl:value-of select="boolean(0)"/&gt;&lt;/ns:isError&gt;&lt;/ns:result&gt;&lt;/parameters&gt;&lt;/tns:operationResponse&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</tibex:inputBinding>
-                <tibex:inputBindings>
-                    <tibex:partBinding
-                        expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/wsdl/EAI.SharedResources.Logging&quot; xmlns:ns=&quot;http://www.project.com/common/envelope/1.0&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;Success&quot;/>&#xa;    &lt;xsl:template name=&quot;OperationOut-input&quot; match=&quot;/&quot;>&#xa;        &lt;ns:result>&#xa;            &lt;ns:resultCode>&#xa;                &lt;xsl:value-of select=&quot;$Success&quot;/>&#xa;            &lt;/ns:resultCode>&#xa;            &lt;ns:resultDescription>&#xa;                &lt;xsl:value-of select=&quot;'Success'&quot;/>&#xa;            &lt;/ns:resultDescription>&#xa;            &lt;ns:isError>&#xa;                &lt;xsl:value-of select=&quot;boolean(0)&quot;/>&#xa;            &lt;/ns:isError>&#xa;        &lt;/ns:result>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
-                </tibex:inputBindings>
-                <bpws:targets>
-                    <bpws:target linkName="logicalToOperationOut"/>
-                </bpws:targets>
-            </bpws:reply>
             <bpws:extensionActivity>
-                <tibex:extActivity
-                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; xmlns:tns=&quot;http://www.example.org/Finalize&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;OperationIn&quot;/>&lt;xsl:template name=&quot;logical-input&quot; match=&quot;/&quot;>&lt;tns:In>&lt;xsl:copy-of select=&quot;$OperationIn/parameters/ns:input&quot;/>&lt;/tns:In>&lt;/xsl:template>&lt;/xsl:stylesheet>"
-                    expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
-                    inputVariable="logical-input" name="logical"
-                    outputVariable="logical"
-                    tibex:xpdlId="5cded6f5-bccf-425b-88b5-18b65edc7e03"
-                    type="bw.generalactivities.callprocess" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
-                    <bpws:targets>
-                        <bpws:target linkName="OperationInTological"/>
-                    </bpws:targets>
+                <tibex:receiveEvent createInstance="yes"
+                    eventTimeout="0" name="Start"
+                    tibex:xpdlId="5b344425-b410-4f85-98f8-3ecf39345503"
+                    variable="Start" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:sources>
-                        <bpws:source linkName="logicalToOperationOut"/>
+                        <bpws:source linkName="StartToEnd"/>
                     </bpws:sources>
+                    <tibex:eventSource>
+                        <tibex:StartEvent xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
+                    </tibex:eventSource>
+                </tibex:receiveEvent>
+            </bpws:extensionActivity>
+            <bpws:extensionActivity>
+                <tibex:activityExtension inputVariable="End-input"
+                    name="End"
+                    tibex:xpdlId="e26230d5-b3f6-407d-a05d-21f485ce412c" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    <bpws:targets>
+                        <bpws:target linkName="StartToEnd"/>
+                    </bpws:targets>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; xmlns:tns=&quot;http://www.example.org/Finalize&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;OperationIn.parameters&quot;/>&#xa;    &lt;xsl:template name=&quot;logical-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:In>&#xa;            &lt;xsl:copy-of select=&quot;$OperationIn.parameters&quot;/>&#xa;        &lt;/tns:In>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/DummyService&quot; version=&quot;2.0&quot;> &lt;xsl:template name=&quot;End-input&quot; match=&quot;/&quot;> &lt;tns:operationFault/>&lt;/xsl:template> &lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
-                    <tibex:CallProcess
-                        subProcessName="EAI.SharedResources.Logging.logical" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
-                </tibex:extActivity>
+                    <tibex:config>
+                        <bwext:BWActivity
+                            activityTypeID="bw.internal.end"
+                            xmlns:activityconfig="http://tns.tibco.com/bw/model/activityconfig"
+                            xmlns:bwext="http://tns.tibco.com/bw/model/core/bwext"
+                            xmlns:internalactivities="http://ns.tibco.com/bw/core/internalactivity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                            <activityConfig>
+                                <properties name="config" xsi:type="activityconfig:EMFProperty">
+                                    <type href="http://ns.tibco.com/bw/core/internalactivity#//End"/>
+                                    <value xsi:type="internalactivities:End"/>
+                                </properties>
+                            </activityConfig>
+                        </bwext:BWActivity>
+                    </tibex:config>
+                </tibex:activityExtension>
             </bpws:extensionActivity>
         </bpws:flow>
     </bpws:scope>
