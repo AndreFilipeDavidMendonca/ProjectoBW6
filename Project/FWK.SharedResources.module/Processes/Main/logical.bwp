@@ -549,11 +549,11 @@
             namespace="http://www.w3.org/2001/XMLSchema" prefix="xsd"/>
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema"
-        location="../../Schemas/Services/Logical.xsd" namespace="http://www.project.org/Logical"/>
+        location="../../../module.SharedResources/Schemas/EAIMessaging/Logical.xsd" namespace="http://www.project.org/Logical"/>
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
-        location="../../Service%20Descriptors/DummyLogical.wsdl" namespace="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical"/>
+        location="../../../module.SharedResources/Service%20Descriptors/DummyLogical.wsdl" namespace="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema"
-        location="../../Schemas/SharedResources.Main.xsd" namespace="http://www.example.org/schema/SharedResources.Main"/>
+        location="../../../module.SharedResources/Schemas/EAIMessaging/SharedResources.Main.xsd" namespace="http://www.example.org/schema/SharedResources.Main"/>
     <bpws:partnerLinks>
         <bpws:partnerLink name="DummyLogical"
             partnerLinkType="ns1:partnerLinkType2" partnerRole="use"
@@ -620,6 +620,8 @@
                         <tibex:inputBinding
                             expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; xmlns:tns=&quot;http://www.example.org/schema/SharedResources.Main&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;Invoke.parameters&quot;/>&#xa;    &lt;xsl:template name=&quot;End-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:Out>&#xa;            &lt;xsl:copy-of select=&quot;$Invoke.parameters&quot;/>&#xa;        &lt;/tns:Out>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
+                    <tibex:inputBinding
+                        expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/schema/SharedResources.Main" version="2.0"&gt; &lt;xsl:template name="End-input" match="/"&gt; &lt;tns:Out/&gt;&lt;/xsl:template&gt; &lt;/xsl:stylesheet&gt;</tibex:inputBinding>
                     <tibex:config>
                         <bwext:BWActivity
                             activityTypeID="bw.internal.end"

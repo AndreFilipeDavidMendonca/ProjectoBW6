@@ -184,6 +184,10 @@
             <plnk:partnerLinkType name="partnerLinkType">
                 <plnk:role name="use" portType="ptyp:EAI.SharedResources.Logging"/>
             </plnk:partnerLinkType>
+            <plnk:partnerLinkType name="partnerLinkType1">
+                <plnk:role name="use" portType="ptyp:EAI.SharedResources.Logging"/>
+            </plnk:partnerLinkType>
+            <wsdl:import namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging"/>
             <wsdl:import namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging"/>
         </wsdl:definitions>
     </tibex:Types>
@@ -400,13 +404,13 @@
             namespace="http://www.project.com/common/envelope/1.0" prefix="ns"/>
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
-        location="../../../../Service%20Descriptors/EAI.SharedResources.Logging.wsdl" namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging"/>
-    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/Finalize"/>
+        location="../../../../../module.SharedResources/Service%20Descriptors/EAI.SharedResources.Logging.wsdl" namespace="http://www.example.org/wsdl/EAI.SharedResources.Logging"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/DummyService"/>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/Finalize"/>
     <bpws:partnerLinks>
         <bpws:partnerLink myRole="use"
             name="EAI.SharedResources.Logging"
-            partnerLinkType="ns0:partnerLinkType"
+            partnerLinkType="ns0:partnerLinkType1"
             sca-bpel:ignore="false" sca-bpel:service="EAI.SharedResources.Logging"/>
     </bpws:partnerLinks>
     <bpws:variables>

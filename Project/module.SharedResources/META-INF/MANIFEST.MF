@@ -9,12 +9,29 @@ TIBCO-BW-SharedModule: META-INF/module.bwm
 TIBCO-BW-Edition: bwe
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv
 Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
- com.tibco.bw.sharedresource.model; filter:="(name=bw.httpconnector)"
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.httpconnector)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.jmsconnection)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.jndiconfiguration)"
 TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
 Provide-Capability: com.tibco.bw.module; name="module.SharedResources"; version:Version="1.0.0",
  com.tibco.bw.wsdls; ns="http://www.tibco.com/hero/",
+ com.tibco.bw.wsdls; ns="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical",
+ com.tibco.bw.wsdls; ns="http://www.tibco.com/DummyStarter/",
+ com.tibco.bw.wsdls; ns="http://www.example.org/wsdl/EAI.SharedResources.Logging",
+ com.tibco.bw.wsdls; ns="http://www.project.org/wsdl/CallService",
+ com.tibco.bw.wsdls; ns="http://www.example.org/wsdl/SharedResources.main",
  com.tibco.bw.schemas; ns="http://www.polarising.com/Shared/Resources/ErrorHandler",
  com.tibco.bw.schemas; ns="http://www.polarising.com/Shared/Resources/Services",
  com.tibco.bw.schemas; ns="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd",
- com.tibco.bw.resources; name="module.sharedresources"
+ com.tibco.bw.schemas; ns="http://www.example.org/Logging",
+ com.tibco.bw.schemas; ns="http://www.project.com/common/envelope/1.0",
+ com.tibco.bw.schemas; ns="http://www.example.org/CallService",
+ com.tibco.bw.schemas; ns="http://www.example.org/Finalize",
+ com.tibco.bw.schemas; ns="http://www.project.org/Logical",
+ com.tibco.bw.schemas; ns="http://www.EAI.SharedResources.CallService.org/schema/1602007403179",
+ com.tibco.bw.schemas; ns="http://www.example.org/schema/SharedResources.Main",
+ com.tibco.bw.schemas; ns="http://www.example.org/schema/SharedResource.OnStartup",
+ com.tibco.bw.schemas; ns="http://www.example.org/DummyService",
+ com.tibco.bw.resources; name="module.sharedresources",
+ com.tibco.bw.resources; name="Transports.JMS.TRACE"
 TIBCO-BW-Version: 6.6.0 V41 2019-11-07

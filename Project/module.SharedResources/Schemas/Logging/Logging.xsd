@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:finalize="http://www.example.org/Finalize" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.example.org/Logging">
+
+	<xsd:import namespace="http://www.example.org/Finalize" schemaLocation="../EAIMessaging/Finalize.xsd"/>
+	
+	<xsd:element name="Log">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element minOccurs="0" name="Log" type="finalize:ProcessContext">
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Data">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element minOccurs="0" name="In" type="finalize:In">
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="FaultDetails">
+		<xsd:sequence>
+			<xsd:element name="ActivityName" type="xsd:string"/>
+			<xsd:element name="Msg" type="xsd:string"/>
+			<xsd:element name="MsgCode" type="xsd:string"/>
+			<xsd:element name="FullClass" type="xsd:string"/>
+			<xsd:element name="Class" type="xsd:string"/>
+			<xsd:element name="ProcessStack" type="xsd:string"/>
+			<xsd:element name="StackTrace" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+
+</xsd:schema>

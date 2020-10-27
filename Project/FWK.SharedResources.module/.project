@@ -3,6 +3,7 @@
 	<name>FWK.SharedResources.module</name>
 	<comment></comment>
 	<projects>
+		<project>module.SharedResources</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

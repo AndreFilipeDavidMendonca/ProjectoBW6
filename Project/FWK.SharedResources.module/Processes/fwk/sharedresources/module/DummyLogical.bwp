@@ -183,6 +183,10 @@
             <plnk:partnerLinkType name="partnerLinkType">
                 <plnk:role name="use" portType="ptyp:DummyLogical"/>
             </plnk:partnerLinkType>
+            <plnk:partnerLinkType name="partnerLinkType1">
+                <plnk:role name="use" portType="ptyp:DummyLogical"/>
+            </plnk:partnerLinkType>
+            <wsdl:import namespace="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical"/>
             <wsdl:import namespace="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical"/>
         </wsdl:definitions>
     </tibex:Types>
@@ -351,9 +355,11 @@
         <tibex:namespaceItem namespace="http://www.project.org/Logical" prefix="ns"/>
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" namespace="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical"/>
+    <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
+        location="../../../../../module.SharedResources/Service%20Descriptors/DummyLogical.wsdl" namespace="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical"/>
     <bpws:partnerLinks>
         <bpws:partnerLink myRole="use" name="DummyLogical"
-            partnerLinkType="ns0:partnerLinkType"
+            partnerLinkType="ns0:partnerLinkType1"
             sca-bpel:ignore="false" sca-bpel:service="DummyLogical"/>
     </bpws:partnerLinks>
     <bpws:variables>

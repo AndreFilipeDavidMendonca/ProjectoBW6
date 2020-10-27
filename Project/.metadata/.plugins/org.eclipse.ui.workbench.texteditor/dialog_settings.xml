@@ -2,30 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="xsd:" key="selection"/>
+		<item value="&lt;/" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="&lt;/xsd:"/>
+			<item value="&lt;xsd:"/>
+			<item value="xsdd"/>
+			<item value="xsdddd"/>
+			<item value="xsdddddd"/>
+			<item value="xsd"/>
+			<item value="xs"/>
 			<item value="tns:"/>
-			<item value="&lt;/sequence&gt;"/>
-			<item value="&lt;/element "/>
-			<item value="&lt;/complexType"/>
-			<item value="xs:"/>
-			<item value="/xs:"/>
-			<item value="&lt;xs:/"/>
-			<item value="&lt;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&lt;/"/>
+			<item value="&lt;"/>
+			<item value="xsd"/>
 			<item value="xsd:"/>
 			<item value="&lt;sequence&gt;"/>
 			<item value="&lt;element "/>
 			<item value="&lt;complexType"/>
 			<item value="/"/>
-			<item value=""/>
-			<item value="&lt;/xs:"/>
-			<item value="&lt;xs:"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

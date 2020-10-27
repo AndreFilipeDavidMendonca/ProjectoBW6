@@ -12,6 +12,7 @@
     xmlns:ns4="http://www.example.org/CallService"
     xmlns:ns5="http://www.tibco.com/DummyStarter/"
     xmlns:ns6="http://www.project.org/Logical"
+    xmlns:ns7="http://tns.tibco.com/bw/palette/internal/activityerror+da322f7d-cdc1-4bd9-8560-44788a93ecda"
     xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
@@ -204,9 +205,9 @@
             <element name="EndpointReference" type="tns:EndpointReference"/>
         </schema>
         <schema elementFormDefault="unqualified"
-            targetNamespace="http://tns.tibco.com/bw/palette/internal/activityerror+013cb8f1-dd5c-402e-9777-71f515776622"
+            targetNamespace="http://tns.tibco.com/bw/palette/internal/activityerror+da322f7d-cdc1-4bd9-8560-44788a93ecda"
             xmlns="http://www.w3.org/2001/XMLSchema"
-            xmlns:Q1="http://schemas.tibco.com/bw/pe/plugin/5.0/exceptions" xmlns:tns="http://tns.tibco.com/bw/palette/internal/activityerror+013cb8f1-dd5c-402e-9777-71f515776622">
+            xmlns:Q1="http://schemas.tibco.com/bw/pe/plugin/5.0/exceptions" xmlns:tns="http://tns.tibco.com/bw/palette/internal/activityerror+da322f7d-cdc1-4bd9-8560-44788a93ecda">
             <import namespace="http://schemas.tibco.com/bw/pe/plugin/5.0/exceptions"/>
             <element name="ActivityErrorData" type="tns:ActivityErrorDataType"/>
             <complexType name="ActivityErrorDataType">
@@ -228,6 +229,10 @@
             <plnk:partnerLinkType name="partnerLinkType">
                 <plnk:role name="use" portType="ptyp2:DummyStarter"/>
             </plnk:partnerLinkType>
+            <plnk:partnerLinkType name="partnerLinkType1">
+                <plnk:role name="use" portType="ptyp2:DummyStarter"/>
+            </plnk:partnerLinkType>
+            <wsdl:import namespace="http://www.tibco.com/DummyStarter/"/>
             <wsdl:import namespace="http://www.tibco.com/DummyStarter/"/>
         </wsdl:definitions>
     </tibex:Types>
@@ -392,7 +397,7 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.2"/>
-                                    <layoutConstraint x="230"
+                                    <layoutConstraint x="95"
                                     xsi:type="notation:Bounds" y="52"/>
                                     </children>
                                     <children type="4002">
@@ -427,7 +432,7 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.3"/>
-                                    <layoutConstraint x="95"
+                                    <layoutConstraint x="211"
                                     xsi:type="notation:Bounds" y="52"/>
                                     </children>
                                     <styles xsi:type="notation:DrawerStyle"/>
@@ -476,18 +481,18 @@
         <styles xsi:type="notation:DiagramStyle"/>
         <element href="//0"/>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.0"/>
-            <bendpoints points="[25, 0, -146, 0]$[147, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints points="[25, 0, -80, 0]$[81, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
             target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.3" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
@@ -495,18 +500,19 @@
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.1"/>
-            <bendpoints points="[25, 0, -80, 0]$[81, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints points="[25, 0, -98, 0]$[99, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <targetAnchor id="(0.36585365853658536,0.24)" xsi:type="notation:IdentityAnchor"/>
         </edges>
         <edges
             source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.3"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2" type="4006">
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.2"/>
-            <bendpoints points="[25, 0, -98, 0]$[99, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints points="[25, 0, -143, 0]$[144, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
     </notation:Diagram>
     <tibex:NamespaceRegistry enabled="true">
@@ -521,11 +527,12 @@
             namespace="http://www.tibco.com/DummyStarter/" prefix="tns2"/>
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/CallService"/>
-    <bpws:import importType="http://schemas.xmlsoap.org/wsdl/" namespace="http://www.tibco.com/DummyStarter/"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.project.org/Logical"/>
+    <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
+        location="../../../module.SharedResources/Service%20Descriptors/DummyStarter.wsdl" namespace="http://www.tibco.com/DummyStarter/"/>
     <bpws:partnerLinks>
         <bpws:partnerLink name="DummyStarter"
-            partnerLinkType="ns1:partnerLinkType" partnerRole="use"
+            partnerLinkType="ns1:partnerLinkType1" partnerRole="use"
             sca-bpel:ignore="true" sca-bpel:reference="DummyStarter" sca-bpel:wiredByImpl="false">
             <tibex:ReferenceWire dynamic="true" inline="false"
                 processConfigurationName="" processName="" serviceName=""/>
@@ -534,19 +541,19 @@
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
-        <bpws:variable messageType="ns5:operationRequest"
-            name="Invoke-input" sca-bpel:internal="true"/>
         <bpws:variable element="ns0:SimpleEndpointReference"
             name="SetEPR-input" sca-bpel:internal="true"/>
         <bpws:variable element="ns0:EndpointReference" name="SetEPR" sca-bpel:internal="true"/>
-        <bpws:variable messageType="ns5:operationResponse" name="Invoke" sca-bpel:internal="true"/>
-        <bpws:variable element="ns3:ActivityErrorData"
-            name="_error_Invoke" sca-bpel:internal="true"/>
-        <bpws:variable element="ns:ErrorReport" name="_error" sca-bpel:internal="true"/>
         <bpws:variable element="ns4:Out" name="End-input"
             sca-bpel:internal="true" tibex:parameter="out"/>
         <bpws:variable element="ns4:Input" name="Start"
             sca-bpel:internal="true" tibex:parameter="in"/>
+        <bpws:variable messageType="ns5:operationRequest"
+            name="Invoke-input" sca-bpel:internal="true"/>
+        <bpws:variable messageType="ns5:operationResponse" name="Invoke" sca-bpel:internal="true"/>
+        <bpws:variable element="ns7:ActivityErrorData"
+            name="_error_Invoke" sca-bpel:internal="true"/>
+        <bpws:variable element="ns:ErrorReport" name="_error" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -559,9 +566,9 @@
     <bpws:scope name="scope">
         <bpws:flow name="flow">
             <bpws:links>
-                <bpws:link name="InvokeToEnd" tibex:linkType="SUCCESS"/>
                 <bpws:link name="StartToSetEPR" tibex:linkType="SUCCESS"/>
                 <bpws:link name="SetEPRToInvoke" tibex:linkType="SUCCESS"/>
+                <bpws:link name="InvokeToEnd" tibex:linkType="SUCCESS"/>
             </bpws:links>
             <bpws:extensionActivity>
                 <tibex:receiveEvent createInstance="yes"
@@ -605,23 +612,6 @@
                     </tibex:config>
                 </tibex:activityExtension>
             </bpws:extensionActivity>
-            <bpws:invoke inputVariable="Invoke-input" name="Invoke"
-                operation="operation" outputVariable="Invoke"
-                partnerLink="DummyStarter" portType="ns5:DummyStarter" tibex:xpdlId="013cb8f1-dd5c-402e-9777-71f515776622">
-                <tibex:inputBinding expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns2="http://www.tibco.com/DummyStarter/" xmlns:ns="http://www.project.org/Logical" version="2.0"&gt;&lt;xsl:param name="Start"/&gt;&lt;xsl:template name="Invoke-input" match="/"&gt;&lt;tns2:operationRequest&gt;&lt;parameters&gt;&lt;xsl:copy-of select="$Start/ns:input"/&gt;&lt;/parameters&gt;&lt;/tns2:operationRequest&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</tibex:inputBinding>
-                <tibex:inputBindings>
-                    <tibex:partBinding
-                        expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns2=&quot;http://www.tibco.com/DummyStarter/&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;Start&quot;/>&#xa;    &lt;xsl:template name=&quot;Invoke-input&quot; match=&quot;/&quot;>&#xa;        &lt;xsl:copy-of select=&quot;$Start/ns:input&quot;/>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
-                </tibex:inputBindings>
-                <bpws:targets>
-                    <bpws:target linkName="SetEPRToInvoke"/>
-                </bpws:targets>
-                <bpws:sources>
-                    <bpws:source linkName="InvokeToEnd"/>
-                </bpws:sources>
-                <bpws:correlations/>
-            </bpws:invoke>
             <bpws:extensionActivity>
                 <tibex:activityExtension inputVariable="SetEPR-input"
                     name="SetEPR" outputVariable="SetEPR"
@@ -652,6 +642,22 @@
                     </tibex:config>
                 </tibex:activityExtension>
             </bpws:extensionActivity>
+            <bpws:invoke inputVariable="Invoke-input" name="Invoke"
+                operation="operation" outputVariable="Invoke"
+                partnerLink="DummyStarter" portType="ns5:DummyStarter" tibex:xpdlId="da322f7d-cdc1-4bd9-8560-44788a93ecda">
+                <tibex:inputBinding expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ns="http://www.project.org/Logical" xmlns:tns2="http://www.tibco.com/DummyStarter/" version="2.0"&gt;&lt;xsl:param name="Start"/&gt;&lt;xsl:template name="Invoke-input" match="/"&gt;&lt;tns2:operationRequest&gt;&lt;parameters&gt;&lt;xsl:copy-of select="$Start/ns:input"/&gt;&lt;/parameters&gt;&lt;/tns2:operationRequest&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</tibex:inputBinding>
+                <tibex:inputBindings>
+                    <tibex:partBinding
+                        expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; xmlns:tns2=&quot;http://www.tibco.com/DummyStarter/&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;Start&quot;/>&#xa;    &lt;xsl:template name=&quot;Invoke-input&quot; match=&quot;/&quot;>&#xa;        &lt;xsl:copy-of select=&quot;$Start/ns:input&quot;/>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                </tibex:inputBindings>
+                <bpws:targets>
+                    <bpws:target linkName="SetEPRToInvoke"/>
+                </bpws:targets>
+                <bpws:sources>
+                    <bpws:source linkName="InvokeToEnd"/>
+                </bpws:sources>
+            </bpws:invoke>
         </bpws:flow>
     </bpws:scope>
 </bpws:process>

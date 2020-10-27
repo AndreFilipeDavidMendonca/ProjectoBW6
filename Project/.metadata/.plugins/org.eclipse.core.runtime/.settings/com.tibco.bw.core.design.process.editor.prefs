@@ -108,12 +108,16 @@
 //SharedResources/Processes/sharedresources/logical.bwp.recent.expansionstate=1
 com.tibco.bw.core.design.process.editor.numofvirtualpalettes=0
 eclipse.preferences.version=1
+global.5=2020/10/27/14\:51\:29
 global.bw.internal.setEPR=2020/10/20/14\:04\:26
+global.com.tibco.bw.core.design.process.editor.Activity_4002_Empty=2020/10/27/14\:52\:38
 global.com.tibco.bw.core.design.process.editor.Activity_4002_Receive=2020/10/20/14\:11\:33
 global.com.tibco.bw.core.design.process.editor.Activity_4002_Reply=2020/10/20/14\:11\:17
 global.favorite_palette_size=0
 global.recent_palette_\#0=bw.internal.setEPR
 global.recent_palette_\#1=com.tibco.bw.core.design.process.editor.Activity_4002_Reply
 global.recent_palette_\#2=com.tibco.bw.core.design.process.editor.Activity_4002_Receive
+global.recent_palette_\#3=5
+global.recent_palette_\#4=com.tibco.bw.core.design.process.editor.Activity_4002_Empty
 global.recent_palette_capacity=8
-global.recent_palette_size=3
+global.recent_palette_size=5

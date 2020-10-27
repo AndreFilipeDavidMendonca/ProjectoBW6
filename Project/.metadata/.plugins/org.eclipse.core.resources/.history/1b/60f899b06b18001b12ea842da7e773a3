@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/Finalize" 
+	xmlns:tns="http://www.example.org/Finalize" 
+	elementFormDefault="qualified"
+	xmlns:logical="http://www.project.org/Logical" >
+
+    <import schemaLocation="Logical.xsd" namespace="http://www.project.org/Logical"/>
+	
+	<element name="In" type="tns:In"/>
+	<element name="ProcessContext" type="tns:ProcessContext"/>
+	<complexType name="In">
+		<sequence>
+			<element ref="logical:input" minOccurs="0"/>
+			<element ref="logical:output" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<xsd:complexType name="ProcessContext">
+		<xsd:sequence>
+			<xsd:element name="BusinessDomain" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="TechnicalDomain" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="BusinessConcept" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="BusinessOperation" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="TransactionID" type="xsd:string" />
+			<xsd:element name="ServiceName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="ProcessName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="ComponentName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="HostName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="DateTime" type="xsd:dateTime"
+				minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+</schema>

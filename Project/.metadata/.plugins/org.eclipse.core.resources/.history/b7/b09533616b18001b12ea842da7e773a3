@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/Logging"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified"
+	xmlns:finalize="http://www.example.org/Finalize">
+
+	<xsd:import schemaLocation="Finalize.xsd"
+		namespace="http://www.example.org/Finalize" />
+	
+	<xsd:element name="ProcessContext" type="ProcessContext" />
+	<xsd:element name="Data">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element minOccurs="0" name="In"
+					type="finalize:In">
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="FaultDetails">
+		<xsd:sequence>
+			<xsd:element name="ActivityName" type="xsd:string"></xsd:element>
+			<xsd:element name="Msg" type="xsd:string"></xsd:element>
+			<xsd:element name="MsgCode" type="xsd:string"></xsd:element>
+			<xsd:element name="FullClass" type="xsd:string"></xsd:element>
+			<xsd:element name="Class" type="xsd:string"></xsd:element>
+			<xsd:element name="ProcessStack" type="xsd:string"></xsd:element>
+			<xsd:element name="StackTrace" type="xsd:string"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ProcessContext">
+		<xsd:sequence>
+			<xsd:element name="BusinessDomain" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="TechnicalDomain" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="BusinessConcept" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="BusinessOperation" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="TransactionID" type="xsd:string" />
+			<xsd:element name="ServiceName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="ProcessName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="ComponentName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="HostName" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="DateTime" type="xsd:dateTime"
+				minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+</xsd:schema>

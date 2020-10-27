@@ -187,6 +187,10 @@
             <plnk:partnerLinkType name="partnerLinkType">
                 <plnk:role name="use" portType="ptyp1:SharedResources.main"/>
             </plnk:partnerLinkType>
+            <plnk:partnerLinkType name="partnerLinkType1">
+                <plnk:role name="use" portType="ptyp1:SharedResources.main"/>
+            </plnk:partnerLinkType>
+            <wsdl:import namespace="http://www.example.org/wsdl/SharedResources.main"/>
             <wsdl:import namespace="http://www.example.org/wsdl/SharedResources.main"/>
         </wsdl:definitions>
     </tibex:Types>
@@ -402,12 +406,13 @@
             namespace="http://www.example.org/schema/SharedResources.Main" prefix="tns1"/>
         <tibex:namespaceItem namespace="http://www.project.org/Logical" prefix="ns"/>
     </tibex:NamespaceRegistry>
-    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/schema/SharedResources.Main"/>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema"
+        location="../../../module.SharedResources/Schemas/EAIMessaging/SharedResources.Main.xsd" namespace="http://www.example.org/schema/SharedResources.Main"/>
     <bpws:import importType="http://schemas.xmlsoap.org/wsdl/"
-        location="../../Service%20Descriptors/SharedResources.main.wsdl" namespace="http://www.example.org/wsdl/SharedResources.main"/>
+        location="../../../module.SharedResources/Service%20Descriptors/SharedResources.main.wsdl" namespace="http://www.example.org/wsdl/SharedResources.main"/>
     <bpws:partnerLinks>
         <bpws:partnerLink myRole="use" name="SharedResources.main"
-            partnerLinkType="ns0:partnerLinkType"
+            partnerLinkType="ns0:partnerLinkType1"
             sca-bpel:ignore="false" sca-bpel:service="SharedResources.main"/>
     </bpws:partnerLinks>
     <bpws:variables>
