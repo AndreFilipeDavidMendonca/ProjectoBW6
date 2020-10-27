@@ -73,5 +73,29 @@
 			<type>String</type>
 			<isOverride>false</isOverride>
 		</globalVariable>
+		<globalVariable>
+			<name>/OracleJDBCConnection/username</name>
+			<value>SYSTEM</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/OracleJDBCConnection/password</name>
+			<value>#!FPrEzIDjkE286z0EM5iQk2jRF9Thj1Wr</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>Password</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/OracleJDBCConnection/url</name>
+			<value>jdbc:oracle:thin:@localhost:1521:XE</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
 	</globalVariables>
 </repository>
