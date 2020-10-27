@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/FileServiceProperties" xmlns:tns="http://www.example.org/FileServiceProperties" elementFormDefault="qualified">
+
+
+	
+  	<element name="FileServiceProperties" type="tns:FileServicePropertiesType"/>
+	<complexType name="FileServicePropertiesType">
+		<sequence>
+			<element name="GUID" type="string"/>
+			<element name="Function" type="string" minOccurs="0"/>
+			<element name="Operation" type="string" minOccurs="0"/>
+			<element name="Version" type="string" minOccurs="0"/>
+			<element name="Inbound" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="FilenameInbound" type="string" minOccurs="0"/>
+						<element name="FullFilenameInbound" type="string" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Outbound" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="FolderOutbound" type="string" minOccurs="0"/>
+						<element name="OutboundFiles" minOccurs="0" maxOccurs="unbounded">
+							<complexType>
+								<sequence>
+									<element name="FullFilenameOutbound" type="string" minOccurs="0"/>
+									<element name="Description" type="string" minOccurs="0"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Temp" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="FolderTemp" type="string" minOccurs="0"/>
+						<element name="TempFiles" minOccurs="0" maxOccurs="unbounded">
+							<complexType>
+								<sequence>
+									<element name="FullFilenameTemp" type="string" minOccurs="0"/>
+									<element name="Description" type="string" minOccurs="0"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Archive" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="FolderArchiveInbound" type="string" minOccurs="0"/>
+						<element name="FullFilenameArchiveInbound" type="string" minOccurs="0"/>
+						<element name="FolderArchiveOutbound" type="string" minOccurs="0"/>
+						<element name="ArchiveOutboundFiles" minOccurs="0" maxOccurs="unbounded">
+							<complexType>
+								<sequence>	
+									<element name="FullFilenameArchiveOutbound" type="string"/>
+									<element name="Description" type="string" minOccurs="0"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Error" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="FolderError" type="string" minOccurs="0"/>
+						<element name="FullFilenameError" type="string" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Thread" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="NrOfRecordsToRead" type="int" minOccurs="0"/>
+						<element name="ThreadCount" type="int" minOccurs="0"/>
+						<element name="ThreadWaitTimeoutMs" type="int" minOccurs="0"/>
+					</sequence>
+				</complexType>
+			</element>		
+		</sequence>
+	</complexType>
+	
+	
+	<element name="SpecificFileServiceProperties" type="tns:SpecificFileServicePropertiesType"/>
+	<complexType name="SpecificFileServicePropertiesType">
+		<sequence>
+			<element name="Outbound" minOccurs="0">
+				<complexType>
+					<sequence>	
+						<element name="OutboundFiles" minOccurs="0" maxOccurs="unbounded">
+							<complexType>
+								<sequence>
+									<element name="FullFilenameOutbound" type="string" minOccurs="0"/>
+									<element name="Description" type="string" minOccurs="0"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Temp" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="TempFiles" minOccurs="0" maxOccurs="unbounded">
+							<complexType>
+								<sequence>
+									<element name="FullFilenameTemp" type="string" minOccurs="0"/>
+									<element name="Description" type="string" minOccurs="0"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Archive" minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="ArchiveOutboundFiles" minOccurs="0" maxOccurs="unbounded">
+							<complexType>
+								<sequence>
+								    <element name="FullFilenameArchiveOutbound" type="string"/>
+									<element name="Description" type="string" minOccurs="0"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>	
+		</sequence>
+	</complexType>
+</schema>
