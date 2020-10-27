@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:logical="http://www.project.org/Logical" xmlns:tns="http://www.example.org/Finalize" elementFormDefault="qualified" targetNamespace="http://www.example.org/Finalize">
+
+    <import namespace="http://www.project.org/Logical" schemaLocation="Logical.xsd"/>
+	
+	<element name="In" type="tns:In"/>
+	<element name="ProcessContext" type="tns:ProcessContext"/>
+	<complexType name="In">
+		<sequence>
+			<element minOccurs="0" ref="logical:input"/>
+			<element minOccurs="0" ref="logical:output"/>
+		</sequence>
+	</complexType>
+	<complexType name="ProcessContext">
+		<sequence>
+			<element minOccurs="0" name="BusinessDomain" type="string"/>
+			<element minOccurs="0" name="TechnicalDomain" type="string"/>
+			<element minOccurs="0" name="BusinessConcept" type="string"/>
+			<element minOccurs="0" name="BusinessOperation" type="string"/>
+			<element name="TransactionID" type="string"/>
+			<element minOccurs="0" name="ServiceName" type="string"/>
+			<element minOccurs="0" name="ProcessName" type="string"/>
+			<element minOccurs="0" name="ComponentName" type="string"/>
+			<element minOccurs="0" name="HostName" type="string"/>
+			<element minOccurs="0" name="DateTime" type="dateTime"/>
+		</sequence>
+	</complexType>
+</schema>
