@@ -10,6 +10,8 @@
     xmlns:ns10="http://www.example.org/schema/SharedResources.Main"
     xmlns:ns11="http://tns.tibco.com/bw/palette/internal/activityerror+39fe16db-de78-41a5-90b4-40046f7a0679"
     xmlns:ns12="http://tns.tibco.com/bw/palette/internal/activityerror+f94d776c-3606-4c28-b8d2-c94271d62b6b"
+    xmlns:ns13="http://www.example.org/CallService"
+    xmlns:ns14="http://schemas.tibco.com/bw/pe/plugin/5.0/exceptions"
     xmlns:ns2="http://www.polarising.com/common/logical/1.0"
     xmlns:ns3="http://module.Framework.Shared.Resources/Schemas/EAIMessaging/Initialize"
     xmlns:ns4="http://module.Framework.Shared.Resources.ServiceDescriptors.DummyLogical/"
@@ -464,8 +466,7 @@
                             <styles xsi:type="bwnotation:BackgroundStyle"/>
                             <styles xsi:type="bwnotation:ResizingStyle"/>
                             <element href="//0/@process/@activity"/>
-                            <layoutConstraint height="365" width="444"
-                                x="30" xsi:type="notation:Bounds" y="20"/>
+                            <layoutConstraint height="404" width="819" xsi:type="notation:Bounds"/>
                         </children>
                         <styles xsi:type="notation:SortingStyle"/>
                         <styles xsi:type="notation:FilteringStyle"/>
@@ -475,7 +476,8 @@
                     <styles xsi:type="bwnotation:BackgroundStyle"/>
                     <styles xsi:type="bwnotation:ResizingStyle"/>
                     <element href="//0/@process/@activity"/>
-                    <layoutConstraint height="409" width="519" xsi:type="notation:Bounds"/>
+                    <layoutConstraint height="472" width="819" x="1"
+                        xsi:type="notation:Bounds" y="1"/>
                 </children>
                 <styles xsi:type="notation:SortingStyle"/>
                 <styles xsi:type="notation:FilteringStyle"/>
@@ -483,7 +485,7 @@
             </children>
             <styles fontName="Segoe UI" lineColor="0" xsi:type="notation:ShapeStyle"/>
             <element href="//0/@process"/>
-            <layoutConstraint height="460" width="1161" xsi:type="notation:Bounds"/>
+            <layoutConstraint height="524" width="1161" xsi:type="notation:Bounds"/>
         </children>
         <styles xsi:type="notation:DiagramStyle"/>
         <element href="//0"/>
@@ -554,6 +556,7 @@
         location="../../../module.SharedResources/Service%20Descriptors/DummyLogical.wsdl" namespace="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema"
         location="../../../module.SharedResources/Schemas/EAIMessaging/SharedResources.Main.xsd" namespace="http://www.example.org/schema/SharedResources.Main"/>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/CallService"/>
     <bpws:partnerLinks>
         <bpws:partnerLink name="DummyLogical"
             partnerLinkType="ns1:partnerLinkType2" partnerRole="use"
@@ -620,8 +623,6 @@
                         <tibex:inputBinding
                             expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.project.org/Logical&quot; xmlns:tns=&quot;http://www.example.org/schema/SharedResources.Main&quot; version=&quot;2.0&quot;>&#xa;    &lt;xsl:param name=&quot;Invoke.parameters&quot;/>&#xa;    &lt;xsl:template name=&quot;End-input&quot; match=&quot;/&quot;>&#xa;        &lt;tns:Out>&#xa;            &lt;xsl:copy-of select=&quot;$Invoke.parameters&quot;/>&#xa;        &lt;/tns:Out>&#xa;    &lt;/xsl:template>&#xa;&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
-                    <tibex:inputBinding
-                        expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://www.example.org/schema/SharedResources.Main" version="2.0"&gt; &lt;xsl:template name="End-input" match="/"&gt; &lt;tns:Out/&gt;&lt;/xsl:template&gt; &lt;/xsl:stylesheet&gt;</tibex:inputBinding>
                     <tibex:config>
                         <bwext:BWActivity
                             activityTypeID="bw.internal.end"

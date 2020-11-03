@@ -22,8 +22,8 @@
     <scact:bindingAdjunct xmi:id="_txGV8BKsEeurkOEwCRcusA" bindingName="SOAPServiceBinding"/>
   </sca:service>
   <sca:service xmi:id="_lIZawRKsEeurkOEwCRcusA" name="SharedResources.CallService" promote="Component1starter/SharedResources.CallService">
-    <sca:interface.wsdl xmi:id="_lIZaxRKsEeurkOEwCRcusA" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
-    <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_yNMGwBKsEeurkOEwCRcusA" name="SOAPServiceBinding1" targetNamespace="http://www.tibco.com/83911bef055c44a1a1c2b523998f102b/SOAPServiceBinding1" portTypeQName="CallService:SharedResources.CallService" transportBindingType="HTTP" attachmentStyle="SwA" modelVersion="1.2.0" portTypeWSDLLocation="../../module.SharedResources/Service%20Descriptors/SharedResources.CallService.wsdl">
+    <sca:interface.wsdl xmi:id="_lIZaxRKsEeurkOEwCRcusA" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../../module.SharedResources/Service%20Descriptors/SharedResources.CallService.wsdl"/>
+    <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_yNMGwBKsEeurkOEwCRcusA" name="SOAPServiceBinding1" targetNamespace="http://www.tibco.com/83911bef055c44a1a1c2b523998f102b/SOAPServiceBinding1" portTypeQName="CallService:SharedResources.CallService" transportBindingType="HTTP" attachmentStyle="SwA" modelVersion="1.2.0" portTypeWSDLLocation="../../module.SharedResources/Service%20Descriptors/SharedResources.CallService.wsdl" scaext:policySetLocations="BWSoapHttpServiceBinding">
       <bindingType xmi:id="_yNMGwRKsEeurkOEwCRcusA"/>
       <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_z6lcsBKsEeurkOEwCRcusA" endpointURI="/SOAPServiceBinding1/sharedResources.CallService/" httpConnector="fwk.sharedresources.module.CallServiceHTTPConnector"/>
       <operationConfiguration xmi:id="_yNMGwhKsEeurkOEwCRcusA" operationName="Operation" action="Operation" actionNeeded="true">
