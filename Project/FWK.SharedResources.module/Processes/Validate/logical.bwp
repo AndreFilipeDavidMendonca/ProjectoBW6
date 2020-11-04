@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpws:process exitOnStandardFault="no"
-    name="EAI.SharedResources.InitializeFile.logical"
+<bpws:process exitOnStandardFault="no" name="Validate.logical"
     suppressJoinFailure="yes"
-    targetNamespace="http://xmlns.example.com/20201027114338"
+    targetNamespace="http://xmlns.example.com/20201027114546"
     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
     xmlns:info="http://www.tibco.com/bw/process/info"
     xmlns:ns="http://www.tibco.com/pe/EngineTypes"
@@ -173,7 +172,7 @@
         </schema>
     </tibex:Types>
     <tibex:ProcessInfo callable="true" createdBy="rui.rodrigo.santos"
-        createdOn="Tue Oct 27 11:43:38 GMT 2020" description=""
+        createdOn="Tue Oct 27 11:45:46 GMT 2020" description=""
         extraErrorVars="true" modifiers="public"
         productVersion="6.6.0 V41 2019-11-07" scalable="true"
         singleton="true" stateless="false" type="IT"/>
@@ -347,7 +346,7 @@
             <bpws:extensionActivity>
                 <tibex:receiveEvent createInstance="yes"
                     eventTimeout="0" name="Start"
-                    tibex:xpdlId="988151ef-9bbf-4cd2-9df9-4a9e62418d67" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="d011c671-06b0-48be-9cd7-1b975017e6b4" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:sources>
                         <bpws:source linkName="StartToEnd"/>
                     </bpws:sources>
@@ -358,7 +357,7 @@
             </bpws:extensionActivity>
             <bpws:extensionActivity>
                 <tibex:activityExtension name="End"
-                    tibex:xpdlId="f2358c26-9319-4a75-b796-4fef67351e6e" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="6bd4c3ba-f723-4935-aeea-d00484ae7bc6" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="StartToEnd"/>
                     </bpws:targets>

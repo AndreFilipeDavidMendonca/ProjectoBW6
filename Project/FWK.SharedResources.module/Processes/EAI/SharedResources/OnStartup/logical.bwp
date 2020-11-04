@@ -781,14 +781,7 @@
             sca-bpel:privateProperty="true" sca-bpel:property="yes"
             sca-bpel:sharedResourceType="{http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc}JdbcDataSource" type="xsd:string">
             <bpws:from>
-                <bpws:literal>fwk.sharedresources.module.JDBCConnectionResource</bpws:literal>
-            </bpws:from>
-        </bpws:variable>
-        <bpws:variable name="jdbcProperty1" sca-bpel:hotUpdate="false"
-            sca-bpel:privateProperty="true" sca-bpel:property="yes"
-            sca-bpel:sharedResourceType="{http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc}JdbcDataSource" type="xsd:string">
-            <bpws:from>
-                <bpws:literal>fwk.sharedresources.module.JDBCConnectionResource</bpws:literal>
+                <bpws:literal>JDBC.JDBCConnectionResource</bpws:literal>
             </bpws:from>
         </bpws:variable>
         <bpws:variable element="ns1:T_EAI_ERROR_SERVICE"
@@ -894,7 +887,7 @@
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/jdbc#//JDBCQueryActivity"/>
                                     <value
-                                    sharedResourceProperty="jdbcProperty1"
+                                    sharedResourceProperty="jdbcProperty"
                                     sqlStatement="SELECT APPLICATION_NAME,&#xa;  EAI_CATALOG_ID, SYSTEM, EAI_ERROR_CODE,&#xa;  EAI_ERROR_CODE_DESCRIPTION, IS_ERROR,&#xa;  SYSTEM_NATIVE_CODE FROM T_EAI_ERROR_SERVICE" xsi:type="jdbcPalette:JDBCQueryActivity">
                                     <columnMetadata
                                     columnName="APPLICATION_NAME"

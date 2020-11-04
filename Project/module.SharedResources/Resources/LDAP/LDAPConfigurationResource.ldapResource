@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:ldapauth="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/auth/ldap" xmlns:sp="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/securityprovider" xmi:id="_1GgfEB6mEeuazoFb80AHMA" name="LDAP.LDAPConfigurationResource" type="ldapauth:LDAPConfiguration">
+  <jndi:reference xmi:id="_TddPYB6nEeuazoFb80AHMA" key="loginAsAdministratorCredential" type="sp:CredentialSecurityProvider" value="LDAP.IdentityProvider"/>
+  <jndi:configuration xsi:type="ldapauth:LDAPConfiguration" xmi:id="_1GhGIB6mEeuazoFb80AHMA" userIndicatesGroups="userHasGroups" groupSearchScopeSubtree="false">
+    <substitutionBindings xmi:id="_2S1vUB6mEeuazoFb80AHMA" template="serverURL" propName="/SharedVariables/Policies/LDAP/ServerURL"/>
+    <substitutionBindings xmi:id="_3zS1cB6mEeuazoFb80AHMA" template="userSearchExpression" propName="/SharedVariables/Policies/LDAP/UserSearchExpression"/>
+    <substitutionBindings xmi:id="_6hikYB6mEeuazoFb80AHMA" template="userDNTemplate" propName="/SharedVariables/Policies/LDAP/UserSearchBaseDN"/>
+    <substitutionBindings xmi:id="__RzOYB6mEeuazoFb80AHMA" template="userAttributeUsersName" propName="/SharedVariables/Policies/LDAP/UserSearchExpression"/>
+    <substitutionBindings xmi:id="_Jcv_cB6nEeuazoFb80AHMA" template="userAttributeGroupsName" propName="/SharedVariables/Policies/LDAP/UserAttibuteGroupName"/>
+    <substitutionBindings xmi:id="_XH-ZUB6nEeuazoFb80AHMA" template="userSearchBaseDN" propName="/SharedVariables/Policies/LDAP/UserSearchBaseDN"/>
+    <userAttributesExtraList>memberOf</userAttributesExtraList>
+  </jndi:configuration>
+</jndi:namedResource>
