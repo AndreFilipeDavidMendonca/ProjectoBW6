@@ -169,5 +169,53 @@
 			<type>String</type>
 			<isOverride>false</isOverride>
 		</globalVariable>
+		<globalVariable>
+			<name>/SharedVariables/Policies/LDAP/ServerURL</name>
+			<value>ldap://grbictadcp01:389</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/SharedVariables/Policies/LDAP/UserSearchExpression</name>
+			<value>(SamAccountName={0})</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/SharedVariables/Policies/LDAP/UserSearchBaseDN</name>
+			<value>OU=Users,OU=Accounts,OU=CORE,DC=core,DC=local</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/SharedVariables/Policies/LDAP/UserAttibuteGroupName</name>
+			<value>memberOf</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/SharedVariables/Policies/LDAP/UserAdminPassword</name>
+			<value>#!9FuuphPLeFrMClo6hx0/Z8LWNhcknc7y</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>Password</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/SharedVariables/Policies/LDAP/UserAdminUsername</name>
+			<value>admin</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
 	</globalVariables>
 </repository>

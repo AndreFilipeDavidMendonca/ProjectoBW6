@@ -4,7 +4,7 @@
     <sca:interface.wsdl xmi:id="_j9DpABKsEeurkOEwCRcusA" interface="http://EAI/SharedResources/OnStartup/1/0#wsdl.interface(OnStartup)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl"/>
     <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_tw13QBKsEeurkOEwCRcusA" name="SOAPServiceBinding" targetNamespace="http://www.tibco.com/3a3a089ebfdf40a2848fbd04bf7ac22e/SOAPServiceBinding" portTypeQName="OnStartup_1_0:OnStartup" transportBindingType="HTTP" attachmentStyle="SwA" modelVersion="1.2.0" portTypeWSDLLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl">
       <bindingType xmi:id="_txA2YBKsEeurkOEwCRcusA"/>
-      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_vVqgABKsEeurkOEwCRcusA" endpointURI="/SOAPServiceBinding/onStartup/" httpConnector="fwk.sharedresources.module.CallServiceHTTPConnector"/>
+      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_vVqgABKsEeurkOEwCRcusA" endpointURI="/SOAPServiceBinding/onStartup/" httpConnector="module.sharedresources.HTTPConnectorResource"/>
       <operationConfiguration xmi:id="_txEgwBKsEeurkOEwCRcusA" operationName="Operation" action="Operation" actionNeeded="true">
         <bindingType xmi:id="_txEgwRKsEeurkOEwCRcusA"/>
         <messageConfiguration xmi:id="_txEgwhKsEeurkOEwCRcusA" messageQName="OnStartup_1_0:OperationRequest" wsdlLocation="platform:/resource/FWK.SharedResources.module/Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl">
@@ -25,7 +25,7 @@
     <sca:interface.wsdl xmi:id="_lIZaxRKsEeurkOEwCRcusA" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../../module.SharedResources/Service%20Descriptors/SharedResources.CallService.wsdl"/>
     <scaext:binding xsi:type="axis2:SOAPServiceBinding" xmi:id="_yNMGwBKsEeurkOEwCRcusA" name="SOAPServiceBinding1" targetNamespace="http://www.tibco.com/83911bef055c44a1a1c2b523998f102b/SOAPServiceBinding1" portTypeQName="CallService:SharedResources.CallService" transportBindingType="HTTP" attachmentStyle="SwA" modelVersion="1.2.0" portTypeWSDLLocation="../../module.SharedResources/Service%20Descriptors/SharedResources.CallService.wsdl" scaext:policySetLocations="BWSoapHttpServiceBinding">
       <bindingType xmi:id="_yNMGwRKsEeurkOEwCRcusA"/>
-      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_z6lcsBKsEeurkOEwCRcusA" endpointURI="/SOAPServiceBinding1/sharedResources.CallService/" httpConnector="fwk.sharedresources.module.CallServiceHTTPConnector"/>
+      <inboundConfiguration xsi:type="axis2:HttpTransportConfiguration" xmi:id="_z6lcsBKsEeurkOEwCRcusA" endpointURI="/SOAPServiceBinding1/sharedResources.CallService/" httpConnector="module.sharedresources.HTTPConnectorResource"/>
       <operationConfiguration xmi:id="_yNMGwhKsEeurkOEwCRcusA" operationName="Operation" action="Operation" actionNeeded="true">
         <bindingType xmi:id="_yNMGwxKsEeurkOEwCRcusA"/>
         <messageConfiguration xmi:id="_yNMGxBKsEeurkOEwCRcusA" messageQName="CallService:OperationRequest" wsdlLocation="../../module.SharedResources/Service%20Descriptors/SharedResources.CallService.wsdl">

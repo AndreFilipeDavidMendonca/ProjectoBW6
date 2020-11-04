@@ -9,9 +9,13 @@ TIBCO-BW-SharedModule: META-INF/module.bwm
 TIBCO-BW-Edition: bwe
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv
 Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.authxml)",
  com.tibco.bw.sharedresource.model; filter:="(name=bw.httpconnector)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.jdbc)",
  com.tibco.bw.sharedresource.model; filter:="(name=bw.jmsconnection)",
- com.tibco.bw.sharedresource.model; filter:="(name=bw.jndiconfiguration)"
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.jndiconfiguration)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.ldap)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.userid)"
 TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
 Provide-Capability: com.tibco.bw.module; name="module.SharedResources"; version:Version="1.0.0",
  com.tibco.bw.schemas; ns="http://www.EAI.SharedResources.CallService.org/schema/1602007403179",
@@ -36,5 +40,9 @@ Provide-Capability: com.tibco.bw.module; name="module.SharedResources"; version:
  com.tibco.bw.wsdls; ns="http://www.project.org/wsdl/CallService",
  com.tibco.bw.wsdls; ns="http://www.example.org/wsdl/SharedResources.main",
  com.tibco.bw.resources; name="module.sharedresources",
- com.tibco.bw.resources; name="Transports.JMS.TRACE"
+ com.tibco.bw.resources; name="Transports.JMS.TRACE",
+ com.tibco.bw.resources; name="LDAP",
+ com.tibco.bw.resources; name="HTTP",
+ com.tibco.bw.resources; name="JDBC",
+ com.tibco.bw.resources; name="Authentication"
 TIBCO-BW-Version: 6.6.0 V41 2019-11-07

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:sp="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/securityprovider" xmlns:subject="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/identity/subject" xmi:id="_Nay0QR6lEeuazoFb80AHMA" name="LDAP.IdentityProvider" type="subject:SubjectConfiguration">
+  <jndi:configuration xsi:type="sp:IdentitySecurityProvider" xmi:id="_Na13kB6lEeuazoFb80AHMA">
+    <configuration xsi:type="subject:SubjectConfiguration" xmi:id="_Na13kR6lEeuazoFb80AHMA">
+      <substitutionBindings xmi:id="_kz1FUB6nEeuazoFb80AHMA" template="username" propName="/SharedVariables/Policies/LDAP/UserAdminUsername"/>
+      <substitutionBindings xmi:id="_qOwc8B6nEeuazoFb80AHMA" template="userpassword" propName="/SharedVariables/Policies/LDAP/UserAdminPassword"/>
+    </configuration>
+  </jndi:configuration>
+</jndi:namedResource>

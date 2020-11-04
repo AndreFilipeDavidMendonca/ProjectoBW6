@@ -21,4 +21,10 @@
   <sca:property xmi:id="_SYm5wBhdEeuVWd7NhF5GHg" name="/SharedVariables/ErrorCodes/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_pOqZkBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Exception" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_vfYwwBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Logging" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_fvQqIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/ServerURL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_qsjeIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserSearchExpression" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_qwI9oB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserSearchBaseDN" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_qxvgIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAttibuteGroupName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_qza7IB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminPassword" type="property:password" scaext:simpleValue="#!Dnuj+6ApeTVAs56KUy3XDg==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_q08lIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminUsername" type="XMLSchema:string" publicAccess="true" scalable="true"/>
 </sca:composite>
