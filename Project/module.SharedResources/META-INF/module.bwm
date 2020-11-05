@@ -18,7 +18,11 @@
   <sca:property xmi:id="_UAHDEBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JDBC/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_ZHDHsBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/HTTP/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_aC_ykBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/FTP/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_SYm5wBhdEeuVWd7NhF5GHg" name="/SharedVariables/ErrorCodes/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_SYm5wBhdEeuVWd7NhF5GHg" name="/SharedVariables/ErrorCodes/timeout" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Qtz6kB9dEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/lockedRequest" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_QyzvUB9dEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/transport" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_6Qjb0B-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/invalidParameters" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_-8YRwB-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/unknown" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_pOqZkBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Exception" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_vfYwwBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Logging" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_fvQqIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/ServerURL" type="XMLSchema:string" publicAccess="true" scalable="true"/>

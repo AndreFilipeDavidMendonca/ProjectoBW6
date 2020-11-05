@@ -25,9 +25,6 @@ Declaration of types
 		</xs:sequence>
 	</xs:complexType>
 
-	<!--
-Declaration of elements
--->
 	<xs:complexType  name="ErrorReport">
 		
 			<xs:sequence>
@@ -41,4 +38,11 @@ Declaration of elements
 			</xs:sequence>
 		
 	</xs:complexType>
+
+	<!--
+Declaration of elements
+-->
+	
+	<xs:element name="ErrorReport" type="errReport:ErrorReport"/>
+
 </xs:schema>

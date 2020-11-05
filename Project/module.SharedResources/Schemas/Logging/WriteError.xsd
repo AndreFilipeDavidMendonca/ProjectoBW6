@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/WriteError"
+	xmlns:tns="http://www.example.org/WriteError"
+	elementFormDefault="qualified"
+	xmlns:cError="http://www.example.org/CheckError" 
+	xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd">
+	
+	<import schemaLocation="../ErrorManagement/ErrorReport.xsd" namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd"/>
+	<import schemaLocation="../ErrorManagement/CheckError.xsd" namespace="http://www.example.org/CheckError"/>
+	
+	
+	<element name="input" type="tns:InputType"/>
+	
+	<complexType name="InputType">
+		<sequence>
+			<element name="logRole" type="string" />
+			<element name="message" type="string" />
+			<element name="messageCode" type="string" minOccurs="0"/>
+			<element name="ErrorReport" type="eReport:ErrorReport" minOccurs="0"/>
+			<element name="ErrorConfig" type="cError:ErrorConfigType" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	
+</schema>
