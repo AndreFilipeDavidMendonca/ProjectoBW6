@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpws:process exitOnStandardFault="no"
-    name="EAI.ExceptionHandling.CheckError" suppressJoinFailure="yes"
-    targetNamespace="http://xmlns.example.com/20201104195000"
+    name="EAI.ExceptionHandling.CheckSuccess" suppressJoinFailure="yes"
+    targetNamespace="http://xmlns.example.com/20201106144010"
     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
     xmlns:bw="http://www.tibco.com/bw/xpath/bw-custom-functions"
-    xmlns:errReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd"
     xmlns:info="http://www.tibco.com/bw/process/info"
     xmlns:ns="http://www.tibco.com/pe/EngineTypes"
-    xmlns:ns0="http://www.example.org/CheckError"
-    xmlns:ns1="http://www.example.org/WriteError"
+    xmlns:ns0="http://www.example.org/CheckSuccess"
     xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
-    xmlns:tib="http://www.tibco.com/bw/xslt/custom-functions"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
     xmlns:tibprop="http://ns.tibco.com/bw/property"
     xmlns:tns="http://www.example.org/CommonSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -178,12 +175,12 @@
         </schema>
     </tibex:Types>
     <tibex:ProcessInfo callable="true" createdBy="rui.rodrigo.santos"
-        createdOn="Wed Nov 04 19:50:00 GMT 2020" description=""
+        createdOn="Fri Nov 06 14:40:10 GMT 2020" description=""
         extraErrorVars="true" modifiers="public"
         productVersion="6.6.0 V41 2019-11-07" scalable="true"
         singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessInterface context=""
-        input="{http://www.example.org/CheckError}input" output="{http://www.example.org/CheckError}output"/>
+        input="{http://www.example.org/CheckSuccess}input" output="{http://www.example.org/CheckSuccess}output"/>
     <tibex:ProcessTemplateConfigurations/>
     <notation:Diagram measurementUnit="Pixel" type="BWProcess"
         xmlns:bwnotation="http://tns.tibco.com/bw/runtime/BWNotation"
@@ -237,8 +234,8 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.0"/>
-                                    <layoutConstraint x="2"
-                                    xsi:type="notation:Bounds" y="2"/>
+                                    <layoutConstraint x="3"
+                                    xsi:type="notation:Bounds" y="274"/>
                                     </children>
                                     <children type="4002">
                                     <children type="4017">
@@ -272,10 +269,10 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.1"/>
-                                    <layoutConstraint x="844"
-                                    xsi:type="notation:Bounds" y="2"/>
+                                    <layoutConstraint x="593"
+                                    xsi:type="notation:Bounds" y="274"/>
                                     </children>
-                                    <children type="4002 bw.generalactivities.mapper">
+                                    <children type="4002 bw.generalactivities.bwassign">
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
@@ -309,8 +306,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="233"
-                                    xsi:type="notation:Bounds" y="2"/>
+                                    x="305"
+                                    xsi:type="notation:Bounds" y="39"/>
                                     </children>
                                     <children type="4002 bw.generalactivities.bwassign">
                                     <children type="4017">
@@ -346,8 +343,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="118"
-                                    xsi:type="notation:Bounds" y="2"/>
+                                    x="593"
+                                    xsi:type="notation:Bounds" y="39"/>
                                     </children>
                                     <children type="4002 bw.generalactivities.callprocess">
                                     <children type="4017">
@@ -383,8 +380,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="729"
-                                    xsi:type="notation:Bounds" y="2"/>
+                                    x="305"
+                                    xsi:type="notation:Bounds" y="510"/>
                                     </children>
                                     <children type="4002 bw.generalactivities.bwassign">
                                     <children type="4017">
@@ -420,8 +417,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="462"
-                                    xsi:type="notation:Bounds" y="80"/>
+                                    x="305"
+                                    xsi:type="notation:Bounds" y="118"/>
                                     </children>
                                     <children type="4002 bw.generalactivities.bwassign">
                                     <children type="4017">
@@ -457,8 +454,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="462"
-                                    xsi:type="notation:Bounds" y="231"/>
+                                    x="305"
+                                    xsi:type="notation:Bounds" y="214"/>
                                     </children>
                                     <children type="4002 bw.generalactivities.bwassign">
                                     <children type="4017">
@@ -494,8 +491,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="462"
-                                    xsi:type="notation:Bounds" y="155"/>
+                                    x="305"
+                                    xsi:type="notation:Bounds" y="334"/>
                                     </children>
                                     <children type="4002 bw.generalactivities.bwassign">
                                     <children type="4017">
@@ -531,8 +528,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="462"
-                                    xsi:type="notation:Bounds" y="314"/>
+                                    x="305"
+                                    xsi:type="notation:Bounds" y="418"/>
                                     </children>
                                     <children type="4002 bw.generalactivities.bwassign">
                                     <children type="4017">
@@ -568,45 +565,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="462"
-                                    xsi:type="notation:Bounds" y="2"/>
-                                    </children>
-                                    <children type="4002 bw.generalactivities.mapper">
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <children type="4017">
-                                    <styles
-                                    fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <layoutConstraint xsi:type="notation:Bounds"/>
-                                    </children>
-                                    <styles fontName="Segoe UI"
-                                    lineColor="0" xsi:type="notation:ShapeStyle"/>
-                                    <styles
-                                    backgroundColor="16777215"
-                                    gradientEndColor="50431"
-                                    gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
-                                    <element href="//0/@process/@activity/@activity/@activities.10"/>
-                                    <layoutConstraint
-                                    height="40" width="40"
-                                    x="605"
-                                    xsi:type="notation:Bounds" y="2"/>
+                                    x="593"
+                                    xsi:type="notation:Bounds" y="510"/>
                                     </children>
                                     <styles xsi:type="notation:DrawerStyle"/>
                                     <styles xsi:type="notation:SortingStyle"/>
@@ -620,8 +580,8 @@
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <styles xsi:type="bwnotation:ResizingStyle"/>
                                     <element href="//0/@process/@activity/@activity"/>
-                                    <layoutConstraint height="499"
-                                    width="1184" xsi:type="notation:Bounds"/>
+                                    <layoutConstraint height="684"
+                                    width="982" xsi:type="notation:Bounds"/>
                                 </children>
                                 <styles xsi:type="notation:SortingStyle"/>
                                 <styles xsi:type="notation:FilteringStyle"/>
@@ -630,7 +590,7 @@
                             <styles xsi:type="bwnotation:BackgroundStyle"/>
                             <styles xsi:type="bwnotation:ResizingStyle"/>
                             <element href="//0/@process/@activity"/>
-                            <layoutConstraint height="499" width="843" xsi:type="notation:Bounds"/>
+                            <layoutConstraint height="684" width="729" xsi:type="notation:Bounds"/>
                         </children>
                         <styles xsi:type="notation:SortingStyle"/>
                         <styles xsi:type="notation:FilteringStyle"/>
@@ -640,7 +600,7 @@
                     <styles xsi:type="bwnotation:BackgroundStyle"/>
                     <styles xsi:type="bwnotation:ResizingStyle"/>
                     <element href="//0/@process/@activity"/>
-                    <layoutConstraint height="523" width="843" x="1"
+                    <layoutConstraint height="708" width="729" x="1"
                         xsi:type="notation:Bounds" y="1"/>
                 </children>
                 <styles xsi:type="notation:SortingStyle"/>
@@ -649,202 +609,203 @@
             </children>
             <styles fontName="Segoe UI" lineColor="0" xsi:type="notation:ShapeStyle"/>
             <element href="//0/@process"/>
-            <layoutConstraint height="575" width="1529" xsi:type="notation:Bounds"/>
+            <layoutConstraint height="760" width="1327" xsi:type="notation:Bounds"/>
         </children>
         <styles xsi:type="notation:DiagramStyle"/>
         <element href="//0"/>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.3" type="4006">
-            <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
-            </children>
-            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
-            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.0"/>
-            <bendpoints points="[0, 0, 0, 0]$[0, 0, 0, 0]" xsi:type="notation:RelativeBendpoints"/>
-        </edges>
-        <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.9" type="4006">
-            <children type="6002">
-                <layoutConstraint x="7" xsi:type="notation:Location" y="-14"/>
-            </children>
-            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
-            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.1"/>
-            <bendpoints
-                points="[25, 0, -186, 0]$[106, 0, -105, 0]$[187, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
-        </edges>
-        <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.3"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2" type="4006">
-            <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
-            </children>
-            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
-            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.2"/>
-            <bendpoints points="[0, 0, 0, 0]$[0, 0, 0, 0]" xsi:type="notation:RelativeBendpoints"/>
-        </edges>
-        <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.4"
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.5"
             target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.3"/>
-            <bendpoints points="[0, 0, 0, 0]$[0, 0, 0, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.0"/>
+            <bendpoints
+                points="[25, 0, -263, -156]$[288, 0, 0, -156]$[288, 132, 0, -24]" xsi:type="notation:RelativeBendpoints"/>
+        </edges>
+        <edges
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.3"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
+            <children type="6002">
+                <layoutConstraint xsi:type="notation:Location" y="40"/>
+            </children>
+            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
+            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.1"/>
+            <bendpoints
+                points="[0, 25, 0, -210]$[0, 118, 0, -117]$[0, 211, 0, -24]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
             source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.5" type="4006">
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.3" type="4006">
             <children type="6002">
-                <layoutConstraint x="8" xsi:type="notation:Location" y="-14"/>
+                <layoutConstraint x="-12" xsi:type="notation:Location" y="-14"/>
+            </children>
+            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
+            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.2"/>
+            <bendpoints points="[25, 0, -213, 0]$[214, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+        </edges>
+        <edges
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
+            <children type="6002">
+                <layoutConstraint x="-31" xsi:type="notation:Location" y="-33"/>
+            </children>
+            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
+            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.3"/>
+            <bendpoints
+                points="[25, 0, -263, -235]$[111, 0, -177, -235]$[111, 79, -177, -156]$[288, 79, 0, -156]$[288, 211, 0, -24]" xsi:type="notation:RelativeBendpoints"/>
+        </edges>
+        <edges
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.4"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.9" type="4006">
+            <children type="6002">
+                <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.4"/>
-            <bendpoints
-                points="[0, 25, -229, -53]$[0, 78, -229, 0]$[205, 78, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints points="[25, 0, -213, 0]$[214, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.7" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.8"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
-                <layoutConstraint x="11" xsi:type="notation:Location" y="-14"/>
+                <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.5"/>
             <bendpoints
-                points="[0, 25, -229, -128]$[0, 153, -229, 0]$[205, 153, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+                points="[25, 0, -263, 144]$[288, 0, 0, 144]$[288, -119, 0, 25]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.6" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.7"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
-                <layoutConstraint x="53" xsi:type="notation:Location" y="-14"/>
+                <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.6"/>
             <bendpoints
-                points="[0, 25, -229, -204]$[0, 229, -229, 0]$[205, 229, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+                points="[25, 0, -263, 60]$[288, 0, 0, 60]$[288, -35, 0, 25]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.8" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.6"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
-                <layoutConstraint x="27" xsi:type="notation:Location" y="-38"/>
+                <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.7"/>
             <bendpoints
-                points="[0, 25, -229, -287]$[0, 312, -229, 0]$[205, 312, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+                points="[25, 0, -263, -60]$[288, 0, 0, -60]$[288, 36, 0, -24]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.5"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.10" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2" type="4006">
             <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
+                <layoutConstraint x="49" xsi:type="notation:Location" y="-14"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.8"/>
             <bendpoints
-                points="[25, 0, -118, 78]$[143, 0, 0, 78]$[143, -53, 0, 25]" xsi:type="notation:RelativeBendpoints"/>
+                points="[0, -24, -302, 211]$[0, -235, -302, 0]$[278, -235, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.7"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.10" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.5" type="4006">
             <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
+                <layoutConstraint x="47" xsi:type="notation:Location" y="-14"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.9"/>
             <bendpoints
-                points="[25, 0, -118, 153]$[143, 0, 0, 153]$[143, -128, 0, 25]" xsi:type="notation:RelativeBendpoints"/>
+                points="[0, -24, -302, 132]$[0, -156, -302, 0]$[278, -156, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.6"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.10" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.6" type="4006">
             <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
+                <layoutConstraint x="-5" xsi:type="notation:Location" y="-14"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.10"/>
             <bendpoints
-                points="[25, 0, -118, 229]$[143, 0, 0, 229]$[143, -204, 0, 25]" xsi:type="notation:RelativeBendpoints"/>
+                points="[0, -24, -302, 36]$[0, -60, -302, 0]$[278, -60, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.8"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.10" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.7" type="4006">
             <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
+                <layoutConstraint x="-4" xsi:type="notation:Location" y="-14"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.11"/>
             <bendpoints
-                points="[25, 0, -118, 312]$[143, 0, 0, 312]$[143, -287, 0, 25]" xsi:type="notation:RelativeBendpoints"/>
+                points="[0, 25, -302, -35]$[0, 60, -302, 0]$[278, 60, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.9"
-            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.10" type="4006">
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.8" type="4006">
             <children type="6002">
-                <layoutConstraint xsi:type="notation:Location" y="40"/>
+                <layoutConstraint x="-18" xsi:type="notation:Location" y="-14"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.12"/>
-            <bendpoints points="[25, 0, -81, 0]$[82, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints
+                points="[0, 25, -302, -119]$[0, 144, -302, 0]$[278, 144, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
-            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.10"
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"
             target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.4" type="4006">
+            <children type="6002">
+                <layoutConstraint x="22" xsi:type="notation:Location" y="-14"/>
+            </children>
+            <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
+            <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.13"/>
+            <bendpoints
+                points="[0, 25, -302, -211]$[0, 236, -302, 0]$[278, 236, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
+        </edges>
+        <edges
+            source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.9"
+            target="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1" type="4006">
             <children type="6002">
                 <layoutConstraint xsi:type="notation:Location" y="40"/>
             </children>
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
-            <element href="//0/@process/@activity/@activity/@links/@children.13"/>
-            <bendpoints points="[0, 0, 0, 0]$[0, 0, 0, 0]" xsi:type="notation:RelativeBendpoints"/>
+            <element href="//0/@process/@activity/@activity/@links/@children.14"/>
+            <bendpoints points="[0, -24, 0, 212]$[0, -211, 0, 25]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
     </notation:Diagram>
     <tibex:NamespaceRegistry enabled="true">
         <tibex:namespaceItem
-            namespace="http://www.example.org/CheckError" prefix="tns"/>
-        <tibex:namespaceItem
-            namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" prefix="errReport"/>
-        <tibex:namespaceItem
-            namespace="http://www.tibco.com/bw/xpath/bw-custom-functions" prefix="bw"/>
-        <tibex:namespaceItem
-            namespace="http://www.tibco.com/bw/xslt/custom-functions" prefix="tib"/>
-        <tibex:namespaceItem
-            namespace="http://www.example.org/WriteError" prefix="tns2"/>
+            namespace="http://www.example.org/CheckSuccess" prefix="tns"/>
         <tibex:namespaceItem
             namespace="http://www.example.org/CommonSchema" prefix="tns1"/>
+        <tibex:namespaceItem
+            namespace="http://www.tibco.com/bw/xpath/bw-custom-functions" prefix="bw"/>
     </tibex:NamespaceRegistry>
-    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/CheckError"/>
-    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/WriteError"/>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/CheckSuccess"/>
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
         <bpws:variable element="ns0:input" name="Start"
             sca-bpel:internal="true" tibex:parameter="in"/>
-        <bpws:variable element="ns0:eNative" name="ErrorMapper-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns0:eNative" name="ErrorMapper" sca-bpel:internal="true"/>
-        <bpws:variable name="InputVar" type="xsd:string"/>
-        <bpws:variable element="ns0:group" name="GroupVar"/>
-        <bpws:variable element="ns1:input" name="WriteLog-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns0:auxArray" name="AuxMapper-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns0:auxArray" name="AuxMapper" sca-bpel:internal="true"/>
+        <bpws:variable element="ns0:processVariable" name="processVar"/>
         <bpws:variable element="ns0:output" name="End-input"
             sca-bpel:internal="true" tibex:parameter="out"/>
     </bpws:variables>
@@ -859,37 +820,79 @@
     <bpws:scope name="scope">
         <bpws:flow name="flow">
             <bpws:links>
-                <bpws:link name="StartToEnd" tibex:linkType="SUCCESS"/>
+                <bpws:link name="Copy_1_NoDataFoundToEnd" tibex:linkType="SUCCESS"/>
+                <bpws:link name="NoDataFoundToEnd" tibex:linkType="SUCCESS"/>
                 <bpws:link
-                    name="ErrorMapperToCopy_1_SetInputDataErrorMsg"
+                    name="FullSuccessToNoDataFound_eCodesNoDataFound"
+                    tibex:label="eCodes = No Data Found" tibex:linkType="SUCCESSWITHCONDITION"/>
+                <bpws:link name="FullSuccessToEnd_othewise"
+                    tibex:label="othewise" tibex:linkType="SUCCESSWITHNOCONDITION"/>
+                <bpws:link name="CheckErrorToAssignErrorCodes" tibex:linkType="SUCCESS"/>
+                <bpws:link name="ForcedErrorToEnd1" tibex:linkType="SUCCESS"/>
+                <bpws:link name="InvalidParametersToEnd1" tibex:linkType="SUCCESS"/>
+                <bpws:link name="DisjunctiveSuccessToEnd1" tibex:linkType="SUCCESS"/>
+                <bpws:link name="StartToFullSuccess_eCodesSuccess"
+                    tibex:label="eCodes = Success" tibex:linkType="SUCCESSWITHCONDITION"/>
+                <bpws:link name="StartToCopy_1_NoDataFound"
+                    tibex:label="eCodes = Conjunctive Success" tibex:linkType="SUCCESSWITHCONDITION"/>
+                <bpws:link name="StartToDisjunctiveSuccess"
+                    tibex:label="ecodes = Disjuntive Success" tibex:linkType="SUCCESSWITHCONDITION"/>
+                <bpws:link name="StartToInvalidParameters"
+                    tibex:label="eCodes = Invalid Parameters" tibex:linkType="SUCCESSWITHCONDITION"/>
+                <bpws:link name="StartToForcedError"
+                    tibex:label="eCodes > 0" tibex:linkType="SUCCESSWITHCONDITION"/>
+                <bpws:link name="StartToCheckError_otherwise"
                     tibex:label="otherwise" tibex:linkType="SUCCESSWITHNOCONDITION"/>
-                <bpws:link name="AssignToErrorMapper" tibex:linkType="SUCCESS"/>
-                <bpws:link name="CallProcessToEnd" tibex:linkType="SUCCESS"/>
-                <bpws:link
-                    name="ErrorMapperToSetInputDataErrorMsg_inputdatainvalid"
-                    tibex:label="input_data_invalid" tibex:linkType="SUCCESSWITHCONDITION"/>
-                <bpws:link
-                    name="ErrorMapperToSetTimeoutErrorMsg_timeout"
-                    tibex:label="timeout" tibex:linkType="SUCCESSWITHCONDITION"/>
-                <bpws:link
-                    name="ErrorMapperToSetTransportErrorMsg_transport"
-                    tibex:label="transport" tibex:linkType="SUCCESSWITHCONDITION"/>
-                <bpws:link name="ErrorMapperToSetLockErrorMsg_lock"
-                    tibex:label="lock" tibex:linkType="SUCCESSWITHCONDITION"/>
-                <bpws:link name="SetInputDataErrorMsgToAuxMapper" tibex:linkType="SUCCESS"/>
-                <bpws:link name="SetTimeoutErrorMsgToAuxMapper" tibex:linkType="SUCCESS"/>
-                <bpws:link name="SetTransportErrorMsgToAuxMapper" tibex:linkType="SUCCESS"/>
-                <bpws:link name="SetLockErrorMsgToAuxMapper" tibex:linkType="SUCCESS"/>
-                <bpws:link name="Copy_1_SetInputDataErrorMsgToWriteLog" tibex:linkType="SUCCESS"/>
-                <bpws:link name="MapperToWriteLog" tibex:linkType="SUCCESS"/>
+                <bpws:link name="AssignErrorCodesToEnd" tibex:linkType="SUCCESS"/>
             </bpws:links>
             <bpws:extensionActivity>
                 <tibex:receiveEvent createInstance="yes"
                     eventTimeout="0" name="Start"
-                    tibex:xpdlId="776b05e4-6bea-4e29-9543-2c5448258f57"
+                    tibex:xpdlId="bf32397f-7979-4d0e-98e3-911c63a75080"
                     variable="Start" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:sources>
-                        <bpws:source linkName="StartToEnd"/>
+                        <bpws:source linkName="StartToFullSuccess_eCodesSuccess">
+                            <tibex:DesignExpression>
+                                <tibex:expression
+                                    expression="count($Start/ns0:eCodes) &lt;= 1&#xd;&#xa;and&#xd;&#xa;(($Start/ns0:eCodes/tns:eCode=bw:getModuleProperty('/SharedVariables/ErrorCodes/success')&#xd;&#xa;or&#xd;&#xa;count($Start/ns0:eNative[tns:eCode=../ns0:successCodes/ns0:nCode])=count($Start/ns0:eNative))&#xd;&#xa;and&#xd;&#xa;string-length($Start/ns0:eCodes[1]/tns:eCode) = 0)" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            </tibex:DesignExpression>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1and(($Start/ns0:eCodes/tns:eCode=bw:getModuleProperty('/SharedVariables/ErrorCodes/success')orcount($Start/ns0:eNative[tns:eCode=../ns0:successCodes/ns0:nCode])=count($Start/ns0:eNative))andstring-length($Start/ns0:eCodes[1]/tns:eCode) = 0)]]></bpws:transitionCondition>
+                        </bpws:source>
+                        <bpws:source linkName="StartToCopy_1_NoDataFound">
+                            <tibex:DesignExpression>
+                                <tibex:expression
+                                    expression="count($Start/ns0:eCodes) > 1&#xd;&#xa;and&#xd;&#xa;$Start/ns0:conjunctiveSuccess = true()" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            </tibex:DesignExpression>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) > 1and$Start/ns0:conjunctiveSuccess = true()]]></bpws:transitionCondition>
+                        </bpws:source>
+                        <bpws:source linkName="StartToDisjunctiveSuccess">
+                            <tibex:DesignExpression>
+                                <tibex:expression
+                                    expression="count($Start/ns0:eCodes) > 1&#xd;&#xa;and&#xd;&#xa;(not(exists($Start/ns0:conjunctiveSuccess)) or $Start/ns0:conjunctiveSuccess = false())" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            </tibex:DesignExpression>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) > 1and(not(exists($Start/ns0:conjunctiveSuccess)) or $Start/ns0:conjunctiveSuccess = false())]]></bpws:transitionCondition>
+                        </bpws:source>
+                        <bpws:source linkName="StartToInvalidParameters">
+                            <tibex:DesignExpression>
+                                <tibex:expression
+                                    expression="count($Start/ns0:eCodes) &lt;= 1&#xd;&#xa;and&#xd;&#xa;$Start/ns0:invalidParameters = true()" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            </tibex:DesignExpression>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1and$Start/ns0:invalidParameters = true()]]></bpws:transitionCondition>
+                        </bpws:source>
+                        <bpws:source linkName="StartToForcedError">
+                            <tibex:DesignExpression>
+                                <tibex:expression
+                                    expression="count($Start/ns0:eCodes) &lt;= 1&#xd;&#xa;and&#xd;&#xa;string-length($Start/ns0:eCodes[1]/tns:eCode) > 0" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            </tibex:DesignExpression>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1andstring-length($Start/ns0:eCodes[1]/tns:eCode) > 0]]></bpws:transitionCondition>
+                        </bpws:source>
+                        <bpws:source linkName="StartToCheckError_otherwise">
+                            <tibex:DesignExpression>
+                                <tibex:expression
+                                    expression="##otherwise##" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            </tibex:DesignExpression>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[##otherwise##]]></bpws:transitionCondition>
+                        </bpws:source>
                     </bpws:sources>
                     <tibex:eventSource>
                         <tibex:StartEvent xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
@@ -899,13 +902,19 @@
             <bpws:extensionActivity>
                 <tibex:activityExtension inputVariable="End-input"
                     name="End"
-                    tibex:xpdlId="271332d6-9123-4d50-8d3c-745ed68fb581" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="12f22250-c6f5-40e6-a5b0-e455cca12e9f" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="CallProcessToEnd"/>
+                        <bpws:target linkName="Copy_1_NoDataFoundToEnd"/>
+                        <bpws:target linkName="NoDataFoundToEnd"/>
+                        <bpws:target linkName="FullSuccessToEnd_othewise"/>
+                        <bpws:target linkName="ForcedErrorToEnd1"/>
+                        <bpws:target linkName="InvalidParametersToEnd1"/>
+                        <bpws:target linkName="DisjunctiveSuccessToEnd1"/>
+                        <bpws:target linkName="AssignErrorCodesToEnd"/>
                     </bpws:targets>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;GroupVar&quot;/>&lt;xsl:template name=&quot;End-input&quot; match=&quot;/&quot;>&lt;tns:output>&lt;xsl:copy-of select=&quot;$GroupVar/tns:Status/tns1:eCodes&quot;/>&lt;xsl:copy-of select=&quot;$GroupVar/tns:Status/tns1:eNative&quot;/>&lt;/tns:output>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; version=&quot;2.0&quot;> &lt;xsl:template name=&quot;End-input&quot; match=&quot;/&quot;> &lt;tns:output/>&lt;/xsl:template> &lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -924,88 +933,31 @@
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:activityExtension
-                    inputVariable="ErrorMapper-input" name="ErrorMapper"
-                    outputVariable="ErrorMapper"
-                    tibex:xpdlId="8aefe9aa-41cd-4ca2-8191-b3f50a85ad22" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                <tibex:activityExtension inputVariable="processVar"
+                    name="FullSuccess" outputVariable="processVar"
+                    tibex:xpdlId="f5f8f59d-4507-4768-b989-7cdc3a24a32a" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="AssignToErrorMapper"/>
+                        <bpws:target linkName="StartToFullSuccess_eCodesSuccess"/>
                     </bpws:targets>
                     <bpws:sources>
-                        <bpws:source linkName="ErrorMapperToCopy_1_SetInputDataErrorMsg">
+                        <bpws:source linkName="FullSuccessToNoDataFound_eCodesNoDataFound">
+                            <tibex:DesignExpression>
+                                <tibex:expression
+                                    expression="exists($Start/ns0:linesReturned) and $Start/ns0:linesReturned = 0" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            </tibex:DesignExpression>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[exists($Start/ns0:linesReturned) and $Start/ns0:linesReturned = 0]]></bpws:transitionCondition>
+                        </bpws:source>
+                        <bpws:source linkName="FullSuccessToEnd_othewise">
                             <tibex:DesignExpression>
                                 <tibex:expression
                                     expression="##otherwise##" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
                             <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[##otherwise##]]></bpws:transitionCondition>
                         </bpws:source>
-                        <bpws:source linkName="ErrorMapperToSetInputDataErrorMsg_inputdatainvalid">
-                            <tibex:DesignExpression>
-                                <tibex:expression
-                                    expression="contains($Start/ns0:errorReport/errReport:StackTrace, 'Input data invalid')&#xd;&#xa;and&#xd;&#xa;contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SAXException')" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
-                            </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[contains($Start/ns0:errorReport/errReport:StackTrace, 'Input data invalid')
-and
-contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SAXException')]]></bpws:transitionCondition>
-                        </bpws:source>
-                        <bpws:source linkName="ErrorMapperToSetTimeoutErrorMsg_timeout">
-                            <tibex:DesignExpression>
-                                <tibex:expression
-                                    expression="(contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;timedoutexception&quot;) and not(contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;logintimedoutexception&quot;)))&#xd;&#xa;&#x9;or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;timeoutexception&quot;) and not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;logintimedoutexception&quot;)))&#xd;&#xa;&#x9;or contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;timed out&quot;)&#xd;&#xa;&#x9;or contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;time out&quot;)&#xd;&#xa;&#x9;or ($ErrorMapper/tns:eCode=bw:getModuleProperty(&quot;/SharedVariables/ErrorCodes/timeout&quot;))" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
-                            </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(contains(lower-case($Start/ns0:errorReport/errReport:Class), "timedoutexception") and not(contains(lower-case($Start/ns0:errorReport/errReport:Class), "logintimedoutexception")))	or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "timeoutexception") and not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "logintimedoutexception")))	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "timed out")	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "time out")	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/timeout"))]]></bpws:transitionCondition>
-                        </bpws:source>
-                        <bpws:source linkName="ErrorMapperToSetTransportErrorMsg_transport">
-                            <tibex:DesignExpression>
-                                <tibex:expression
-                                    expression="(not(contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;timedoutexception&quot;)) and contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;logintimedoutexception&quot;))&#xd;&#xa;&#x9;or (not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;timeoutexception&quot;)) and contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;logintimedoutexception&quot;))&#xd;&#xa;&#x9;or (contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;jdbcsqlexception&quot;) and contains(lower-case($Start/ns0:errorReport/errReport:Msg), &quot;oracle not available&quot;))&#xd;&#xa;&#x9;or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;jdbcsqlexception&quot;) and contains(lower-case($Start/ns0:errorReport/errReport:Msg), &quot;oracle initialization or shutdown in progress&quot;))&#xd;&#xa;&#x9;or contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;httpcommunicationexception&quot;)&#xd;&#xa;&#x9;or ($ErrorMapper/tns:eCode=bw:getModuleProperty(&quot;/SharedVariables/ErrorCodes/transport&quot;))" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
-                            </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(not(contains(lower-case($Start/ns0:errorReport/errReport:Class), "timedoutexception")) and contains(lower-case($Start/ns0:errorReport/errReport:Class), "logintimedoutexception"))	or (not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "timeoutexception")) and contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "logintimedoutexception"))	or (contains(lower-case($Start/ns0:errorReport/errReport:Class), "jdbcsqlexception") and contains(lower-case($Start/ns0:errorReport/errReport:Msg), "oracle not available"))	or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "jdbcsqlexception") and contains(lower-case($Start/ns0:errorReport/errReport:Msg), "oracle initialization or shutdown in progress"))	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "httpcommunicationexception")	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/transport"))]]></bpws:transitionCondition>
-                        </bpws:source>
-                        <bpws:source linkName="ErrorMapperToSetLockErrorMsg_lock">
-                            <tibex:DesignExpression>
-                                <tibex:expression
-                                    expression="(contains(lower-case($Start/ns0:errorReport/errReport:Msg), &quot;service error&quot;) and contains(lower-case($Start/ns0:eNative[1]/tns:eDescription), &quot;lock&quot;))&#xd;&#xa;&#x9;or ($ErrorMapper/tns:eCode=bw:getModuleProperty(&quot;/SharedVariables/ErrorCodes/lockedRequest&quot;))" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
-                            </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(contains(lower-case($Start/ns0:errorReport/errReport:Msg), "service error") and contains(lower-case($Start/ns0:eNative[1]/tns:eDescription), "lock"))	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/lockedRequest"))]]></bpws:transitionCondition>
-                        </bpws:source>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:errReport=&quot;http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;InputVar&quot;/>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;ErrorMapper-input&quot; match=&quot;/&quot;>&lt;xsl:choose>&lt;xsl:when test=&quot;string-length($Start/tns:eNative[1]/tns1:eCode)>0&quot;>&lt;xsl:copy-of select=&quot;$Start/tns:eNative&quot;/>&lt;/xsl:when>&lt;xsl:when test=&quot;contains($InputVar,'statusCode')&quot;>&lt;tns:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;substring-before(substring-after($InputVar,'statusCode>'), '&amp;lt;')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;substring-before(substring-after($InputVar,'reasonPhrase>'), '&amp;lt;')&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;$Start/tns:eNative[1]/tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns:eNative>&lt;/xsl:when>&lt;xsl:when test=&quot;contains($InputVar,'&amp;lt;msgCode')&quot;>&lt;tns:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;substring-before(substring-after($InputVar,&amp;quot;msgCode>&amp;quot;),&amp;quot;&amp;lt;&amp;quot;)&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;substring-before(substring-after($InputVar,&amp;quot;msg>&amp;quot;),&amp;quot;&amp;lt;&amp;quot;)&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;$Start/tns:eNative[1]/tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns:eNative>&lt;/xsl:when>&lt;xsl:when test=&quot;contains($InputVar,'faultcode')&quot;>&lt;tns:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;substring-before(substring-after($InputVar,'faultcode>'), '&amp;lt;')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;substring-before(substring-after($InputVar,'faultstring>'), '&amp;lt;')&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;$Start/tns:eNative[1]/tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns:eNative>&lt;/xsl:when>&lt;xsl:otherwise>&lt;tns:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$Start/tns:errorReport/errReport:MsgCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;$Start/tns:errorReport/errReport:Msg&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;$Start/tns:eNative[1]/tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns:eNative>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
-                    </tibex:inputBindings>
-                    <tibex:config>
-                        <bwext:BWActivity
-                            activityTypeID="bw.generalactivities.mapper"
-                            version="6.0.0.001"
-                            xmlns:CheckError="http://www.example.org/CheckError"
-                            xmlns:activityconfig="http://tns.tibco.com/bw/model/activityconfig"
-                            xmlns:bwext="http://tns.tibco.com/bw/model/core/bwext"
-                            xmlns:generalactivities="http://ns.tibco.com/bw/palette/generalactivities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                            <activityConfig>
-                                <properties name="config" xsi:type="activityconfig:EMFProperty">
-                                    <type href="http://ns.tibco.com/bw/palette/generalactivities#//Mapper"/>
-                                    <value
-                                    inputQName="CheckError:eNative" xsi:type="generalactivities:Mapper"/>
-                                </properties>
-                            </activityConfig>
-                        </bwext:BWActivity>
-                    </tibex:config>
-                </tibex:activityExtension>
-            </bpws:extensionActivity>
-            <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="InputVar"
-                    name="SetInputVar" outputVariable="InputVar"
-                    tibex:xpdlId="1880cfa2-ce2c-45c5-8a11-c09925284752" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
-                    <bpws:targets>
-                        <bpws:target linkName="StartToEnd"/>
-                    </bpws:targets>
-                    <bpws:sources>
-                        <bpws:source linkName="AssignToErrorMapper"/>
-                    </bpws:sources>
-                    <tibex:inputBindings>
-                        <tibex:inputBinding
-                            expression="if(string-length(string($Start/ns0:errorReport/errReport:Data/*)) > 0 )&#xd;&#xa;then tib:render-xml($Start/ns0:errorReport/errReport:Data/*, true(), false())&#xd;&#xa;else&#xd;&#xa;''" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/success')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;'Success'&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1016,7 +968,7 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                             <activityConfig>
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//BWAssign"/>
-                                    <value processVariable="InputVar" xsi:type="generalactivities:BWAssign"/>
+                                    <value processVariable="processVar" xsi:type="generalactivities:BWAssign"/>
                                 </properties>
                             </activityConfig>
                         </bwext:BWActivity>
@@ -1024,38 +976,62 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:extActivity inputVariable="WriteLog-input"
-                    name="WriteLog"
-                    tibex:xpdlId="7e558121-97c5-4775-809d-41a82a6c2196"
-                    type="bw.generalactivities.callprocess" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                <tibex:activityExtension inputVariable="processVar"
+                    name="NoDataFound" outputVariable="processVar"
+                    tibex:xpdlId="3c901dc7-547a-4332-a45d-ca8e5da8eab5" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="MapperToWriteLog"/>
+                        <bpws:target linkName="FullSuccessToNoDataFound_eCodesNoDataFound"/>
                     </bpws:targets>
                     <bpws:sources>
-                        <bpws:source linkName="CallProcessToEnd"/>
+                        <bpws:source linkName="NoDataFoundToEnd"/>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns2=&quot;http://www.example.org/WriteError&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:tib=&quot;http://www.tibco.com/bw/xslt/custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;GroupVar&quot;/>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:param name=&quot;AuxMapper&quot;/>&lt;xsl:template name=&quot;WriteLog-input&quot; match=&quot;/&quot;>&lt;tns2:input>&lt;tns2:logRole>&lt;xsl:value-of select=&quot;&amp;quot;ERROR&amp;quot;&quot;/>&lt;/tns2:logRole>&lt;tns2:message>&lt;xsl:value-of select=&quot;concat( $GroupVar/tns:Status/tns1:eCodes/tns1:eDescription, ' [', tib:concat-sequence-format($AuxMapper/tns:param, &amp;quot;&amp;#xA;&amp;quot;, true()), '] ')&quot;/>&lt;/tns2:message>&lt;tns2:messageCode>&lt;xsl:value-of select=&quot;$GroupVar/tns:Status/tns1:eCodes/tns1:eCode&quot;/>&lt;/tns2:messageCode>&lt;tns2:ErrorReport>&lt;xsl:copy-of select=&quot;$Start/tns:errorReport/ancestor-or-self::*/namespace::node()&quot;/>&lt;xsl:copy-of select=&quot;$Start/tns:errorReport/@*&quot;/>&lt;xsl:copy-of select=&quot;$Start/tns:errorReport/node()&quot;/>&lt;/tns2:ErrorReport>&lt;tns2:ErrorConfig>&lt;tns:errorType>&lt;xsl:value-of select=&quot;$GroupVar/tns:ErrorConfig/tns:errorType&quot;/>&lt;/tns:errorType>&lt;/tns2:ErrorConfig>&lt;/tns2:input>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
-                    <tibex:CallProcess
-                        subProcessName="EAI.Logging.WriteError" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
+                    <tibex:config>
+                        <bwext:BWActivity
+                            activityTypeID="bw.generalactivities.bwassign"
+                            xmlns:activityconfig="http://tns.tibco.com/bw/model/activityconfig"
+                            xmlns:bwext="http://tns.tibco.com/bw/model/core/bwext"
+                            xmlns:generalactivities="http://ns.tibco.com/bw/palette/generalactivities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                            <activityConfig>
+                                <properties name="config" xsi:type="activityconfig:EMFProperty">
+                                    <type href="http://ns.tibco.com/bw/palette/generalactivities#//BWAssign"/>
+                                    <value processVariable="processVar" xsi:type="generalactivities:BWAssign"/>
+                                </properties>
+                            </activityConfig>
+                        </bwext:BWActivity>
+                    </tibex:config>
+                </tibex:activityExtension>
+            </bpws:extensionActivity>
+            <bpws:extensionActivity>
+                <tibex:extActivity name="CheckError"
+                    tibex:xpdlId="faf5a720-d035-4b9c-b6bb-c5eb5ab6c213"
+                    type="bw.generalactivities.callprocess" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    <bpws:targets>
+                        <bpws:target linkName="StartToCheckError_otherwise"/>
+                    </bpws:targets>
+                    <bpws:sources>
+                        <bpws:source linkName="CheckErrorToAssignErrorCodes"/>
+                    </bpws:sources>
+                    <tibex:CallProcess xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="GroupVar"
-                    name="SetInputDataErrorMsg"
-                    outputVariable="GroupVar"
-                    tibex:xpdlId="c8652604-8a38-420f-a023-6feab9bd0632" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                <tibex:activityExtension inputVariable="processVar"
+                    name="ConjunctiveSuccess"
+                    outputVariable="processVar"
+                    tibex:xpdlId="824dc321-14e2-4afe-8616-be48f13b73c9" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="ErrorMapperToSetInputDataErrorMsg_inputdatainvalid"/>
+                        <bpws:target linkName="StartToCopy_1_NoDataFound"/>
                     </bpws:targets>
                     <bpws:sources>
-                        <bpws:source linkName="SetInputDataErrorMsgToAuxMapper"/>
+                        <bpws:source linkName="Copy_1_NoDataFoundToEnd"/>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;ErrorMapper&quot;/>&lt;xsl:template name=&quot;GroupVar&quot; match=&quot;/&quot;>&lt;tns:group>&lt;tns:Status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty(&amp;quot;/SharedVariables/ErrorCodes/invalidParameters&amp;quot;)&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Invalid Parameters&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$ErrorMapper&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:Status>&lt;tns:ErrorConfig>&lt;tns:errorType>&lt;xsl:value-of select=&quot;&amp;quot;F&amp;quot;&quot;/>&lt;/tns:errorType>&lt;/tns:ErrorConfig>&lt;/tns:group>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1066,7 +1042,7 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                             <activityConfig>
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//BWAssign"/>
-                                    <value processVariable="GroupVar" xsi:type="generalactivities:BWAssign"/>
+                                    <value processVariable="processVar" xsi:type="generalactivities:BWAssign"/>
                                 </properties>
                             </activityConfig>
                         </bwext:BWActivity>
@@ -1074,19 +1050,19 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="GroupVar"
-                    name="SetTransportErrorMsg"
-                    outputVariable="GroupVar"
-                    tibex:xpdlId="3d55e8b4-fcac-49f9-8fe0-199a3f38e7c3" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                <tibex:activityExtension inputVariable="processVar"
+                    name="DisjunctiveSuccess"
+                    outputVariable="processVar"
+                    tibex:xpdlId="e9e18770-8072-4242-a3dc-bf43350c22ce" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="ErrorMapperToSetTransportErrorMsg_transport"/>
+                        <bpws:target linkName="StartToDisjunctiveSuccess"/>
                     </bpws:targets>
                     <bpws:sources>
-                        <bpws:source linkName="SetTransportErrorMsgToAuxMapper"/>
+                        <bpws:source linkName="DisjunctiveSuccessToEnd1"/>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;ErrorMapper&quot;/>&lt;xsl:template name=&quot;GroupVar&quot; match=&quot;/&quot;>&lt;tns:group>&lt;tns:Status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty(&amp;quot;/SharedVariables/ErrorCodes/transport&amp;quot;)&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Transport Error&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$ErrorMapper&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:Status>&lt;tns:ErrorConfig>&lt;tns:errorType>&lt;xsl:value-of select=&quot;&amp;quot;T&amp;quot;&quot;/>&lt;/tns:errorType>&lt;/tns:ErrorConfig>&lt;/tns:group>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1097,7 +1073,7 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                             <activityConfig>
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//BWAssign"/>
-                                    <value processVariable="GroupVar" xsi:type="generalactivities:BWAssign"/>
+                                    <value processVariable="processVar" xsi:type="generalactivities:BWAssign"/>
                                 </properties>
                             </activityConfig>
                         </bwext:BWActivity>
@@ -1105,18 +1081,18 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="GroupVar"
-                    name="SetTimeoutErrorMsg" outputVariable="GroupVar"
-                    tibex:xpdlId="7f2f8c77-acd9-4d3e-b1df-d45b107dd08c" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                <tibex:activityExtension inputVariable="processVar"
+                    name="InvalidParameters" outputVariable="processVar"
+                    tibex:xpdlId="7c95b9fe-5a98-478a-b23c-780a7d147083" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="ErrorMapperToSetTimeoutErrorMsg_timeout"/>
+                        <bpws:target linkName="StartToInvalidParameters"/>
                     </bpws:targets>
                     <bpws:sources>
-                        <bpws:source linkName="SetTimeoutErrorMsgToAuxMapper"/>
+                        <bpws:source linkName="InvalidParametersToEnd1"/>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;ErrorMapper&quot;/>&lt;xsl:template name=&quot;GroupVar&quot; match=&quot;/&quot;>&lt;tns:group>&lt;tns:Status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty(&amp;quot;/SharedVariables/ErrorCodes/timeout&amp;quot;)&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Timeout in Target System&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$ErrorMapper&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:Status>&lt;tns:ErrorConfig>&lt;tns:errorType>&lt;xsl:value-of select=&quot;&amp;quot;T&amp;quot;&quot;/>&lt;/tns:errorType>&lt;/tns:ErrorConfig>&lt;/tns:group>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1127,7 +1103,7 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                             <activityConfig>
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//BWAssign"/>
-                                    <value processVariable="GroupVar" xsi:type="generalactivities:BWAssign"/>
+                                    <value processVariable="processVar" xsi:type="generalactivities:BWAssign"/>
                                 </properties>
                             </activityConfig>
                         </bwext:BWActivity>
@@ -1135,18 +1111,18 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="GroupVar"
-                    name="SetLockErrorMsg" outputVariable="GroupVar"
-                    tibex:xpdlId="440f484d-d04f-4ad2-a2bd-8329b5a66716" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                <tibex:activityExtension inputVariable="processVar"
+                    name="ForcedError" outputVariable="processVar"
+                    tibex:xpdlId="26db4805-a4ac-4e1b-a081-9a866707df9d" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="ErrorMapperToSetLockErrorMsg_lock"/>
+                        <bpws:target linkName="StartToForcedError"/>
                     </bpws:targets>
                     <bpws:sources>
-                        <bpws:source linkName="SetLockErrorMsgToAuxMapper"/>
+                        <bpws:source linkName="ForcedErrorToEnd1"/>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;ErrorMapper&quot;/>&lt;xsl:template name=&quot;GroupVar&quot; match=&quot;/&quot;>&lt;tns:group>&lt;tns:Status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty(&amp;quot;/SharedVariables/ErrorCodes/lockedRequest&amp;quot;)&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Target System Locked&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$ErrorMapper&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:Status>&lt;tns:ErrorConfig>&lt;tns:errorType>&lt;xsl:value-of select=&quot;&amp;quot;T&amp;quot;&quot;/>&lt;/tns:errorType>&lt;/tns:ErrorConfig>&lt;/tns:group>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1157,7 +1133,7 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                             <activityConfig>
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//BWAssign"/>
-                                    <value processVariable="GroupVar" xsi:type="generalactivities:BWAssign"/>
+                                    <value processVariable="processVar" xsi:type="generalactivities:BWAssign"/>
                                 </properties>
                             </activityConfig>
                         </bwext:BWActivity>
@@ -1165,18 +1141,18 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="GroupVar"
-                    name="SetUnknownError" outputVariable="GroupVar"
-                    tibex:xpdlId="11d9f9d0-3d56-4948-ab12-6ee3a2403f8d" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                <tibex:activityExtension inputVariable="processVar"
+                    name="AssignErrorCodes" outputVariable="processVar"
+                    tibex:xpdlId="1a413ac2-62e2-42ee-87cf-19955070aa45" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="ErrorMapperToCopy_1_SetInputDataErrorMsg"/>
+                        <bpws:target linkName="CheckErrorToAssignErrorCodes"/>
                     </bpws:targets>
                     <bpws:sources>
-                        <bpws:source linkName="Copy_1_SetInputDataErrorMsgToWriteLog"/>
+                        <bpws:source linkName="AssignErrorCodesToEnd"/>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;ErrorMapper&quot;/>&lt;xsl:template name=&quot;GroupVar&quot; match=&quot;/&quot;>&lt;tns:group>&lt;tns:Status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty(&amp;quot;/SharedVariables/ErrorCodes/unknown&amp;quot;)&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Unknown Error&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$ErrorMapper&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:Status>&lt;tns:ErrorConfig>&lt;tns:errorType>&lt;xsl:value-of select=&quot;&amp;quot;&amp;quot;&quot;/>&lt;/tns:errorType>&lt;/tns:ErrorConfig>&lt;/tns:group>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1187,44 +1163,7 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                             <activityConfig>
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//BWAssign"/>
-                                    <value processVariable="GroupVar" xsi:type="generalactivities:BWAssign"/>
-                                </properties>
-                            </activityConfig>
-                        </bwext:BWActivity>
-                    </tibex:config>
-                </tibex:activityExtension>
-            </bpws:extensionActivity>
-            <bpws:extensionActivity>
-                <tibex:activityExtension inputVariable="AuxMapper-input"
-                    name="AuxMapper" outputVariable="AuxMapper"
-                    tibex:xpdlId="fb8f732c-1423-4fe3-8a23-a8558dc20dc6" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
-                    <bpws:targets>
-                        <bpws:target linkName="Copy_1_SetInputDataErrorMsgToWriteLog"/>
-                        <bpws:target linkName="SetInputDataErrorMsgToAuxMapper"/>
-                        <bpws:target linkName="SetLockErrorMsgToAuxMapper"/>
-                        <bpws:target linkName="SetTransportErrorMsgToAuxMapper"/>
-                        <bpws:target linkName="SetTimeoutErrorMsgToAuxMapper"/>
-                    </bpws:targets>
-                    <bpws:sources>
-                        <bpws:source linkName="MapperToWriteLog"/>
-                    </bpws:sources>
-                    <tibex:inputBindings>
-                        <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckError&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;AuxMapper-input&quot; match=&quot;/&quot;>&lt;tns:auxArray>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns:param>&lt;xsl:value-of select=&quot;concat( 'nCode=', tns1:eCode, ',', 'nDescription=', tns1:eDescription, ',',  'nSystem=', tns1:eSystem)&quot;/>&lt;/tns:param>&lt;/xsl:for-each>&lt;/tns:auxArray>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
-                    </tibex:inputBindings>
-                    <tibex:config>
-                        <bwext:BWActivity
-                            activityTypeID="bw.generalactivities.mapper"
-                            version="6.0.0.001"
-                            xmlns:CheckError="http://www.example.org/CheckError"
-                            xmlns:activityconfig="http://tns.tibco.com/bw/model/activityconfig"
-                            xmlns:bwext="http://tns.tibco.com/bw/model/core/bwext"
-                            xmlns:generalactivities="http://ns.tibco.com/bw/palette/generalactivities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-                            <activityConfig>
-                                <properties name="config" xsi:type="activityconfig:EMFProperty">
-                                    <type href="http://ns.tibco.com/bw/palette/generalactivities#//Mapper"/>
-                                    <value
-                                    inputQName="CheckError:auxArray" xsi:type="generalactivities:Mapper"/>
+                                    <value processVariable="processVar" xsi:type="generalactivities:BWAssign"/>
                                 </properties>
                             </activityConfig>
                         </bwext:BWActivity>

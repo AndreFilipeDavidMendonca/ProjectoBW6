@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+xmlns:eRep="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" 
+xmlns:tns="http://www.example.org/CheckError" elementFormDefault="qualified" targetNamespace="http://www.example.org/CheckError" 
+xmlns:com="http://www.example.org/CommonSchema">
+
+
+    <import namespace="http://www.example.org/CommonSchema" schemaLocation="../ExceptionHandling/CommonSchema.xsd"/>
+    <import namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" schemaLocation="../ErrorManagement/ErrorReport.xsd"/>
+
+
+	<element name="input" type="tns:InputType"/>
+	<element name="eNative" type="com:ErrorNativeType"/>
+	<element name="group" type="tns:GroupType"/>
+	<element name="auxArray" type="tns:AuxArrayType"/>
+	<element name="output" type="com:StatusType"/>
+
+	
+	<complexType name="InputType">
+		<sequence>
+			<element maxOccurs="unbounded" minOccurs="1" name="eNative" type="com:ErrorNativeType"/>
+			<element minOccurs="0" name="errorReport" type="eRep:ErrorReport"/>
+		</sequence>
+	</complexType>
+	
+	
+	<complexType name="ErrorConfigType">
+		<sequence>
+			<element name="errorType" type="string"/>
+		</sequence>
+	</complexType>
+
+	
+	<complexType name="GroupType">
+		<sequence>
+			<element name="Status" type="com:StatusType"/>
+			<element name="ErrorConfig" type="tns:ErrorConfigType"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="AuxArrayType">
+		<sequence>
+			<element maxOccurs="unbounded" minOccurs="1" name="param" type="string"/>
+		</sequence>
+	</complexType>
+
+
+</schema>

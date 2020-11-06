@@ -2,6 +2,8 @@
 <jsv:DocumentRoot xmlns:jsv="http://tns.tibco.com/bw/model/core/jobSV">
   <jobSharedVariables>
     <jobSharedVariable name="JobFileServiceProperties" type="{http://www.example.org/FileServiceProperties}FileServiceProperties" initialValueMode="none"/>
+    <jobSharedVariable name="jobServiceConfigAndStatus" type="{http://www.example.org/ServiceConfigAndStatus}ServiceConfigAndStatus" initialValueMode="none"/>
   </jobSharedVariables>
   <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/FileServiceProperties" location="../Schemas/Resources/FileServiceProperties.xsd"/>
+  <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/ServiceConfigAndStatus" location="../Schemas/Resources/ServiceConfigAndStatus.xsd"/>
 </jsv:DocumentRoot>

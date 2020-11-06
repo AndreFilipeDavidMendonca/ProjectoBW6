@@ -23,6 +23,8 @@
   <sca:property xmi:id="_QyzvUB9dEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/transport" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_6Qjb0B-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/invalidParameters" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_-8YRwB-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/unknown" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_ba99wCBCEeuUQqc7O96v6g" name="/SharedVariables/ErrorCodes/success" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_xDNKICBFEeuUQqc7O96v6g" name="/SharedVariables/ErrorCodes/noDataFound" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_pOqZkBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Exception" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_vfYwwBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Logging" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_fvQqIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/ServerURL" type="XMLSchema:string" publicAccess="true" scalable="true"/>

@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
-	targetNamespace="http://www.example.org/WriteError"
-	xmlns:tns="http://www.example.org/WriteError"
-	elementFormDefault="qualified"
-	xmlns:cError="http://www.example.org/CheckError" 
-	xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:cError="http://www.example.org/CheckError" xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" xmlns:tns="http://www.example.org/WriteError" elementFormDefault="qualified" targetNamespace="http://www.example.org/WriteError">
 	
-	<import schemaLocation="../ErrorManagement/ErrorReport.xsd" namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd"/>
-	<import schemaLocation="../ErrorManagement/CheckError.xsd" namespace="http://www.example.org/CheckError"/>
+	<import namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" schemaLocation="../ErrorManagement/ErrorReport.xsd"/>
+	<import namespace="http://www.example.org/CheckError" schemaLocation="../ExceptionHandling/CheckError.xsd"/>
 	
 	
 	<element name="input" type="tns:InputType"/>
 	
 	<complexType name="InputType">
 		<sequence>
-			<element name="logRole" type="string" />
-			<element name="message" type="string" />
-			<element name="messageCode" type="string" minOccurs="0"/>
-			<element name="ErrorReport" type="eReport:ErrorReport" minOccurs="0"/>
-			<element name="ErrorConfig" type="cError:ErrorConfigType" minOccurs="0"/>
+			<element name="logRole" type="string"/>
+			<element name="message" type="string"/>
+			<element minOccurs="0" name="messageCode" type="string"/>
+			<element minOccurs="0" name="ErrorReport" type="eReport:ErrorReport"/>
+			<element minOccurs="0" name="ErrorConfig" type="cError:ErrorConfigType"/>
 		</sequence>
 	</complexType>
 	

@@ -186,6 +186,22 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
+			<name>/SharedVariables/ErrorCodes/success</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/SharedVariables/ErrorCodes/noDataFound</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
 			<name>/SharedVariables/Clever/Destinations/Exception</name>
 			<value>T.Integration.Clever.Exception</value>
 			<deploymentSettable>false</deploymentSettable>
