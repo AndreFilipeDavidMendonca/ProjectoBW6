@@ -7,6 +7,7 @@
     xmlns:info="http://www.tibco.com/bw/process/info"
     xmlns:ns="http://www.tibco.com/pe/EngineTypes"
     xmlns:ns0="http://www.example.org/CheckSuccess"
+    xmlns:ns1="http://www.example.org/CheckError"
     xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
@@ -186,14 +187,18 @@
         xmlns:bwnotation="http://tns.tibco.com/bw/runtime/BWNotation"
         xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <children type="2001">
-            <children type="5001"/>
+            <children type="5001">
+                <element href="//0/@process"/>
+            </children>
             <children type="3002">
                 <styles xsi:type="notation:SortingStyle"/>
                 <styles xsi:type="notation:FilteringStyle"/>
+                <element href="//0/@process"/>
             </children>
             <children type="3003">
                 <styles xsi:type="notation:SortingStyle"/>
                 <styles xsi:type="notation:FilteringStyle"/>
+                <element href="//0/@process"/>
             </children>
             <children type="3004">
                 <children type="4018">
@@ -207,24 +212,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -242,24 +251,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -277,24 +290,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -314,24 +331,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -351,24 +372,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -388,24 +413,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -425,24 +454,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -462,24 +495,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -499,24 +536,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -536,24 +577,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -585,6 +630,7 @@
                                 </children>
                                 <styles xsi:type="notation:SortingStyle"/>
                                 <styles xsi:type="notation:FilteringStyle"/>
+                                <element href="//0/@process/@activity"/>
                             </children>
                             <styles fontName="Segoe UI" lineColor="0" xsi:type="notation:ShapeStyle"/>
                             <styles xsi:type="bwnotation:BackgroundStyle"/>
@@ -609,7 +655,7 @@
             </children>
             <styles fontName="Segoe UI" lineColor="0" xsi:type="notation:ShapeStyle"/>
             <element href="//0/@process"/>
-            <layoutConstraint height="760" width="1327" xsi:type="notation:Bounds"/>
+            <layoutConstraint height="760" width="1088" xsi:type="notation:Bounds"/>
         </children>
         <styles xsi:type="notation:DiagramStyle"/>
         <element href="//0"/>
@@ -800,6 +846,7 @@
             namespace="http://www.tibco.com/bw/xpath/bw-custom-functions" prefix="bw"/>
     </tibex:NamespaceRegistry>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/CheckSuccess"/>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/CheckError"/>
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
@@ -808,6 +855,8 @@
         <bpws:variable element="ns0:processVariable" name="processVar"/>
         <bpws:variable element="ns0:output" name="End-input"
             sca-bpel:internal="true" tibex:parameter="out"/>
+        <bpws:variable element="ns1:input" name="CheckError-input" sca-bpel:internal="true"/>
+        <bpws:variable element="ns1:output" name="CheckError" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -835,8 +884,9 @@
                     tibex:label="eCodes = Success" tibex:linkType="SUCCESSWITHCONDITION"/>
                 <bpws:link name="StartToCopy_1_NoDataFound"
                     tibex:label="eCodes = Conjunctive Success" tibex:linkType="SUCCESSWITHCONDITION"/>
-                <bpws:link name="StartToDisjunctiveSuccess"
-                    tibex:label="ecodes = Disjuntive Success" tibex:linkType="SUCCESSWITHCONDITION"/>
+                <bpws:link
+                    name="StartToDisjunctiveSuccess_eCodesDisjuntiveSuccess"
+                    tibex:label="eCodes = Disjuntive Success" tibex:linkType="SUCCESSWITHCONDITION"/>
                 <bpws:link name="StartToInvalidParameters"
                     tibex:label="eCodes = Invalid Parameters" tibex:linkType="SUCCESSWITHCONDITION"/>
                 <bpws:link name="StartToForcedError"
@@ -856,35 +906,49 @@
                                 <tibex:expression
                                     expression="count($Start/ns0:eCodes) &lt;= 1&#xd;&#xa;and&#xd;&#xa;(($Start/ns0:eCodes/tns:eCode=bw:getModuleProperty('/SharedVariables/ErrorCodes/success')&#xd;&#xa;or&#xd;&#xa;count($Start/ns0:eNative[tns:eCode=../ns0:successCodes/ns0:nCode])=count($Start/ns0:eNative))&#xd;&#xa;and&#xd;&#xa;string-length($Start/ns0:eCodes[1]/tns:eCode) = 0)" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1and(($Start/ns0:eCodes/tns:eCode=bw:getModuleProperty('/SharedVariables/ErrorCodes/success')orcount($Start/ns0:eNative[tns:eCode=../ns0:successCodes/ns0:nCode])=count($Start/ns0:eNative))andstring-length($Start/ns0:eCodes[1]/tns:eCode) = 0)]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1
+and
+(($Start/ns0:eCodes/tns:eCode=bw:getModuleProperty('/SharedVariables/ErrorCodes/success')
+or
+count($Start/ns0:eNative[tns:eCode=../ns0:successCodes/ns0:nCode])=count($Start/ns0:eNative))
+and
+string-length($Start/ns0:eCodes[1]/tns:eCode) = 0)]]></bpws:transitionCondition>
                         </bpws:source>
                         <bpws:source linkName="StartToCopy_1_NoDataFound">
                             <tibex:DesignExpression>
                                 <tibex:expression
                                     expression="count($Start/ns0:eCodes) > 1&#xd;&#xa;and&#xd;&#xa;$Start/ns0:conjunctiveSuccess = true()" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) > 1and$Start/ns0:conjunctiveSuccess = true()]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) > 1
+and
+$Start/ns0:conjunctiveSuccess = true()]]></bpws:transitionCondition>
                         </bpws:source>
-                        <bpws:source linkName="StartToDisjunctiveSuccess">
+                        <bpws:source linkName="StartToDisjunctiveSuccess_eCodesDisjuntiveSuccess">
                             <tibex:DesignExpression>
                                 <tibex:expression
                                     expression="count($Start/ns0:eCodes) > 1&#xd;&#xa;and&#xd;&#xa;(not(exists($Start/ns0:conjunctiveSuccess)) or $Start/ns0:conjunctiveSuccess = false())" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) > 1and(not(exists($Start/ns0:conjunctiveSuccess)) or $Start/ns0:conjunctiveSuccess = false())]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) > 1
+and
+(not(exists($Start/ns0:conjunctiveSuccess)) or $Start/ns0:conjunctiveSuccess = false())]]></bpws:transitionCondition>
                         </bpws:source>
                         <bpws:source linkName="StartToInvalidParameters">
                             <tibex:DesignExpression>
                                 <tibex:expression
                                     expression="count($Start/ns0:eCodes) &lt;= 1&#xd;&#xa;and&#xd;&#xa;$Start/ns0:invalidParameters = true()" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1and$Start/ns0:invalidParameters = true()]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1
+and
+$Start/ns0:invalidParameters = true()]]></bpws:transitionCondition>
                         </bpws:source>
                         <bpws:source linkName="StartToForcedError">
                             <tibex:DesignExpression>
                                 <tibex:expression
                                     expression="count($Start/ns0:eCodes) &lt;= 1&#xd;&#xa;and&#xd;&#xa;string-length($Start/ns0:eCodes[1]/tns:eCode) > 0" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1andstring-length($Start/ns0:eCodes[1]/tns:eCode) > 0]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[count($Start/ns0:eCodes) <= 1
+and
+string-length($Start/ns0:eCodes[1]/tns:eCode) > 0]]></bpws:transitionCondition>
                         </bpws:source>
                         <bpws:source linkName="StartToCheckError_otherwise">
                             <tibex:DesignExpression>
@@ -914,7 +978,7 @@
                     </bpws:targets>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; version=&quot;2.0&quot;> &lt;xsl:template name=&quot;End-input&quot; match=&quot;/&quot;> &lt;tns:output/>&lt;/xsl:template> &lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;processVar&quot;/>&lt;xsl:template name=&quot;End-input&quot; match=&quot;/&quot;>&lt;tns:output>&lt;xsl:copy-of select=&quot;$processVar/ancestor-or-self::*/namespace::node()&quot;/>&lt;xsl:copy-of select=&quot;$processVar/@*&quot;/>&lt;xsl:copy-of select=&quot;$processVar/node()&quot;/>&lt;/tns:output>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -957,7 +1021,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/success')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;'Success'&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:variable name=&quot;successVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/success')&quot;/>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$successVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;'Success'&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -987,7 +1051,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:variable name=&quot;notFoundVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/notFound')&quot;/>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$notFoundVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1006,7 +1070,8 @@
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:extActivity name="CheckError"
+                <tibex:extActivity inputVariable="CheckError-input"
+                    name="CheckError" outputVariable="CheckError"
                     tibex:xpdlId="faf5a720-d035-4b9c-b6bb-c5eb5ab6c213"
                     type="bw.generalactivities.callprocess" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
@@ -1015,7 +1080,12 @@
                     <bpws:sources>
                         <bpws:source linkName="CheckErrorToAssignErrorCodes"/>
                     </bpws:sources>
-                    <tibex:CallProcess xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
+                    <tibex:inputBindings>
+                        <tibex:inputBinding
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CheckError&quot; xmlns:tns11=&quot;http://www.example.org/CommonSchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;CheckError-input&quot; match=&quot;/&quot;>&lt;tns1:input>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns11:eCode>&lt;xsl:value-of select=&quot;tns11:eCode&quot;/>&lt;/tns11:eCode>&lt;tns11:eDescription>&lt;xsl:value-of select=&quot;tns11:eDescription&quot;/>&lt;/tns11:eDescription>&lt;tns11:eSystem>&lt;xsl:value-of select=&quot;tns11:eSystem&quot;/>&lt;/tns11:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns1:input>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                    </tibex:inputBindings>
+                    <tibex:CallProcess
+                        subProcessName="EAI.ExceptionHandling.CheckError" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
@@ -1031,7 +1101,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:variable name=&quot;partialSuccessVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/partialSuccess')&quot;/>&lt;xsl:variable name=&quot;targetSystemErrorVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/targetSystemError')&quot;/>&lt;xsl:variable name=&quot;functionalErrorVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/functionalError')&quot;/>&lt;xsl:variable name=&quot;noDataFoundVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/notFound')&quot;/>&lt;xsl:variable name=&quot;successVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/success')&quot;/>&lt;xsl:choose>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $successVar]) = 0&quot;>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$successVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Success&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:choose>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $noDataFoundVar]) = count($Start/tns:eCodes/tns1:eCode)&quot;>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$noDataFoundVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Not Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:when>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $successVar]) = 0&quot;>&lt;xsl:choose>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $functionalErrorVar]) > 0&quot;>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$functionalErrorVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Functional Error&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:when>&lt;xsl:otherwise>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$targetSystemErrorVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Target System Error&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/xsl:when>&lt;xsl:otherwise>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$successVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Partial Success&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1055,14 +1125,14 @@
                     outputVariable="processVar"
                     tibex:xpdlId="e9e18770-8072-4242-a3dc-bf43350c22ce" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
-                        <bpws:target linkName="StartToDisjunctiveSuccess"/>
+                        <bpws:target linkName="StartToDisjunctiveSuccess_eCodesDisjuntiveSuccess"/>
                     </bpws:targets>
                     <bpws:sources>
                         <bpws:source linkName="DisjunctiveSuccessToEnd1"/>
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:variable name=&quot;partialSuccessVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/partialSuccess')&quot;/>&lt;xsl:variable name=&quot;targetSystemError&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/targetSystemError')&quot;/>&lt;xsl:variable name=&quot;functionalError&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/functionalError')&quot;/>&lt;xsl:variable name=&quot;notFoundVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/notFound')&quot;/>&lt;xsl:variable name=&quot;successVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/targetSystemError')&quot;/>&lt;xsl:choose>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $successVar]) = 0&quot;>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$successVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Success&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:choose>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $notFoundVar]) = count($Start/tns:eCodes/tns1:eCode)&quot;>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$notFoundVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Not Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:when>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $successVar]) = 0&quot;>&lt;xsl:choose>&lt;xsl:when test=&quot;count($Start/tns:eCodes[tns1:eCode = $functionalError]) > 0&quot;>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$functionalError&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Functional Error&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:when>&lt;xsl:otherwise>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$targetSystemError&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Target System Error&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/xsl:when>&lt;xsl:otherwise>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$partialSuccessVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Partial Success&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1092,7 +1162,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:variable name=&quot;invalidParametersVar&quot; select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/invalidParameters')&quot;/>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;$invalidParametersVar&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;Invalid Parameters&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1122,7 +1192,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;xsl:copy-of select=&quot;$Start/tns:eCodes/ancestor-or-self::*/namespace::node()&quot;/>&lt;xsl:copy-of select=&quot;$Start/tns:eCodes/@*&quot;/>&lt;xsl:copy-of select=&quot;$Start/tns:eCodes/node()&quot;/>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -1152,7 +1222,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;tns1:eCodes>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;bw:getModuleProperty('/SharedVariables/ErrorCodes/noDataFound')&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;&amp;quot;No Data Found&amp;quot;&quot;/>&lt;/tns1:eDescription>&lt;/tns1:eCodes>&lt;xsl:for-each select=&quot;$Start/tns:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.example.org/CheckSuccess&quot; xmlns:tns1=&quot;http://www.example.org/CommonSchema&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:param name=&quot;CheckError&quot;/>&lt;xsl:template name=&quot;processVar&quot; match=&quot;/&quot;>&lt;tns:processVariable>&lt;tns:status>&lt;xsl:copy-of select=&quot;$CheckError/tns1:eCodes&quot;/>&lt;xsl:for-each select=&quot;$CheckError/tns1:eNative&quot;>&lt;tns1:eNative>&lt;tns1:eCode>&lt;xsl:value-of select=&quot;tns1:eCode&quot;/>&lt;/tns1:eCode>&lt;tns1:eDescription>&lt;xsl:value-of select=&quot;tns1:eDescription&quot;/>&lt;/tns1:eDescription>&lt;tns1:eSystem>&lt;xsl:value-of select=&quot;tns1:eSystem&quot;/>&lt;/tns1:eSystem>&lt;/tns1:eNative>&lt;/xsl:for-each>&lt;/tns:status>&lt;xsl:if test=&quot;$Start/tns:mapHistory = true()&quot;>&lt;tns:history>&lt;xsl:for-each-group select=&quot;$Start/tns:history/tns:historyStep&quot; group-by=&quot;concat(tns:domainName,'_',tns:domainType, '_', tns:serviceName, '_', string(tns:timestamp))&quot;>&lt;xsl:sort select=&quot;tns:step&quot;/>&lt;tns:historyStep>&lt;xsl:if test=&quot;tns:domainName&quot;>&lt;tns:domainName>&lt;xsl:value-of select=&quot;tns:domainName&quot;/>&lt;/tns:domainName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainType&quot;>&lt;tns:domainType>&lt;xsl:value-of select=&quot;tns:domainType&quot;/>&lt;/tns:domainType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:domainInstance&quot;>&lt;tns:domainInstance>&lt;xsl:value-of select=&quot;tns:domainInstance&quot;/>&lt;/tns:domainInstance>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceName&quot;>&lt;tns:serviceName>&lt;xsl:value-of select=&quot;tns:serviceName&quot;/>&lt;/tns:serviceName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:serviceType&quot;>&lt;tns:serviceType>&lt;xsl:value-of select=&quot;tns:serviceType&quot;/>&lt;/tns:serviceType>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:starterName&quot;>&lt;tns:starterName>&lt;xsl:value-of select=&quot;tns:starterName&quot;/>&lt;/tns:starterName>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:timestamp&quot;>&lt;tns:timestamp>&lt;xsl:value-of select=&quot;tns:timestamp&quot;/>&lt;/tns:timestamp>&lt;/xsl:if>&lt;xsl:if test=&quot;tns:step&quot;>&lt;tns:step>&lt;xsl:value-of select=&quot;tns:step&quot;/>&lt;/tns:step>&lt;/xsl:if>&lt;/tns:historyStep>&lt;/xsl:for-each-group>&lt;/tns:history>&lt;/xsl:if>&lt;/tns:processVariable>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity

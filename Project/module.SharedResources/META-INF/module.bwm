@@ -9,6 +9,8 @@
   <sca:property xmi:id="_5cjroAfkEeuC29AiMck5EQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_5csOgAfkEeuC29AiMck5EQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_5czjQAfkEeuC29AiMck5EQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_YCJiQCJ7EeuO9dprwBUrHw" name="newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="__nr3ICJ9EeuO9dprwBUrHw" name="newProperty1" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_KH9SMBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JMS/InitialContextFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_LedLEBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JMS/QueueConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_LvpBsBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JMS/TopicConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
@@ -24,7 +26,10 @@
   <sca:property xmi:id="_6Qjb0B-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/invalidParameters" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_-8YRwB-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/unknown" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_ba99wCBCEeuUQqc7O96v6g" name="/SharedVariables/ErrorCodes/success" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_xDNKICBFEeuUQqc7O96v6g" name="/SharedVariables/ErrorCodes/noDataFound" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_xDNKICBFEeuUQqc7O96v6g" name="/SharedVariables/ErrorCodes/notFound" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_drqvgCJ7EeuO9dprwBUrHw" name="/SharedVariables/ErrorCodes/functionalError" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_7Rp88CJ7EeuO9dprwBUrHw" name="/SharedVariables/ErrorCodes/targetSystemError" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_AymLECJ-EeuO9dprwBUrHw" name="/SharedVariables/ErrorCodes/partialSuccess" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_pOqZkBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Exception" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_vfYwwBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Logging" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_fvQqIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/ServerURL" type="XMLSchema:string" publicAccess="true" scalable="true"/>

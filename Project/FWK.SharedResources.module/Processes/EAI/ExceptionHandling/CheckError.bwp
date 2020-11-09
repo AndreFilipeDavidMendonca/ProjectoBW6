@@ -189,14 +189,18 @@
         xmlns:bwnotation="http://tns.tibco.com/bw/runtime/BWNotation"
         xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <children type="2001">
-            <children type="5001"/>
+            <children type="5001">
+                <element href="//0/@process"/>
+            </children>
             <children type="3002">
                 <styles xsi:type="notation:SortingStyle"/>
                 <styles xsi:type="notation:FilteringStyle"/>
+                <element href="//0/@process"/>
             </children>
             <children type="3003">
                 <styles xsi:type="notation:SortingStyle"/>
                 <styles xsi:type="notation:FilteringStyle"/>
+                <element href="//0/@process"/>
             </children>
             <children type="3004">
                 <children type="4018">
@@ -210,24 +214,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.0"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -245,24 +253,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -280,24 +292,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -317,24 +333,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.3"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -354,24 +374,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.4"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -391,24 +415,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.5"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -428,24 +456,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.6"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -465,24 +497,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.7"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -502,24 +538,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.8"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -539,24 +579,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.9"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -576,24 +620,28 @@
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.10"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.10"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.10"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.10"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -625,6 +673,7 @@
                                 </children>
                                 <styles xsi:type="notation:SortingStyle"/>
                                 <styles xsi:type="notation:FilteringStyle"/>
+                                <element href="//0/@process/@activity"/>
                             </children>
                             <styles fontName="Segoe UI" lineColor="0" xsi:type="notation:ShapeStyle"/>
                             <styles xsi:type="bwnotation:BackgroundStyle"/>
@@ -953,21 +1002,31 @@ contains($Start/ns0:errorReport/errReport:StackTrace, 'caused by: org.xml.sax.SA
                                 <tibex:expression
                                     expression="(contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;timedoutexception&quot;) and not(contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;logintimedoutexception&quot;)))&#xd;&#xa;&#x9;or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;timeoutexception&quot;) and not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;logintimedoutexception&quot;)))&#xd;&#xa;&#x9;or contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;timed out&quot;)&#xd;&#xa;&#x9;or contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;time out&quot;)&#xd;&#xa;&#x9;or ($ErrorMapper/tns:eCode=bw:getModuleProperty(&quot;/SharedVariables/ErrorCodes/timeout&quot;))" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(contains(lower-case($Start/ns0:errorReport/errReport:Class), "timedoutexception") and not(contains(lower-case($Start/ns0:errorReport/errReport:Class), "logintimedoutexception")))	or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "timeoutexception") and not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "logintimedoutexception")))	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "timed out")	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "time out")	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/timeout"))]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(contains(lower-case($Start/ns0:errorReport/errReport:Class), "timedoutexception") and not(contains(lower-case($Start/ns0:errorReport/errReport:Class), "logintimedoutexception")))
+	or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "timeoutexception") and not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "logintimedoutexception")))
+	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "timed out")
+	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "time out")
+	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/timeout"))]]></bpws:transitionCondition>
                         </bpws:source>
                         <bpws:source linkName="ErrorMapperToSetTransportErrorMsg_transport">
                             <tibex:DesignExpression>
                                 <tibex:expression
                                     expression="(not(contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;timedoutexception&quot;)) and contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;logintimedoutexception&quot;))&#xd;&#xa;&#x9;or (not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;timeoutexception&quot;)) and contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;logintimedoutexception&quot;))&#xd;&#xa;&#x9;or (contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;jdbcsqlexception&quot;) and contains(lower-case($Start/ns0:errorReport/errReport:Msg), &quot;oracle not available&quot;))&#xd;&#xa;&#x9;or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), &quot;jdbcsqlexception&quot;) and contains(lower-case($Start/ns0:errorReport/errReport:Msg), &quot;oracle initialization or shutdown in progress&quot;))&#xd;&#xa;&#x9;or contains(lower-case($Start/ns0:errorReport/errReport:Class), &quot;httpcommunicationexception&quot;)&#xd;&#xa;&#x9;or ($ErrorMapper/tns:eCode=bw:getModuleProperty(&quot;/SharedVariables/ErrorCodes/transport&quot;))" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(not(contains(lower-case($Start/ns0:errorReport/errReport:Class), "timedoutexception")) and contains(lower-case($Start/ns0:errorReport/errReport:Class), "logintimedoutexception"))	or (not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "timeoutexception")) and contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "logintimedoutexception"))	or (contains(lower-case($Start/ns0:errorReport/errReport:Class), "jdbcsqlexception") and contains(lower-case($Start/ns0:errorReport/errReport:Msg), "oracle not available"))	or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "jdbcsqlexception") and contains(lower-case($Start/ns0:errorReport/errReport:Msg), "oracle initialization or shutdown in progress"))	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "httpcommunicationexception")	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/transport"))]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(not(contains(lower-case($Start/ns0:errorReport/errReport:Class), "timedoutexception")) and contains(lower-case($Start/ns0:errorReport/errReport:Class), "logintimedoutexception"))
+	or (not(contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "timeoutexception")) and contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "logintimedoutexception"))
+	or (contains(lower-case($Start/ns0:errorReport/errReport:Class), "jdbcsqlexception") and contains(lower-case($Start/ns0:errorReport/errReport:Msg), "oracle not available"))
+	or (contains(lower-case($Start/ns0:errorReport/errReport:FullClass), "jdbcsqlexception") and contains(lower-case($Start/ns0:errorReport/errReport:Msg), "oracle initialization or shutdown in progress"))
+	or contains(lower-case($Start/ns0:errorReport/errReport:Class), "httpcommunicationexception")
+	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/transport"))]]></bpws:transitionCondition>
                         </bpws:source>
                         <bpws:source linkName="ErrorMapperToSetLockErrorMsg_lock">
                             <tibex:DesignExpression>
                                 <tibex:expression
                                     expression="(contains(lower-case($Start/ns0:errorReport/errReport:Msg), &quot;service error&quot;) and contains(lower-case($Start/ns0:eNative[1]/tns:eDescription), &quot;lock&quot;))&#xd;&#xa;&#x9;or ($ErrorMapper/tns:eCode=bw:getModuleProperty(&quot;/SharedVariables/ErrorCodes/lockedRequest&quot;))" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                             </tibex:DesignExpression>
-                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(contains(lower-case($Start/ns0:errorReport/errReport:Msg), "service error") and contains(lower-case($Start/ns0:eNative[1]/tns:eDescription), "lock"))	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/lockedRequest"))]]></bpws:transitionCondition>
+                            <bpws:transitionCondition expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"><![CDATA[(contains(lower-case($Start/ns0:errorReport/errReport:Msg), "service error") and contains(lower-case($Start/ns0:eNative[1]/tns:eDescription), "lock"))
+	or ($ErrorMapper/tns:eCode=bw:getModuleProperty("/SharedVariables/ErrorCodes/lockedRequest"))]]></bpws:transitionCondition>
                         </bpws:source>
                     </bpws:sources>
                     <tibex:inputBindings>
