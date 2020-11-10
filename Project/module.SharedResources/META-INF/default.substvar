@@ -74,22 +74,6 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>newProperty</name>
-			<value></value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>false</isOverride>
-		</globalVariable>
-		<globalVariable>
-			<name>newProperty1</name>
-			<value></value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>false</isOverride>
-		</globalVariable>
-		<globalVariable>
 			<name>/SharedVariables/Transports/JMS/InitialContextFactory</name>
 			<value>com.tibco.tibjms.naming.TibjmsInitialContextFactory</value>
 			<deploymentSettable>false</deploymentSettable>
@@ -300,6 +284,38 @@
 		<globalVariable>
 			<name>/SharedVariables/Policies/LDAP/UserAdminUsername</name>
 			<value>admin</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/AuxVariables/VariablesManagement/Actions/update</name>
+			<value>update</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/AuxVariables/VariablesManagement/Actions/insert</name>
+			<value>insert</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/AuxVariables/VariablesManagement/Actions/refresh</name>
+			<value>refresh</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>/AuxVariables/VariablesManagement/Actions/retrieve</name>
+			<value>retrieve</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>

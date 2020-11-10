@@ -3,7 +3,9 @@
   <moduleSharedVariables>
     <moduleSharedVariable name="ErrorHandler" type="{http://www.polarising.com/Shared/Resources/ErrorHandler}T_EAI_ERROR_SERVICE" initialValueMode="none"/>
     <moduleSharedVariable name="ServicesConfig" type="{http://www.polarising.com/Shared/Resources/Services}Services" initialValueMode="none"/>
+    <moduleSharedVariable name="ServiceConfigAndStatus" type="{http://www.example.org/ServiceConfigAndStatus}ServiceConfigAndStatus" initialValueMode="none"/>
   </moduleSharedVariables>
   <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.polarising.com/Shared/Resources/ErrorHandler"/>
   <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.polarising.com/Shared/Resources/Services"/>
+  <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/ServiceConfigAndStatus"/>
 </msv:DocumentRoot>

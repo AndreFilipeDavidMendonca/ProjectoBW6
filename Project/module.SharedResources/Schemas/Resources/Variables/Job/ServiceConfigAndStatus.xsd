@@ -2,12 +2,32 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:cError="http://www.example.org/CheckError" xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" xmlns:tns="http://www.example.org/ServiceConfigAndStatus" elementFormDefault="qualified" targetNamespace="http://www.example.org/ServiceConfigAndStatus">
 
 
-	<import namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" schemaLocation="../ErrorManagement/ErrorReport.xsd"/>
-	<import namespace="http://www.example.org/CheckError" schemaLocation="../ExceptionHandling/CheckError.xsd"/>
-	
+    <import namespace="http://www.example.org/CheckError" schemaLocation="../../../ExceptionHandling/CheckError.xsd"/>
+    <import namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" schemaLocation="../../../ErrorManagement/ErrorReport.xsd"/>
+
 	
 	<element name="ServiceConfigAndStatus" type="tns:ServiceConfigAndStatusType"/>
+	<element name="input" type="tns:InputType"/>
+	<element name="output" type="tns:OutputType"/>
+
+	<complexType name="OutputType">
+		<sequence>
+			<element name="success" type="boolean"/>
+		</sequence>
+	</complexType>
 	
+	<complexType name="InputType">
+		<sequence>
+			<element name="varManagement" type="tns:VariableManagementType"/>
+			<element name="serviceConfigAndStatus" type="tns:ServiceConfigAndStatusType"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="VariableManagementType">
+		<sequence>
+			<element name="action" type="string"/>
+		</sequence>
+	</complexType>
 	
 	<complexType name="ServiceErrorType">
 		<sequence>
@@ -20,7 +40,7 @@
 			<element maxOccurs="1" minOccurs="0" name="eNativeDescription" type="string"/>
 		</sequence>
 	</complexType>
-	
+
 	<complexType name="ServiceConfigAndStatusType">
 		<sequence>
 			<element name="domain" type="string"/>
@@ -42,6 +62,6 @@
 			<element maxOccurs="unbounded" minOccurs="0" name="serviceErrors" type="tns:ServiceErrorType"/>
 		</sequence>
 	</complexType>
-	
-	
+
+
 </schema>

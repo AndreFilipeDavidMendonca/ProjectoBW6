@@ -9,8 +9,6 @@
   <sca:property xmi:id="_5cjroAfkEeuC29AiMck5EQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_5csOgAfkEeuC29AiMck5EQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_5czjQAfkEeuC29AiMck5EQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
-  <sca:property xmi:id="_YCJiQCJ7EeuO9dprwBUrHw" name="newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="__nr3ICJ9EeuO9dprwBUrHw" name="newProperty1" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_KH9SMBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JMS/InitialContextFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_LedLEBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JMS/QueueConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_LvpBsBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JMS/TopicConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
@@ -38,4 +36,8 @@
   <sca:property xmi:id="_qxvgIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAttibuteGroupName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_qza7IB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminPassword" type="property:password" scaext:simpleValue="#!Dnuj+6ApeTVAs56KUy3XDg==" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_q08lIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminUsername" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_DuyPUCNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/update" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_N-oHcCNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/insert" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_QUNewCNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/refresh" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_a3RN0CNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/retrieve" type="XMLSchema:string" publicAccess="true" scalable="true"/>
 </sca:composite>
