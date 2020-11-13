@@ -66,4 +66,7 @@
       <sca:interface.wsdl xmi:id="_lIZawBKsEeurkOEwCRcusA" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
     </sca:service>
   </sca:component>
+  <sca:component xmi:id="_cGZBgCTxEeu1GvyYvnxjsQ" name="ComponentTest" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_cGZBgSTxEeu1GvyYvnxjsQ" processName="Tests.Test"/>
+  </sca:component>
 </sca:composite>

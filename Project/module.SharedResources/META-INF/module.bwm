@@ -18,16 +18,16 @@
   <sca:property xmi:id="_UAHDEBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/JDBC/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_ZHDHsBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/HTTP/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_aC_ykBhdEeuVWd7NhF5GHg" name="/SharedVariables/Transports/FTP/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_SYm5wBhdEeuVWd7NhF5GHg" name="/SharedVariables/ErrorCodes/timeout" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_Qtz6kB9dEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/lockedRequest" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_QyzvUB9dEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/transport" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_6Qjb0B-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/invalidParameters" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_-8YRwB-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/unknown" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_ba99wCBCEeuUQqc7O96v6g" name="/SharedVariables/ErrorCodes/success" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_AymLECJ-EeuO9dprwBUrHw" name="/SharedVariables/ErrorCodes/partialSuccess" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_xDNKICBFEeuUQqc7O96v6g" name="/SharedVariables/ErrorCodes/notFound" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_QyzvUB9dEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/transport" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_SYm5wBhdEeuVWd7NhF5GHg" name="/SharedVariables/ErrorCodes/timeout" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_6Qjb0B-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/invalidParameters" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Qtz6kB9dEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/lockedRequest" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_drqvgCJ7EeuO9dprwBUrHw" name="/SharedVariables/ErrorCodes/functionalError" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_7Rp88CJ7EeuO9dprwBUrHw" name="/SharedVariables/ErrorCodes/targetSystemError" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_AymLECJ-EeuO9dprwBUrHw" name="/SharedVariables/ErrorCodes/partialSuccess" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_-8YRwB-HEeuUatejtVKi6w" name="/SharedVariables/ErrorCodes/unknown" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_pOqZkBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Exception" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_vfYwwBhfEeuV8KtENCicWA" name="/SharedVariables/Clever/Destinations/Logging" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_fvQqIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/ServerURL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
@@ -36,8 +36,6 @@
   <sca:property xmi:id="_qxvgIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAttibuteGroupName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_qza7IB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminPassword" type="property:password" scaext:simpleValue="#!Dnuj+6ApeTVAs56KUy3XDg==" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_q08lIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminUsername" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_DuyPUCNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/update" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_N-oHcCNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/insert" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_QUNewCNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/refresh" type="XMLSchema:string" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_a3RN0CNCEeuO9dprwBUrHw" name="/AuxVariables/VariablesManagement/Actions/retrieve" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_micj8CThEeu1GvyYvnxjsQ" name="/SharedVariables/Directories/home" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0y5x0CThEeu1GvyYvnxjsQ" name="/SharedVariables/Directories/logLocation" type="XMLSchema:string" publicAccess="true" scalable="true"/>
 </sca:composite>

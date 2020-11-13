@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/CommonSchema" 
+	xmlns:tns="http://www.example.org/CommonSchema" 
+	elementFormDefault="qualified">
+
+	<complexType name="HeaderType">
+		<sequence>
+			<element name="timeout" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="creationDate" type="dateTime" minOccurs="0" maxOccurs="1"/>
+			<element name="iTrackingID" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="eTrackingID" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="application" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="user" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="process" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="async" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="showDetails" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="parameter" type="tns:ParametersType" minOccurs="0" maxOccurs="1"/>
+			<element name="history" type="tns:HistoryType" minOccurs="0" maxOccurs="1"/>
+			<element name="status" type="tns:StatusType" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="ParametersType">
+		<sequence>
+			<element name="parameter" type="tns:ParameterType" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="ParameterType">
+		<sequence>
+			<element name="name" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="value" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="HistoryStepType">
+		<sequence>
+			<element maxOccurs="1" minOccurs="0" name="domainName" type="string"/>
+			<element maxOccurs="1" minOccurs="0" name="domainType" type="string"/>
+			<element maxOccurs="1" minOccurs="0" name="domainInstance" type="string"/>
+			<element maxOccurs="1" minOccurs="0" name="serviceName" type="string"/>
+			<element maxOccurs="1" minOccurs="0" name="serviceType" type="string"/>
+			<element maxOccurs="1" minOccurs="0" name="starterName" type="string"/>
+			<element maxOccurs="1" minOccurs="0" name="timestamp" type="dateTime"/>
+			<element maxOccurs="1" minOccurs="0" name="step" type="string"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="HistoryType">
+		<sequence>
+			<element maxOccurs="unbounded" minOccurs="0" name="historyStep" type="tns:HistoryStepType" />
+		</sequence>
+	</complexType>
+	
+	<complexType name="ErrorCodesType">
+		<sequence>
+			<element name="eCode" type="string"/>
+			<element name="eDescription" type="string"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="ErrorNativeType">
+		<sequence>
+			<element name="eCode" type="string"/>
+			<element name="eDescription" type="string"/>
+			<element name="eSystem" type="string"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="StatusType">
+		<sequence>
+			<element maxOccurs="1" minOccurs="1" name="eCodes" type="tns:ErrorCodesType"/>	
+			<element maxOccurs="unbounded" minOccurs="1" name="eNative" type="tns:ErrorNativeType"/>		
+		</sequence>
+	</complexType>
+
+</schema>

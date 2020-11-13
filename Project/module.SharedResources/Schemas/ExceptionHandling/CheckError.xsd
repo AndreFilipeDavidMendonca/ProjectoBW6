@@ -5,7 +5,8 @@ xmlns:tns="http://www.example.org/CheckError" elementFormDefault="qualified" tar
 xmlns:com="http://www.example.org/CommonSchema">
 
 
-    <import namespace="http://www.example.org/CommonSchema" schemaLocation="../ExceptionHandling/CommonSchema.xsd"/>
+	<import schemaLocation="../EAIMessaging/CommonSchema.xsd"
+		namespace="http://www.example.org/CommonSchema"/>
     <import namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" schemaLocation="../ErrorManagement/ErrorReport.xsd"/>
 
 

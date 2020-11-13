@@ -1,55 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:com="http://www.example.org/CommonSchema" xmlns:tns="http://www.example.org/CheckSuccess" elementFormDefault="qualified" targetNamespace="http://www.example.org/CheckSuccess">
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:com="http://www.example.org/CommonSchema"
+	xmlns:tns="http://www.example.org/CheckSuccess"
+	elementFormDefault="qualified"
+	targetNamespace="http://www.example.org/CheckSuccess">
 
-    <import namespace="http://www.example.org/CommonSchema" schemaLocation="../ExceptionHandling/CommonSchema.xsd"/>
-    
-    
-    <element name="input" type="tns:InputType"/>
-    <element name="processVariable" type="tns:StatusAndHistoryType"/>
-    <element name="output" type="tns:StatusAndHistoryType"/>
-    
-    <complexType name="StatusAndHistoryType">
-    	<sequence>
-    		<element maxOccurs="1" minOccurs="1" name="status" type="com:StatusType"/>
-    		<element maxOccurs="1" minOccurs="0" name="history" type="tns:HistoryType"/>
-    	</sequence>
-    </complexType>
-    
-    <complexType name="InputType">
+	<import schemaLocation="../EAIMessaging/CommonSchema.xsd"
+		namespace="http://www.example.org/CommonSchema"/>
+
+
+	<element name="input" type="tns:InputType" />
+	<element name="processVariable" type="tns:StatusAndHistoryType" />
+	<element name="output" type="tns:StatusAndHistoryType" />
+
+	<complexType name="StatusAndHistoryType">
 		<sequence>
-			<element maxOccurs="unbounded" minOccurs="0" name="eCodes" type="com:ErrorCodesType"/>
-			<element maxOccurs="unbounded" minOccurs="1" name="eNative" type="com:ErrorNativeType"/>
-			<element maxOccurs="1" minOccurs="0" name="successCodes" type="tns:SuccessCodesType"/>
-			<element maxOccurs="1" minOccurs="0" name="history" type="tns:HistoryType"/>
-			<element maxOccurs="1" minOccurs="0" name="mapHistory" type="boolean"/>
-			<element maxOccurs="1" minOccurs="0" name="linesReturned" type="int"/>
-			<element maxOccurs="1" minOccurs="0" name="invalidParameters" type="boolean"/>
-			<element maxOccurs="1" minOccurs="0" name="conjunctiveSuccess" type="boolean"/>
+			<element maxOccurs="1" minOccurs="1" name="status"
+				type="com:StatusType" />
+			<element maxOccurs="1" minOccurs="0" name="history"
+				type="com:HistoryType" />
+		</sequence>
+	</complexType>
+
+	<complexType name="InputType">
+		<sequence>
+			<element maxOccurs="unbounded" minOccurs="0" name="eCodes"
+				type="com:ErrorCodesType" />
+			<element maxOccurs="unbounded" minOccurs="1" name="eNative"
+				type="com:ErrorNativeType" />
+			<element maxOccurs="1" minOccurs="0" name="successCodes"
+				type="tns:SuccessCodesType" />
+			<element maxOccurs="1" minOccurs="0" name="history"
+				type="com:HistoryType" />
+			<element maxOccurs="1" minOccurs="0" name="mapHistory"
+				type="boolean" />
+			<element maxOccurs="1" minOccurs="0" name="linesReturned"
+				type="int" />
+			<element maxOccurs="1" minOccurs="0"
+				name="invalidParameters" type="boolean" />
+			<element maxOccurs="1" minOccurs="0"
+				name="conjunctiveSuccess" type="boolean" />
 		</sequence>
 	</complexType>
 
 	<complexType name="SuccessCodesType">
 		<sequence>
-			<element maxOccurs="unbounded" minOccurs="0" name="nCode" type="string"/>
-		</sequence>
-	</complexType>
-
-	<complexType name="HistoryType">
-		<sequence>
-			<element maxOccurs="unbounded" minOccurs="0" name="historyStep" type="tns:HistoryStepType"/>
-		</sequence>
-	</complexType>
-	
-	<complexType name="HistoryStepType">
-		<sequence>
-			<element maxOccurs="1" minOccurs="0" name="domainName" type="string"/>
-			<element maxOccurs="1" minOccurs="0" name="domainType" type="string"/>
-			<element maxOccurs="1" minOccurs="0" name="domainInstance" type="string"/>
-			<element maxOccurs="1" minOccurs="0" name="serviceName" type="string"/>
-			<element maxOccurs="1" minOccurs="0" name="serviceType" type="string"/>
-			<element maxOccurs="1" minOccurs="0" name="starterName" type="string"/>
-			<element maxOccurs="1" minOccurs="0" name="timestamp" type="dateTime"/>
-			<element maxOccurs="1" minOccurs="0" name="step" type="string"/>
+			<element maxOccurs="unbounded" minOccurs="0" name="nCode"
+				type="string" />
 		</sequence>
 	</complexType>
 

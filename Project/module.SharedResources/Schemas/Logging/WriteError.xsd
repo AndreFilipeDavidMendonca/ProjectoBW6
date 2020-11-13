@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:cError="http://www.example.org/CheckError" xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" xmlns:tns="http://www.example.org/WriteError" elementFormDefault="qualified" targetNamespace="http://www.example.org/WriteError">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+xmlns:cError="http://www.example.org/CheckError" 
+xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" 
+xmlns:tns="http://www.example.org/WriteError" 
+elementFormDefault="qualified" 
+targetNamespace="http://www.example.org/WriteError">
 	
 	<import namespace="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" schemaLocation="../ErrorManagement/ErrorReport.xsd"/>
 	<import namespace="http://www.example.org/CheckError" schemaLocation="../ExceptionHandling/CheckError.xsd"/>

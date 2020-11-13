@@ -283,7 +283,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/timeout</name>
-			<value></value>
+			<value>COM-500</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -291,7 +291,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/transport</name>
-			<value></value>
+			<value>COM-102</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -299,7 +299,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/lockedRequest</name>
-			<value></value>
+			<value>COM-700</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -307,7 +307,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/invalidParameters</name>
-			<value></value>
+			<value>COM-502</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -315,7 +315,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/unknown</name>
-			<value></value>
+			<value>COM-999</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -323,7 +323,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/success</name>
-			<value></value>
+			<value>COM-000</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -331,7 +331,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/functionalError</name>
-			<value></value>
+			<value>COM-997</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -339,7 +339,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/notFound</name>
-			<value></value>
+			<value>COM-100</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -347,7 +347,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/targetSystemError</name>
-			<value></value>
+			<value>COM-998</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -355,39 +355,23 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//module.SharedResources///SharedVariables/ErrorCodes/partialSuccess</name>
-			<value></value>
+			<value>COM-001</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//module.SharedResources///AuxVariables/VariablesManagement/Actions/retrieve</name>
-			<value>retrieve</value>
+			<name>//module.SharedResources///SharedVariables/Directories/logLocation</name>
+			<value>framework/bw6/logs</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//module.SharedResources///AuxVariables/VariablesManagement/Actions/insert</name>
-			<value>insert</value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>false</isOverride>
-		</globalVariable>
-		<globalVariable>
-			<name>//module.SharedResources///AuxVariables/VariablesManagement/Actions/refresh</name>
-			<value>refresh</value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>false</isOverride>
-		</globalVariable>
-		<globalVariable>
-			<name>//module.SharedResources///AuxVariables/VariablesManagement/Actions/update</name>
-			<value>update</value>
+			<name>//module.SharedResources///SharedVariables/Directories/home</name>
+			<value>C://</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>

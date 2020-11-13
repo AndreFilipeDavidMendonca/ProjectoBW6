@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:cError="http://www.example.org/CheckError" xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" xmlns:tns="http://www.example.org/ServiceConfigAndStatus" elementFormDefault="qualified" targetNamespace="http://www.example.org/ServiceConfigAndStatus">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+xmlns:cError="http://www.example.org/CheckError" 
+xmlns:eReport="http://www.polarising.com/SharedResources/SchemaDefinitions/Framework/ErrorReport.xsd" 
+xmlns:tns="http://www.example.org/ServiceConfigAndStatus" 
+elementFormDefault="qualified" 
+targetNamespace="http://www.example.org/ServiceConfigAndStatus">
 
 
     <import namespace="http://www.example.org/CheckError" schemaLocation="../../../ExceptionHandling/CheckError.xsd"/>
@@ -7,27 +12,6 @@
 
 	
 	<element name="ServiceConfigAndStatus" type="tns:ServiceConfigAndStatusType"/>
-	<element name="input" type="tns:InputType"/>
-	<element name="output" type="tns:OutputType"/>
-
-	<complexType name="OutputType">
-		<sequence>
-			<element name="success" type="boolean"/>
-		</sequence>
-	</complexType>
-	
-	<complexType name="InputType">
-		<sequence>
-			<element name="varManagement" type="tns:VariableManagementType"/>
-			<element name="serviceConfigAndStatus" type="tns:ServiceConfigAndStatusType"/>
-		</sequence>
-	</complexType>
-	
-	<complexType name="VariableManagementType">
-		<sequence>
-			<element name="action" type="string"/>
-		</sequence>
-	</complexType>
 	
 	<complexType name="ServiceErrorType">
 		<sequence>
@@ -38,6 +22,12 @@
 			<element maxOccurs="1" minOccurs="0" name="eDescription" type="string"/>
 			<element maxOccurs="1" minOccurs="0" name="eNativeCode" type="string"/>
 			<element maxOccurs="1" minOccurs="0" name="eNativeDescription" type="string"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="FunctionalErrorsType">
+		<sequence>
+			<element name="error" type="string" minOccurs="0" maxOccurs="unbounded"/>
 		</sequence>
 	</complexType>
 
@@ -59,6 +49,7 @@
 			<element maxOccurs="1" minOccurs="0" name="numberCacheItems" type="int"/>
 			<element maxOccurs="1" minOccurs="0" name="errorReport" type="eReport:ErrorReport"/>
 			<element maxOccurs="1" minOccurs="0" name="errorConfig" type="cError:ErrorConfigType"/>
+			<element maxOccurs="1" minOccurs="0" name="functionalErrors" type="tns:FunctionalErrorsType"/>
 			<element maxOccurs="unbounded" minOccurs="0" name="serviceErrors" type="tns:ServiceErrorType"/>
 		</sequence>
 	</complexType>

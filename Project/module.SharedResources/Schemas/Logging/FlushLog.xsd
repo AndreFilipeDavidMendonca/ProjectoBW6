@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/FlushLog"
+	xmlns:tns="http://www.example.org/FlushLog"
+	elementFormDefault="qualified"
+	xmlns:com="http://www.example.org/CommonSchema">
+
+	<import schemaLocation="../EAIMessaging/CommonSchema.xsd" namespace="http://www.example.org/CommonSchema"/>
+	
+	
+	<element name="input" type="tns:InputType"/>
+	<element name="trace" type="tns:TraceType"/>
+	<element name="logLine" type="tns:LineLogType"/>
+	
+	<complexType name="InputType">
+		<sequence>
+			<element name="header" type="com:HeaderType" minOccurs="1" maxOccurs="1"/>
+			<element name="logRole" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="flushLog" type="tns:FlushLogType" minOccurs="0" maxOccurs="1"/>
+			<element name="remoteAddress" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="cached" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="executionTime" type="int" minOccurs="0" maxOccurs="1"/>
+			<element name="endLog" type="boolean" minOccurs="1" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="FlushLogType">
+		<sequence>
+			<element name="status" type="com:StatusType" minOccurs="0" maxOccurs="1" />
+			<element name="startMessage" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="endMessage" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="isStepLog" type="boolean" minOccurs="1" maxOccurs="1" />
+			<element name="isStepLogNumber" type="int" minOccurs="0" maxOccurs="1" />
+		</sequence>
+	</complexType>
+	
+	<complexType name="TraceType">
+		<sequence>
+			<element name="iTracking" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="eTracking" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="step" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="eCode" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="eDescription" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="line" type="tns:LineType" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="LineType">
+		<sequence>
+			<element name="dateTime" type="dateTime" minOccurs="0" maxOccurs="1"/>
+			<element name="logRole" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="message" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="LineLogType">
+		<sequence>
+			<element name="line" type="string" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	
+</schema>
