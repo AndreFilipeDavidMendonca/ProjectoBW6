@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpws:process exitOnStandardFault="no"
-    name="fwk.sharedresources.module.DummyLogical"
+<bpws:process exitOnStandardFault="no" name="module.DummyLogical"
     suppressJoinFailure="yes"
     targetNamespace="http://xmlns.example.com/20201021160422"
     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"

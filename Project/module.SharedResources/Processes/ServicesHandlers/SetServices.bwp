@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpws:process exitOnStandardFault="no"
-    name="EAI.ServicesHandlers.SetErrorHandlerSharedVariable"
-    suppressJoinFailure="yes"
-    targetNamespace="http://xmlns.example.com/20181231102303"
+    name="ServicesHandlers.SetServices" suppressJoinFailure="yes"
+    targetNamespace="http://xmlns.example.com/20190103145626"
     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
     xmlns:info="http://www.tibco.com/bw/process/info"
     xmlns:ns="http://www.tibco.com/pe/EngineTypes"
-    xmlns:ns0="http://www.polarising.com/Shared/Resources/ErrorHandler"
+    xmlns:ns0="http://www.polarising.com/Shared/Resources/Services"
+    xmlns:ns1="http://www.polarising.com/Shared/Resources/ErrorHandler"
     xmlns:sca="http://docs.oasis-open.org/ns/opencsa/sca/200912"
     xmlns:sca-bpel="http://docs.oasis-open.org/ns/opencsa/sca-bpel/200801"
     xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"
@@ -174,12 +174,12 @@
         </schema>
     </tibex:Types>
     <tibex:ProcessInfo callable="true" createdBy="rui.sousa"
-        createdOn="Mon Dec 31 10:23:03 GMT 2018" description=""
+        createdOn="Thu Jan 03 14:56:26 GMT 2019" description=""
         extraErrorVars="true" modifiers="public"
         productVersion="6.5.0 V63 2018-08-08" scalable="true"
         singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessInterface context=""
-        input="{http://www.polarising.com/Shared/Resources/ErrorHandler}T_EAI_ERROR_SERVICE" output=""/>
+        input="{http://www.polarising.com/Shared/Resources/Services}Services" output=""/>
     <tibex:ProcessTemplateConfigurations/>
     <notation:Diagram measurementUnit="Pixel" type="BWProcess"
         xmlns:bwnotation="http://tns.tibco.com/bw/runtime/BWNotation"
@@ -241,8 +241,8 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.0"/>
-                                    <layoutConstraint x="-2"
-                                    xsi:type="notation:Bounds" y="54"/>
+                                    <layoutConstraint x="-5"
+                                    xsi:type="notation:Bounds" y="100"/>
                                     </children>
                                     <children type="4002">
                                     <children type="4017">
@@ -280,32 +280,36 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.1"/>
-                                    <layoutConstraint x="360"
-                                    xsi:type="notation:Bounds" y="54"/>
+                                    <layoutConstraint x="329"
+                                    xsi:type="notation:Bounds" y="100"/>
                                     </children>
                                     <children type="4002">
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <children type="4017">
                                     <styles
                                     fontName="Segoe UI"
                                     lineColor="0" xsi:type="notation:ShapeStyle"/>
+                                    <element href="//0/@process/@activity/@activity/@activities.2"/>
                                     <layoutConstraint xsi:type="notation:Bounds"/>
                                     </children>
                                     <styles fontName="Segoe UI"
@@ -315,8 +319,8 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.2"/>
-                                    <layoutConstraint x="154"
-                                    xsi:type="notation:Bounds" y="54"/>
+                                    <layoutConstraint x="156"
+                                    xsi:type="notation:Bounds" y="100"/>
                                     </children>
                                     <styles xsi:type="notation:DrawerStyle"/>
                                     <styles xsi:type="notation:SortingStyle"/>
@@ -373,7 +377,7 @@
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.0"/>
-            <bendpoints points="[25, -6, -180, 0]$[181, 0, -24, 6]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints points="[25, 6, -129, -29]$[130, 29, -24, -6]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
         <edges
             source="//@children.0/@children.3/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@children.2"
@@ -384,23 +388,23 @@
             <styles lineColor="0" xsi:type="notation:ConnectorStyle"/>
             <styles fontName="Segoe UI" xsi:type="notation:FontStyle"/>
             <element href="//0/@process/@activity/@activity/@links/@children.1"/>
-            <bendpoints points="[25, 6, -132, 0]$[133, 0, -24, -6]" xsi:type="notation:RelativeBendpoints"/>
+            <bendpoints points="[25, 0, -156, 0]$[157, 0, -24, 0]" xsi:type="notation:RelativeBendpoints"/>
         </edges>
     </notation:Diagram>
     <tibex:NamespaceRegistry enabled="true">
         <tibex:namespaceItem
-            namespace="http://www.polarising.com/Shared/Resources/ErrorHandler" prefix="ns"/>
+            namespace="http://www.polarising.com/Shared/Resources/Services" prefix="ns"/>
     </tibex:NamespaceRegistry>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.polarising.com/Shared/Resources/Services"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.polarising.com/Shared/Resources/ErrorHandler"/>
     <bpws:variables>
         <bpws:variable element="ns:ProcessContext"
             name="_processContext" sca-bpel:internal="true"/>
-        <bpws:variable element="ns0:T_EAI_ERROR_SERVICE" name="Start"
-            sca-bpel:internal="true" tibex:parameter="in"/>
-        <bpws:variable element="ns0:T_EAI_ERROR_SERVICE"
+        <bpws:variable element="ns0:Services"
             name="SetSharedVariable-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns0:T_EAI_ERROR_SERVICE"
-            name="SetSharedVariable" sca-bpel:internal="true"/>
+        <bpws:variable element="ns0:Services" name="SetSharedVariable" sca-bpel:internal="true"/>
+        <bpws:variable element="ns0:Services" name="Start"
+            sca-bpel:internal="true" tibex:parameter="in"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -419,7 +423,7 @@
             <bpws:extensionActivity>
                 <tibex:receiveEvent createInstance="yes"
                     eventTimeout="0" name="Start"
-                    tibex:xpdlId="888a031d-aa2b-4cd3-9815-5f8356b72aea"
+                    tibex:xpdlId="6430a5cc-e59f-4da0-b3ed-aa003a10a8f7"
                     variable="Start" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:sources>
                         <bpws:source linkName="StartToSetSharedVariable"/>
@@ -431,7 +435,7 @@
             </bpws:extensionActivity>
             <bpws:extensionActivity>
                 <tibex:activityExtension name="End"
-                    tibex:xpdlId="07f759fb-2c6c-4ffe-820b-46e754f3df0b" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
+                    tibex:xpdlId="d098be64-3402-4d09-a87d-0873344d8ffb" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="SetSharedVariableToEnd"/>
                     </bpws:targets>
@@ -456,7 +460,7 @@
                     inputVariable="SetSharedVariable-input"
                     name="SetSharedVariable"
                     outputVariable="SetSharedVariable"
-                    tibex:xpdlId="dcf38a64-4dc5-401c-8375-9d244ac55f57"
+                    tibex:xpdlId="380b4167-6d00-43ac-92e8-0c1437e669ae"
                     type="bw.internal.setSharedVariable" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="StartToSetSharedVariable"/>
@@ -466,9 +470,10 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.polarising.com/Shared/Resources/ErrorHandler&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;SetSharedVariable-input&quot; match=&quot;/&quot;>&lt;ns:T_EAI_ERROR_SERVICE>&lt;xsl:copy-of select=&quot;$Start/ns:EAI_ERROR_SERVICE&quot;/>&lt;/ns:T_EAI_ERROR_SERVICE>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.polarising.com/Shared/Resources/Services&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;Start&quot;/>&lt;xsl:template name=&quot;SetSharedVariable-input&quot; match=&quot;/&quot;>&lt;ns:Services>&lt;xsl:copy-of select=&quot;$Start/ns:Classification&quot;/>&lt;/ns:Services>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
-                    <tibex:SetSharedVariable variableName="ErrorHandler" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
+                    <tibex:SetSharedVariable
+                        variableName="ServicesConfig" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
             </bpws:extensionActivity>
         </bpws:flow>

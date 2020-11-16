@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpws:process exitOnStandardFault="no"
-    name="EAI.SharedResources.OnStartup.logical"
+<bpws:process exitOnStandardFault="no" name="OnStartup.logical"
     suppressJoinFailure="yes"
     targetNamespace="http://EAI/SharedResources/OnStartup/1/0/logical"
     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
@@ -784,9 +783,9 @@
                 <bpws:literal>JDBC.JDBCConnectionResource</bpws:literal>
             </bpws:from>
         </bpws:variable>
+        <bpws:variable element="ns6:Services" name="SetServices-input" sca-bpel:internal="true"/>
         <bpws:variable element="ns1:T_EAI_ERROR_SERVICE"
             name="SetErrorHandlerSharedVariable-input" sca-bpel:internal="true"/>
-        <bpws:variable element="ns6:Services" name="SetServices-input" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -858,7 +857,7 @@
                             expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns=&quot;http://www.polarising.com/Shared/Resources/ErrorHandler&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;GetErrorHandler&quot;/>&lt;xsl:template name=&quot;SetErrorHandlerSharedVariable-input&quot; match=&quot;/&quot;>&lt;ns:T_EAI_ERROR_SERVICE>&lt;xsl:for-each select=&quot;$GetErrorHandler/Record&quot;>&lt;ns:EAI_ERROR_SERVICE>&lt;xsl:if test=&quot;APPLICATION_NAME&quot;>&lt;xsl:attribute name=&quot;APPLICATION_NAME&quot;>&lt;xsl:value-of select=&quot;APPLICATION_NAME&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:if test=&quot;EAI_CATALOG_ID&quot;>&lt;xsl:attribute name=&quot;EAI_CATALOG_ID&quot;>&lt;xsl:value-of select=&quot;EAI_CATALOG_ID&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:attribute name=&quot;EAI_ERROR_CODE&quot;>&lt;xsl:value-of select=&quot;EAI_ERROR_CODE&quot;/>&lt;/xsl:attribute>&lt;xsl:choose>&lt;xsl:when test=&quot;IS_ERROR = 'Y'&quot;>&lt;xsl:attribute name=&quot;IS_ERROR&quot;>&lt;xsl:value-of select=&quot;xsd:boolean(1)&quot;/>&lt;/xsl:attribute>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:attribute name=&quot;IS_ERROR&quot;>&lt;xsl:value-of select=&quot;xsd:boolean(0)&quot;/>&lt;/xsl:attribute>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;xsl:attribute name=&quot;SYSTEM_NATIVE_CODE&quot;>&lt;xsl:value-of select=&quot;SYSTEM_NATIVE_CODE&quot;/>&lt;/xsl:attribute>&lt;xsl:if test=&quot;EAI_ERROR_CODE_DESCRIPTION&quot;>&lt;xsl:attribute name=&quot;EAI_ERROR_CODE_DESCRIPTION&quot;>&lt;xsl:value-of select=&quot;EAI_ERROR_CODE_DESCRIPTION&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:if test=&quot;SYSTEM&quot;>&lt;xsl:attribute name=&quot;SYSTEM&quot;>&lt;xsl:value-of select=&quot;SYSTEM&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;/ns:EAI_ERROR_SERVICE>&lt;/xsl:for-each>&lt;/ns:T_EAI_ERROR_SERVICE>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:CallProcess
-                        subProcessName="EAI.ServicesHandlers.SetErrorHandlerSharedVariable" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
+                        subProcessName="ServicesHandlers.SetErrorHandlerSharedVariable" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
@@ -1018,7 +1017,7 @@
                             expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:ns1=&quot;http://www.polarising.com/Shared/Resources/Services&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;GetServicesConfig&quot;/>&lt;xsl:template name=&quot;SetServices-input&quot; match=&quot;/&quot;>&lt;ns1:Services>&lt;xsl:for-each select=&quot;$GetServicesConfig/Record&quot;>&lt;ns1:Classification>&lt;xsl:if test=&quot;APPLICATION_NAME&quot;>&lt;xsl:attribute name=&quot;ApplicationName&quot;>&lt;xsl:value-of select=&quot;APPLICATION_NAME&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:attribute name=&quot;EAICatalogId&quot;>&lt;xsl:value-of select=&quot;EAI_CATALOG_ID&quot;/>&lt;/xsl:attribute>&lt;xsl:if test=&quot;SERVICE_FUNCTION&quot;>&lt;xsl:attribute name=&quot;Function&quot;>&lt;xsl:value-of select=&quot;SERVICE_FUNCTION&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:choose>&lt;xsl:when test=&quot;HAS_HANDLING = 'Y'&quot;>&lt;xsl:attribute name=&quot;HasHandling&quot;>&lt;xsl:value-of select=&quot;xsd:boolean(1)&quot;/>&lt;/xsl:attribute>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:attribute name=&quot;HasHandling&quot;>&lt;xsl:value-of select=&quot;xsd:boolean(0)&quot;/>&lt;/xsl:attribute>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;xsl:if test=&quot;SERVICE_OPERATION&quot;>&lt;xsl:attribute name=&quot;Operation&quot;>&lt;xsl:value-of select=&quot;SERVICE_OPERATION&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:if test=&quot;SERVICE_TYPE&quot;>&lt;xsl:attribute name=&quot;Type&quot;>&lt;xsl:value-of select=&quot;SERVICE_TYPE&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:if test=&quot;SERVICE_VERSION&quot;>&lt;xsl:attribute name=&quot;Version&quot;>&lt;xsl:value-of select=&quot;SERVICE_VERSION&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:choose>&lt;xsl:when test=&quot;HAS_SEQUENCE = 'Y'&quot;>&lt;xsl:attribute name=&quot;HasSequence&quot;>&lt;xsl:value-of select=&quot;xsd:boolean(1)&quot;/>&lt;/xsl:attribute>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:attribute name=&quot;HasSequence&quot;>&lt;xsl:value-of select=&quot;xsd:boolean(0)&quot;/>&lt;/xsl:attribute>&lt;/xsl:otherwise>&lt;/xsl:choose>&lt;xsl:if test=&quot;SERVICE_NAME&quot;>&lt;xsl:attribute name=&quot;Name&quot;>&lt;xsl:value-of select=&quot;SERVICE_NAME&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:if test=&quot;SYSTEM&quot;>&lt;xsl:attribute name=&quot;System&quot;>&lt;xsl:value-of select=&quot;SYSTEM&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;xsl:if test=&quot;RECEIVER_TYPE&quot;>&lt;xsl:attribute name=&quot;ReceiverType&quot;>&lt;xsl:value-of select=&quot;RECEIVER_TYPE&quot;/>&lt;/xsl:attribute>&lt;/xsl:if>&lt;/ns1:Classification>&lt;/xsl:for-each>&lt;/ns1:Services>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:CallProcess
-                        subProcessName="EAI.ServicesHandlers.SetServices" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
+                        subProcessName="ServicesHandlers.SetServices" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
             </bpws:extensionActivity>
         </bpws:flow>

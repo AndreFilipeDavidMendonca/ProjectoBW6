@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_5Tt4sAfkEeuC29AiMck5EQ" targetNamespace="http://tns.tibco.com/bw/composite/module.SharedResources" name="module.SharedResources" compositeext:version="1.0.0" compositeext:formatVersion="2">
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_5Tt4sAfkEeuC29AiMck5EQ" targetNamespace="http://tns.tibco.com/bw/composite/module.SharedResources" name="module.SharedResources" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_AKQhJCQdEeuFeNtC8K9Rmg" name="SharedResources.CallService" promote="Componentstarter/SharedResources.CallService">
+    <sca:interface.wsdl xmi:id="_AKQhKCQdEeuFeNtC8K9Rmg" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
+  </sca:service>
+  <sca:service xmi:id="_Awy8sCQdEeuFeNtC8K9Rmg" name="SharedResources.main" promote="Component1starter/SharedResources.main">
+    <sca:interface.wsdl xmi:id="_Awy8tCQdEeuFeNtC8K9Rmg" interface="http://www.example.org/wsdl/SharedResources.main#wsdl.interface(SharedResources.main)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.main.wsdl"/>
+  </sca:service>
+  <sca:service xmi:id="_BPd1tCQdEeuFeNtC8K9Rmg" name="OnStartup" promote="Component2starter/OnStartup">
+    <sca:interface.wsdl xmi:id="_BPd1uCQdEeuFeNtC8K9Rmg" interface="http://EAI/SharedResources/OnStartup/1/0#wsdl.interface(OnStartup)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl"/>
+  </sca:service>
+  <sca:service xmi:id="_Cld_VCQdEeuFeNtC8K9Rmg" name="DummyLogical" promote="ComponentDummyLogical/DummyLogical">
+    <sca:interface.wsdl xmi:id="_Cld_WCQdEeuFeNtC8K9Rmg" interface="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical#wsdl.interface(DummyLogical)" scaext:wsdlLocation="../Service%20Descriptors/DummyLogical.wsdl"/>
+  </sca:service>
   <sca:property xmi:id="_5bsI8AfkEeuC29AiMck5EQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_5b3IEAfkEeuC29AiMck5EQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_5b_q8AfkEeuC29AiMck5EQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
@@ -27,4 +39,32 @@
   <sca:property xmi:id="_qxvgIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAttibuteGroupName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_qza7IB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminPassword" type="property:password" scaext:simpleValue="#!Dnuj+6ApeTVAs56KUy3XDg==" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_q08lIB6lEeuazoFb80AHMA" name="/SharedVariables/Policies/LDAP/UserAdminUsername" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_9wVHoB-CEeuFmKriu33T9A" name="/SharedVariables/Policies/HTTP/newProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_AKQhICQdEeuFeNtC8K9Rmg" name="Componentstarter" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_AKQhISQdEeuFeNtC8K9Rmg" processName="Internal.starter"/>
+    <sca:service xmi:id="_AKQhIiQdEeuFeNtC8K9Rmg" name="SharedResources.CallService">
+      <sca:interface.wsdl xmi:id="_AKQhIyQdEeuFeNtC8K9Rmg" interface="http://www.project.org/wsdl/CallService#wsdl.interface(SharedResources.CallService)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.CallService.wsdl"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_AwyVoCQdEeuFeNtC8K9Rmg" name="Component1starter" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_AwyVoSQdEeuFeNtC8K9Rmg" processName="Main.starter"/>
+    <sca:service xmi:id="_AwyVoiQdEeuFeNtC8K9Rmg" name="SharedResources.main">
+      <sca:interface.wsdl xmi:id="_AwyVoyQdEeuFeNtC8K9Rmg" interface="http://www.example.org/wsdl/SharedResources.main#wsdl.interface(SharedResources.main)" scaext:wsdlLocation="../Service%20Descriptors/SharedResources.main.wsdl"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_BPd1sCQdEeuFeNtC8K9Rmg" name="Component2starter" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_BPd1sSQdEeuFeNtC8K9Rmg" processName="OnStartup.starter"/>
+    <sca:service xmi:id="_BPd1siQdEeuFeNtC8K9Rmg" name="OnStartup">
+      <sca:interface.wsdl xmi:id="_BPd1syQdEeuFeNtC8K9Rmg" interface="http://EAI/SharedResources/OnStartup/1/0#wsdl.interface(OnStartup)" scaext:wsdlLocation="../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_Cld_UCQdEeuFeNtC8K9Rmg" name="ComponentDummyLogical" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_Cld_USQdEeuFeNtC8K9Rmg" processName="module.DummyLogical"/>
+    <sca:service xmi:id="_Cld_UiQdEeuFeNtC8K9Rmg" name="DummyLogical">
+      <sca:interface.wsdl xmi:id="_Cld_UyQdEeuFeNtC8K9Rmg" interface="http://module.FWK.SharedResources.ServiceDescriptors.DummyLogical#wsdl.interface(DummyLogical)" scaext:wsdlLocation="../Service%20Descriptors/DummyLogical.wsdl"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_DCB_gCQdEeuFeNtC8K9Rmg" name="ComponentModuleActivator" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_DCB_gSQdEeuFeNtC8K9Rmg" processName="module.ModuleActivator"/>
+  </sca:component>
 </sca:composite>

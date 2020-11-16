@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpws:process exitOnStandardFault="no"
-    name="fwk.sharedresources.module.ModuleActivator"
+<bpws:process exitOnStandardFault="no" name="module.ModuleActivator"
     suppressJoinFailure="yes"
     targetNamespace="http://xmlns.example.com/20201006164825"
     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
@@ -184,6 +183,10 @@
             <plnk:partnerLinkType name="partnerLinkType">
                 <plnk:role name="use" portType="ptyp:ModuleActivator"/>
             </plnk:partnerLinkType>
+            <plnk:partnerLinkType name="partnerLinkType1">
+                <plnk:role name="use" portType="ptyp:ModuleActivator"/>
+            </plnk:partnerLinkType>
+            <wsdl:import namespace="http://tibco.com/bw/bw6/system/ModuleActivator"/>
             <wsdl:import namespace="http://tibco.com/bw/bw6/system/ModuleActivator"/>
         </wsdl:definitions>
     </tibex:Types>
@@ -813,7 +816,8 @@
         location="../../../../Service%20Descriptors/EAI.SharedResources.Onstartup.1.0.wsdl" namespace="http://EAI/SharedResources/OnStartup/1/0"/>
     <bpws:partnerLinks>
         <bpws:partnerLink myRole="use" name="ModuleActivator"
-            partnerLinkType="ns:partnerLinkType" sca-bpel:ignore="false" sca-bpel:service="ModuleActivator"/>
+            partnerLinkType="ns:partnerLinkType1"
+            sca-bpel:ignore="false" sca-bpel:service="ModuleActivator"/>
     </bpws:partnerLinks>
     <bpws:variables>
         <bpws:variable element="ns0:ProcessContext"
@@ -876,7 +880,7 @@
                                     expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://EAI/SharedResources/OnStartup/1/0&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;logical-input&quot; match=&quot;/&quot;>&lt;tns:Operation>&lt;ApplicationName>&lt;xsl:value-of select=&quot;bw:getModuleProperty('BW.MODULE.NAME')&quot;/>&lt;/ApplicationName>&lt;/tns:Operation>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                                     </tibex:inputBindings>
                                     <tibex:CallProcess
-                                    subProcessName="EAI.SharedResources.OnStartup.logical" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
+                                    subProcessName="OnStartup.logical" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                                 </tibex:extActivity>
                             </bpws:extensionActivity>
                         </bpws:flow>
